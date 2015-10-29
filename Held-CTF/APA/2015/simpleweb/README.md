@@ -43,7 +43,7 @@ running some other commands, we can see that using ```ping``` will give us a hug
 () { :; } ; /bin/bash -c "ping -c 10 google.com"
 ```
 
-By executing this command, page will be loaded after 10 seconds. So we definetly sure that this is ShellShock vulnerability and flag is only accessible by exploiting it.
+By executing this command, page will be loaded after 10 ping request send. So we definetly sure that this is ShellShock vulnerability and flag is only accessible by exploiting it.
 There is no way to see the contents of ```/flag``` in the response, so we should find a way to read flag.
 
 Magic Solution
