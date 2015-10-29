@@ -2,10 +2,12 @@
 
 **Category:** Web
 **Points:** 30
+
 **Description:**
 
 I don't like this friend of mine named john. he is administrator of a webpage. and i really hate this guy. yesterday i sniff through his network and could capture him while he was logging into his account. So i beg you visit this page:http://172.27.221.13/login.php and find his password so i can just throw this pass on his face. here is the pcap file of what is sniffed yesterday!!! 
-<a href="./hijacked.pcap.pcapng">pcap file</a>
+
+Download: <a href="./hijacked.pcap.pcapng">pcap file</a>
 
 ##Hijacked-Solution
 
@@ -15,7 +17,7 @@ Based on the story of the challenge, a person with real name john created a webp
 
 So the job of each user is to find this session, login into the website, find the lfi vulnerability, read the source of php file that creates session and at last find the password of john. So let’s start:
 
-###looking at the pcap file
+###looking at pcap file
 
 Fire up wireshark. Based on the story of challenge, the file was captured before john uploaded his files on the server. So we should find a way to see which stream is the one that we are looking for.
 
@@ -98,7 +100,9 @@ Now we know that the defcon.txt is in /defcon/ directory and we should look for 
 
 So we just enter something like this in defcon.php url:
 
-```/defcon.php?file=....//private/create_session.php```
+```
+/defcon.php?file=....//private/create_session.php
+```
 
 And bam we see the source:
 
