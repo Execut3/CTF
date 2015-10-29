@@ -7,7 +7,7 @@
 
 Find the flag in this apache access log
 
-Download: <a href="./access.log.zip">pcap file</a>
+Download: <a href="./access.log.zip">zip file</a>
 
 ##AccessLog-Solution
 
