@@ -9,5 +9,7 @@ There's this friend of mine that got into Real hacking & he also created a webpa
 
 ##Maze-Solution
 
-This challenge is created by using of django/python.
+This challenge is created by django/python and is a combination of Http-Method, Request tampering and programming.
+
+not ready yet.
 
