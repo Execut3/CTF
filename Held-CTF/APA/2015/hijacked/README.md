@@ -216,8 +216,7 @@ CTF_Session: ```1944593278175d7565e2421726462d5bb5f2141675d6433420405d6412322790
 
 Looks like the username is right. but the problem is that all the zeros (0)  are dropped by the khkh($string) function. now that we know the real hex value of the converted username is ‘190404593278175d07565e0242’, let’s update CTF_Session value with it.
 
-new_CTF_Session:
-```190404593278175d07565e02421726462d5bb5f2141675d6433420405d6412322790534152557d37```
+new_CTF_Session:```190404593278175d07565e02421726462d5bb5f2141675d6433420405d6412322790534152557d37```
 
 Now let’s decrypt new_CTF_Session. (Xoring it with value of salt):
 
