@@ -1,0 +1,110 @@
+#!/bin/bash
+
+echo "Content-Type: text/html";
+echo ""
+echo '
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Web</title>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+	
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">My Simple Web</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+					<li>
+						<a href="css.html">CSS</a>
+					</li>
+					<li>
+						<a href="javascript.html">JavaScript</a>
+					</li>
+					<li>
+						<a href="html.html">Html</a>
+					</li>
+					<!-- i wish i learn something about php to add a tab for it -->
+					<li>
+						uptime'
+						echo `uptime`;
+						echo '
+					</li>
+				</ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+   <!-- Page Content -->
+    <div class="container">
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <h2 class="text-center">Javascript</h2>
+			<h4 class="text-center">javascript</h4>
+        </header>
+    </div>
+    <!-- /.container -->
+	
+	<div class="container">
+		
+		
+		
+		<p><b>JavaScript</b> (<span class="nowrap"><span class="IPA nopopups"><a href="/wiki/Help:IPA_for_English" title="Help:IPA for English">/<p>Despite some naming, <a href="/wiki/Syntax_(programming_languages)" title="Syntax (programming languages)">syntactic</a>, and <a href="/wiki/Standard_library" title="Standard library">standard library</a> similarities, JavaScript and <a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a> are otherwise unrelated and have very different <a href="/wiki/Semantics_(computer_science)" title="Semantics (computer science)">semantics</a>. The syntax of JavaScript is actually derived from <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a>, while the semantics and design are influenced by the <a href="/wiki/Self_(programming_language)" title="Self (programming language)">Self</a> and <a href="/wiki/Scheme_(programming_language)" title="Scheme (programming language)">Scheme</a> programming languages.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></p>
+<p>JavaScript is also used in environments that are not web-based, such as <a href="/wiki/Portable_Document_Format" title="Portable Document Format">PDF</a> documents, <a href="/wiki/Site-specific_browser" title="Site-specific browser">site-specific browsers</a>, and <a href="/wiki/Desktop_widget" title="Desktop widget" class="mw-redirect">desktop widgets</a>. Newer and faster JavaScript <a href="/wiki/Virtual_machine" title="Virtual machine">virtual machines</a> (VMs) and platforms built upon them have also increased the popularity of JavaScript for server-side <a href="/wiki/Web_application" title="Web application">web applications</a>. On the client side, JavaScript has been traditionally implemented as an <a href="/wiki/Interpreter_(computing)" title="Interpreter (computing)">interpreted</a> language, but more recent browsers perform <a href="/wiki/Just-in-time_compilation" title="Just-in-time compilation">just-in-time compilation</a>. It is also used in game development, the creation of desktop and mobile applications, and server-side network programming with runtime environments such as <a href="/wiki/Node.js" title="Node.js">Node.js</a>.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+</div>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Beginnings_at_Netscape">Beginnings at Netscape</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=2" title="Edit section: Beginnings at Netscape">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>JavaScript was originally developed by <a href="/wiki/Brendan_Eich" title="Brendan Eich">Brendan Eich</a>, while he was working for <a href="/wiki/Netscape_Communications_Corporation" title="Netscape Communications Corporation" class="mw-redirect">Netscape Communications Corporation</a>. Indeed, while competing with <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a> for user adoption of web technologies and platforms, Netscape considered their client-server offering a distributed OS with a portable version of <a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a> Java providing an environment in which <a href="/wiki/Java_applet" title="Java applet">applets</a> could be run.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (October 2014)">citation needed</span></a></i>]</sup> Because Java was a competitor of <a href="/wiki/C%2B%2B" title="C++">C++</a> and aimed at professional programmers, Netscape also wanted a lightweight <a href="/wiki/Interpreted_language" title="Interpreted language">interpreted language</a> that would complement Java by appealing to nonprofessional programmers, like Microsofts Visual Basic (see <a href="#JavaScript_and_Java">JavaScript and Java</a>).<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<p>Although it was developed under the name <b>Mocha</b>, the language was officially called <b>LiveScript</b> when it first shipped in beta releases of Netscape Navigator 2.0 in September 1995, but it was renamed JavaScript<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> when it was deployed in the Netscape browser version 2.0B3.<sup id="cite_ref-techvision_12-0" class="reference"><a href="#cite_note-techvision-12"><span>[</span>12<span>]</span></a></sup></p>
+<p>The change of name from LiveScript to JavaScript roughly coincided with Netscape adding support for Java technology in its <a href="/wiki/Netscape_Navigator" title="Netscape Navigator">Netscape Navigator</a> web browser. The final choice of name caused confusion, giving the impression that the language was a spin-off of the <a href="/wiki/Java_programming_language" title="Java programming language" class="mw-redirect">Java programming language</a>, and the choice has been characterized as a marketing ploy by Netscape to give JavaScript the cachet of what was then the hot new web programming language.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<p>There is a common misconception that the JavaScript language was influenced by an earlier web page scripting language developed by <a href="/wiki/Openwave" title="Openwave">Nombas</a> named C--, not to be confused with the later <a href="/wiki/C--" title="C--">C--</a> created in 1997.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup><sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup><sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> Brendan Eich, however, had never heard of C-- before he created LiveScript.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> Nombas did pitch their embedded web page scripting to Netscape, though web page scripting was not a new concept, as shown by <a href="/wiki/ViolaWWW" title="ViolaWWW">ViolaWWW</a>.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup> Nombas later switched to offering JavaScript instead of C-- in their ScriptEase product and was part of the TC39 group that standardized <a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Server-side_JavaScript">Server-side JavaScript</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=3" title="Edit section: Server-side JavaScript">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Netscape introduced an implementation of the language for <a href="/wiki/Server-side_scripting" title="Server-side scripting">server-side scripting</a> with <a href="/wiki/Netscape_Enterprise_Server" title="Netscape Enterprise Server">Netscape Enterprise Server</a> in December, 1995, soon after releasing JavaScript for browsers.<sup id="cite_ref-Newscape_JavaScript_Guide-1998_22-0" class="reference"><a href="#cite_note-Newscape_JavaScript_Guide-1998-22"><span>[</span>22<span>]</span></a></sup><sup id="cite_ref-Morgan-Netcape_LiveWire_23-0" class="reference"><a href="#cite_note-Morgan-Netcape_LiveWire-23"><span>[</span>23<span>]</span></a></sup> Since the mid-2000s, there has been a resurgence of <a href="/wiki/Comparison_of_server-side_JavaScript_solutions" title="Comparison of server-side JavaScript solutions">server-side JavaScript implementations</a>, such as Node.js.<sup id="cite_ref-RWW-Server-Side-2009-12-17_24-0" class="reference"><a href="#cite_note-RWW-Server-Side-2009-12-17-24"><span>[</span>24<span>]</span></a></sup><sup id="cite_ref-node.js-about_25-0" class="reference"><a href="#cite_note-node.js-about-25"><span>[</span>25<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Adoption_by_Microsoft">Adoption by Microsoft</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=4" title="Edit section: Adoption by Microsoft">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a> script technologies including <a href="/wiki/VBScript" title="VBScript">VBScript</a> and <a href="/wiki/JScript" title="JScript">JScript</a> were released in 1996. JScript, a port of Netscaps JavaScript, was released on July 16, 1996 and was part of <a href="/wiki/Internet_Explorer_3" title="Internet Explorer 3">Internet Explorer 3</a>, as well as being available server-side in <a href="/wiki/Internet_Information_Server" title="Internet Information Server" class="mw-redirect">Internet Information Server</a>. IE3 also included Microsofts first support for <a href="/wiki/Cascading_Style_Sheets" title="Cascading Style Sheets">Cascading Style Sheets</a> and various extensions to HTML, but in each case the implementation was noticeably different to that found in <a href="/wiki/Netscape_Navigator" title="Netscape Navigator">Netscape Navigator</a> at the time.<sup id="cite_ref-O.27Reilly-2001_26-0" class="reference"><a href="#cite_note-O.27Reilly-2001-26"><span>[</span>26<span>]</span></a></sup><sup id="cite_ref-27" class="reference"><a href="#cite_note-27"><span>[</span>27<span>]</span></a></sup> These differences made it difficult for designers and programmers to make a single website work well in both browsers leading to the use of best viewed in Netscape and best viewed in Internet Explorer logos that characterised these early years of the <a href="/wiki/Browser_wars" title="Browser wars">browser wars</a>.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28"><span>[</span>28<span>]</span></a></sup> JavaScript began to acquire a reputation for being one of the roadblocks to a cross-platform and standards-driven web. Some developers took on the difficult task of trying to make their sites work in both major browsers, but many could not afford the time.<sup id="cite_ref-O.27Reilly-2001_26-1" class="reference"><a href="#cite_note-O.27Reilly-2001-26"><span>[</span>26<span>]</span></a></sup> With the release of <a href="/wiki/Internet_Explorer_4" title="Internet Explorer 4">Internet Explorer 4</a>, Microsoft introduced the concept of <a href="/wiki/Dynamic_HTML" title="Dynamic HTML">Dynamic HTML</a>, but the differences in language implementations and the different and proprietary <a href="/wiki/Document_Object_Model" title="Document Object Model">Document Object Models</a> remained, and were obstacles to widespread take-up of JavaScript on the web.<sup id="cite_ref-O.27Reilly-2001_26-2" class="reference"><a href="#cite_note-O.27Reilly-2001-26"><span>[</span>26<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Standardization">Standardization</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=5" title="Edit section: Standardization">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In November 1996, Netscape announced that it had submitted JavaScript to <a href="/wiki/Ecma_International" title="Ecma International">Ecma International</a> for consideration as an industry standard, and subsequent work resulted in the standardized version named <a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a>. In June 1997, <a href="/wiki/Ecma_International" title="Ecma International">Ecma International</a> published the first edition of the <a href="/wiki/ECMA-262" title="ECMA-262" class="mw-redirect">ECMA-262</a> <a href="/wiki/Specification" title="Specification" class="mw-redirect">specification</a>. In June 1998, some modifications were made to adapt it to the ISO/IEC-16262 standard, and the second edition was released. The third edition of <a href="/wiki/ECMA-262" title="ECMA-262" class="mw-redirect">ECMA-262</a> was published on December 1999.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29"><span>[</span>29<span>]</span></a></sup></p>
+<p>Development of the fourth edition of the ECMAScript standard was never completed.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30"><span>[</span>30<span>]</span></a></sup> The fifth edition was released in December 2009. The current edition of the ECMAScript standard is 6, released in June 2015.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31"><span>[</span>31<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Later_developments">Later developments</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=6" title="Edit section: Later developments">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>JavaScript has become one of the most popular programming languages on the Web. Initially, however, many professional programmers denigrated the language because its target audience consisted of Web authors and other such "amateurs", among other reasons.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32"><span>[</span>32<span>]</span></a></sup> The advent of <a href="/wiki/Ajax_(programming)" title="Ajax (programming)">Ajax</a> returned JavaScript to the spotlight and brought more professional programming attention. The result was a proliferation of comprehensive <a href="/wiki/List_of_JavaScript_libraries" title="List of JavaScript libraries">frameworks and libraries</a>, improved JavaScript programming practices, and increased usage of JavaScript outside Web browsers, as seen by the proliferation of <a href="/wiki/Server-side_JavaScript" title="Server-side JavaScript" class="mw-redirect">server-side JavaScript</a> platforms.</p>
+<p>In January 2009, the <a href="/wiki/CommonJS" title="CommonJS">CommonJS</a> project was founded with the goal of specifying a common standard library mainly for JavaScript development outside the browser.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33"><span>[</span>33<span>]</span></a></sup></p>
+<p>With the rise of the single-page web app and JavaScript-heavy sites, it is increasingly being used as a compile target for <a href="/wiki/Source-to-source_compiler" title="Source-to-source compiler">source-to-source compilers</a> from both <a href="/wiki/Dynamic_typing" title="Dynamic typing" class="mw-redirect">dynamic languages</a> and <a href="/wiki/Static_typing" title="Static typing" class="mw-redirect">static languages</a>. In particular, <a href="/wiki/Emscripten" title="Emscripten">Emscripten</a> and highly optimized <a href="/wiki/Just-in-time_compiler" title="Just-in-time compiler" class="mw-redirect">JIT compilers</a>, in tandem with <a href="/wiki/Asm.js" title="Asm.js">asm.js</a> that is friendly to <a href="/wiki/Ahead-of-time_compilation" title="Ahead-of-time compilation">AOT compilers</a> like <a href="/wiki/OdinMonkey" title="OdinMonkey" class="mw-redirect">OdinMonkey</a>, have enabled <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a> and <a href="/wiki/C%2B%2B" title="C++">C++</a> programs to be compiled into JavaScript and execute at near-native speeds, causing JavaScript to be considered the "assembly language of the web",<sup id="cite_ref-asm.js_34-0" class="reference"><a href="#cite_note-asm.js-34"><span>[</span>34<span>]</span></a></sup> according to its creator and others.</p>
+<h2><span class="mw-headline" id="Trademark">Trademark</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=7" title="Edit section: Trademark">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>"JavaScript" is a <a href="/wiki/Trademark" title="Trademark">trademark</a> of <a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle Corporation</a>.<sup id="cite_ref-35" class="reference"><a href="#cite_note-35"><span>[</span>35<span>]</span></a></sup> It is used under license for technology invented and implemented by Netscape Communications and current entities such as the <a href="/wiki/Mozilla_Foundation" title="Mozilla Foundation">Mozilla Foundation</a>.<sup id="cite_ref-36" class="reference"><a href="#cite_note-36"><span>[</span>36<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Features">Features</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=8" title="Edit section: Features">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The following features are common to all conforming ECMAScript implementations, unless explicitly specified otherwise.</p>
+<h3><span class="mw-headline" id="Imperative_and_structured">Imperative and structured</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=9" title="Edit section: Imperative and structured">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>JavaScript supports much of the <a href="/wiki/Structured_programming" title="Structured programming">structured programming</a> syntax from <a href="/wiki/C_(computer_language)" title="C (computer language)" class="mw-redirect">C</a> (e.g., <tt>if</tt> statements, <tt>while</tt> loops, <tt>switch</tt> statements, <tt>do while</tt> loops, etc.). One partial exception is <a href="/wiki/Scope_(computer_science)" title="Scope (computer science)">scoping</a>: JavaScript originally had only <a href="/wiki/Function_scoping" title="Function scoping" class="mw-redirect">function scoping</a> with <tt>var</tt>. ECMAScript 2015 adds a <tt>let</tt> keyword for block scoping, meaning JavaScript now has both function and block scoping. Like C, JavaScript makes a distinction between <a href="/wiki/Expression_(computer_science)" title="Expression (computer science)">expressions</a> and <a href="/wiki/Statement_(computer_science)" title="Statement (computer science)">statements</a>. One syntactic difference from C is <a href="/wiki/Defensive_semicolon" title="Defensive semicolon" class="mw-redirect">automatic semicolon insertion</a>, which allows the semicolons that would normally terminate statements to be omitted.<sup id="cite_ref-FOOTNOTEFlanagan200616_37-0" class="reference"><a href="#cite_note-FOOTNOTEFlanagan200616-37"><span>[</span>37<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Dynamic">Dynamic</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JavaScript&amp;action=edit&amp;section=10" title="Edit section: Dynamic">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+		
+		
+		
+		
+	</div>
+	
+		
+</body>
+
+</html>
+
+'

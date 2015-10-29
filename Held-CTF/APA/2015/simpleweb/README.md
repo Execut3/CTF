@@ -1,0 +1,13 @@
+#SimpleWeb
+
+**Category:** Web
+**Points:** 40
+
+**Description:**
+
+You know i am a little noob in web developing. so i just started to create a simple web. But yesterday this crazy friend of mine shocked me to death and said he just hacked my webpage and can read all of my files. VOW! how the hell he did that. can you check it out. for example can you see what is in /flag to prove me he is right.
+
+##SimpleWeb-Solution
+
+not ready yet.
+

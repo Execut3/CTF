@@ -1,0 +1,109 @@
+#!/bin/bash
+
+echo "Content-Type: text/html";
+echo ""
+echo '
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Web</title>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+	
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">My Simple Web</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+					<li>
+						<a href="css.html">CSS</a>
+					</li>
+					<li>
+						<a href="javascript.html">JavaScript</a>
+					</li>
+					<li>
+						<a href="html.html">Html</a>
+					</li>
+					<!-- i wish i learn something about php to add a tab for it -->
+					<li>
+						uptime'
+						echo `uptime`;
+						echo '
+					</li>
+				</ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <h2 class="text-center">CSS</h2>
+			<h4 class="text-center">Cascading Style Sheets</h4>
+        </header>
+    </div>
+    <!-- /.container -->
+	
+	<div class="container">
+		
+		
+		
+		<p><b>Cascading Style Sheets</b> (<b>CSS</b>) is a <a href="/wiki/Style_sheet_language" title="Style sheet language">style sheet language</a> used for describing the <a href="/wiki/Presentation_semantics" title="Presentation semantics">look and formatting</a> of a document written in a <a href="/wiki/Markup_language" title="Markup language">markup language</a>. Although most often used to change the style of <a href="/wiki/Web_page" title="Web page">web pages</a> and user interfaces written in <a href="/wiki/HTML" title="HTML">HTML</a> and <a href="/wiki/XHTML" title="XHTML">XHTML</a>, the language can be applied to any kind of <a href="/wiki/XML" title="XML">XML</a> document, including <a href="/wiki/Plain_Old_XML" title="Plain Old XML">plain XML</a>, <a href="/wiki/Scalable_Vector_Graphics" title="Scalable Vector Graphics">SVG</a> and <a href="/wiki/XUL" title="XUL">XUL</a>. Along with HTML and <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for <a href="/wiki/Web_applications" title="Web applications" class="mw-redirect">web applications</a>, and user interfaces for many mobile applications.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>CSS is designed primarily to enable <a href="/wiki/Separation_of_presentation_and_content" title="Separation of presentation and content">the separation of document content from document presentation</a>, including elements such as the <a href="/wiki/Page_layout" title="Page layout">layout</a>, <a href="/wiki/Color" title="Color">colors</a>, and <a href="/wiki/Typeface" title="Typeface">fonts</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> This separation can improve content <a href="/wiki/Accessibility" title="Accessibility">accessibility</a>, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content, such as semantically insignificant tables that were widely used to format pages before consistent CSS rendering was available in all major browsers. CSS makes it possible to separate presentation instructions from the HTML content in a separate file or style section of the HTML file. For each matching <a href="/wiki/HTML_element" title="HTML element">HTML element</a>, it provides a list of formatting instructions. For example, a CSS rule might specify that "all heading 1 elements should be <a href="/wiki/Bold" title="Bold" class="mw-redirect">bold</a>", leaving pure semantic HTML markup that asserts "this text is a level 1 heading" without formatting code such as a <code>&lt;bold&gt;</code> tag indicating how such text should be displayed.</p>
+<p>This separation of formatting and content makes it possible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (when read out by a speech-based browser or <a href="/wiki/Screen_reader" title="Screen reader">screen reader</a>) and on <a href="/wiki/Braille_display" title="Braille display" class="mw-redirect">Braille-based</a>, tactile devices. It can also be used to display the web page differently depending on the screen size or device on which it is being viewed. Although the author of a web page typically links to a CSS file within the markup file, readers can specify a different style sheet, such as a CSS file stored on their own computer, to override the one the author has specified. If the author or the reader did not link the document to a style sheet, the default style of the browser will be applied. Another advantage of CSS is that aesthetic changes to the <a href="/wiki/Graphic_design" title="Graphic design">graphic design</a> of a document (or hundreds of documents) can be applied quickly and easily, by editing a few lines in one file, rather than by a laborious (and thus expensive) process of crawling over every document line by line, changing markup.</p>
+<p>The CSS specification describes a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called <i>cascade</i>, priorities (or <i>weights</i>) are calculated and assigned to rules, so that the results are predictable.</p>
+<p>The CSS specifications are maintained by the <a href="/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium">World Wide Web Consortium</a> (W3C). Internet media type (<a href="/wiki/MIME_media_type" title="MIME media type" class="mw-redirect">MIME type</a>) <code>text/css</code> is registered for use with CSS by <a class="external mw-magiclink-rfc" rel="nofollow" >RFC 2318</a> (March 1998). The W3C operates a free <a href="/wiki/W3C_Markup_Validation_Service#CSS_validation" title="W3C Markup Validation Service">CSS validation service</a> for CSS documents.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Syntax">Syntax</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Cascading_Style_Sheets&amp;action=edit&amp;section=1" title="Edit section: Syntax">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>CSS has a simple <a href="/wiki/Syntax" title="Syntax">syntax</a> and uses a number of English keywords to specify the names of various style properties.</p>
+<p>A style sheet consists of a list of <i>rules</i>. Each rule or rule-set consists of one or more <i>selectors</i>, and a <i>declaration block</i>.</p>
+<h3><span class="mw-headline" id="Selector">Selector</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Cascading_Style_Sheets&amp;action=edit&amp;section=2" title="Edit section: Selector">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In CSS, <i>selectors</i> are used to declare which part of the markup a style applies to by matching tags and attributes in the markup itself. Selectors may apply to:</p>
+<ul>
+<li>all <a href="/wiki/HTML_element" title="HTML element">elements</a> of a specific type, e.g. the second-level headers <a href="/wiki/HTML_element#Basic_text" title="HTML element">h2</a></li>
+<li>elements specified by <a href="/wiki/HTML_attribute" title="HTML attribute">attribute</a>, in particular:
+<ul>
+<li><i>id</i>: an identifier unique to the document</li>
+<li><i>class</i>: an identifier that groups multiple elements in a document</li>
+</ul>
+</li>
+<li>elements depending on how they are placed relative to others in the <a href="/wiki/Document_Object_Model" title="Document Object Model">document tree</a>.</li>
+</ul>
+<p>Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters and underscores. Any number of instances of any number of elements may have the same class. Conventionally, IDs only apply to one instance of one element.</p>
+<p><i>Pseudo-classes</i> are used in CSS selectors to permit formatting based on information that is not contained in the document tree. One example of a widely used pseudo-class is <code>:hover</code>, which identifies content only when the user "points to" the visible element, usually by holding the mouse cursor over it. It is appended to a selector as in <code>a:hover</code> or <code>#elementid:hover</code>. A pseudo-class classifies document elements, such as <code>:link</code> or <code>:visited</code>, whereas a <i>pseudo-element</i> makes a selection that may consist of partial elements, such as <code>:first-line</code> or <code>:first-letter</code>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></p>
+<p>Selectors may be combined in many ways to achieve great specificity and flexibility.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> Multiple selectors may be joined in a spaced list to specify elements by location, element type, id, class, or any combination thereof. The order of the selectors is important. For example, <code>div .myClass {color:red;}</code> applies to all elements of class myClass that are inside div elements, whereas <code>.myClass div{color:red;}</code> applies to all div elements that are in elements of class myClass.</p>
+<p>The following table provides a summary of selector syntax indicating usage and the version of CSS in which it was introduced.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+
+		
+		
+		
+		
+	</div>
+</body>
+
+		
+</body>
+
+</html>
+
+'
