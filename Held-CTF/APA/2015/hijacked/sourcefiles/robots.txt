@@ -1,0 +1,8 @@
+User-agent: * 
+Allow: /login.php
+Allow: /register.php
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+Disallow: /defcon/
+Disallow: /private/create_session.php
