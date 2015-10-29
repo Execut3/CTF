@@ -11,5 +11,28 @@ http://helloadmin.iutcert.io
 
 ##HelloAdmin-Solution
 
-not ready yet. 
+This challenge is sql-injection. Users are given a login page. Using ```test:test``` they can login and will be redirected to user.php page.
+There is also another page named admin.php but they could access it only when the cookie ```Admin``` is equal to 1.
 
+checking for sql-injection vulnerability, users can find out when they send a request to admin.php with below values in Cookie field of header, site is vulnerable to sql and will respond with a sql error:
+
+```
+Cookie: PHPSESSID=3407qk4ll60du17iusmoo6s6t4; MyCookie="; Admin=1
+```
+
+The concept of this challenge is that MyCookie filed is vulnerable, but when everything is ok only the message ```hello test``` will be show in page.
+It means that no value from database will be show on this page and users can not see database fields and their values.
+
+The solution is simple, find a way to see the results of query in error. here is the query for geting the flag:
+
+```
+Cookie: PHPSESSID=3407qk4ll60du17iusmoo6s6t4; MyCookie=" union select 1,2,3,count(*), concat((select password from users limit 0,1),floor(rand()*3))a from information_schema.tables group by a--+; Admin=1
+```
+
+and by logging as admin they can see the flag:
+
+```
+username: admin
+password: YouC4nNOTLoginAsM3
+```
+**flag: ** ```VOW_YOU_l0gg3d_in_AS_M3333```
