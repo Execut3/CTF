@@ -67,11 +67,15 @@ And so one. But these commands doesn’t work. So let’s check the source, and 
 
 For example if we put ```../login.php```, we could see that it will be filtered like below:
 
-```defcon/login.php```
+```
+defcon/login.php
+```
 
 The defcon.php simply replace each "../" with "". For bypassing it we should set a input like this:
 
-```....//```
+```
+....//
+```
 
 this will give us the result like ```../```
 
@@ -292,6 +296,6 @@ After that, you will see an alert message that contains the FLAG!
 
 ###PM
 An advice for those who said there are problems in this challenge: Web penetration testing is more than just seeing a login page and doing sql injection. It’s about finding the holes and vulnerabilities that most people can’t see them.
-(I know there were bugs and some misunderstanding in this challenge, and that's cause of my first ctf.)
+(I know there were some misunderstandings in this challenge and that's cause of my first ctf, but there was no problem in concept..)
 
 ###It’s about Innovation, Patience and Unlimited-Knowledge!
