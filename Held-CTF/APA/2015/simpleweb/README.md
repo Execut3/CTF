@@ -61,6 +61,7 @@ it's obvious that it is base64-encoded. decoding it will give us:
 Chet Ramey is the maintainer of ShellShock vulnerability. flag is Sh3ll5h0CK_41m057_k!113d_B45HHH
 ```
 
-And the flag is: **Sh3ll5h0CK_41m057_k!113d_B45HHH
+And the flag is: 
+**Sh3ll5h0CK_41m057_k!113d_B45HHH
 
 
