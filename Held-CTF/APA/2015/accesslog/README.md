@@ -37,7 +37,7 @@ There are a lot of ways to decode this, here is a python solution:
 a = '102,+108,+97,+103,+32,+105,+115,+32,+83,+81,+76,+95,+73,+110,+106,+101,+99,+116,+105,+111,+110'
 b = a.split(',+')
 b = ''.join([chr(int(i)) for i in b])
-pritn b
+print b
 ```
 
 runnig this script will lead to flag, which is:
