@@ -28,10 +28,10 @@ There is also a hint for a page name ```session.php```. In this page user can ge
 he should change his user-agent to ```S3CR37```.
 
 By sending a get request to main.php with ```user-agent:S3CR37```. Az the name "MAZE" represent, this challenge is kind of a maze(imagine pages in /main/ az a maze, user should get to the end of maze by requesting on this pages). users should send get messages to each of inline pages (the 8 pages that are located in /main/ directory).
-And i appologize if the hints in question was not perfectly understandable (cause it was my first held-ctf) but if each of users just tried a little fuzzing in the portal, could find it out so easily.
+And i appology if the hints in question was not perfectly understandable (cause it was my first held-ctf) but if each of users just tried a little fuzzing in the portal, could find it out so easily.
 (Team I.B.N found the door to maze, but somehow they couldn't get the flag)
 
-So after get a session, user should send a request with tampered user-agent header and then it should look for the next path to go (it could be each of those 8 pages). But there is a problem, if user send a wrong request to a wrong url, it will 
+So after getting a session, user should send a request with tampered user-agent header and then it should look for the next path to go (it could be each of those 8 pages). But there is a problem, if user send a wrong request to a wrong url, it will 
 move to first place and should again send a request for main.php and then again start to send reqeust to pages (but this time to another url). 
 
 But they should notice that the session will expire after a while. So the only solution is to use scripting. after finding the right path to end of maze, they will get the flag.
