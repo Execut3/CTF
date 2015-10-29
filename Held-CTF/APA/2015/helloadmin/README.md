@@ -35,5 +35,4 @@ and by logging as admin they can see the flag:
 username: admin
 password: YouC4nNOTLoginAsM3
 ```
-**flag: **
-```VOW_YOU_l0gg3d_in_AS_M3333```
+##flag: ```VOW_YOU_l0gg3d_in_AS_M3333```
