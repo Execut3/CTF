@@ -9,5 +9,5 @@ There's this friend of mine that got into Real hacking & he also created a webpa
 
 ##Maze-Solution
 
-not ready yet
+This challenge is created by using of django/python.
 
