@@ -162,15 +162,16 @@ session = clear ^ salt
 
 But we don’t know the value of random_var and salt. There are two includes in this php file:
 
-```
+```php
 include("stuff/rand.php");
 include("stuff/salt.php");
 ```
 
-There is a problem, we can not see the source of salt.php.
-And it’s because the name salt is filtered using str_replace. we can bypass this method simple by entering this url:
+There is a problem, we can not see the source of salt.php And it’s because the name salt is filtered using str_replace. we can bypass this method simple by entering this url:
 
-```/defcon.php?file=....//stuff/salsaltt.php```
+```
+/defcon.php?file=....//stuff/salsaltt.php
+```
 
 And we see this:
 
