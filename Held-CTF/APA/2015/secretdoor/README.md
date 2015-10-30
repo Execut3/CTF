@@ -16,7 +16,7 @@ not ready yet.
 It is a combination of Blind/Union SQL Injection, Directory traversal vulnerabilities. First a sql-injection in first page (blind sqli).
 
 ```
-username:	john'))) or 1 limit 0,1 #
+username:	john")) or 1 limit 0,1 #
 password:	<anything>
 ```
 
@@ -26,7 +26,7 @@ In the login page there is no way to bypass it and then read values in database,
 So we should find another way in. what if we work with ```limit 0,1```. It means, What if we find the id of john and set query on that id. for example if id of john is '7', we can use:
 
 ```
-john'))) or 1 limit 7,1 #
+john")) or 1 limit 7,1 #
 ```
 
 Finding ID for john
@@ -41,7 +41,7 @@ Now Start intruder.
 by this method we can find the id of 'john', now it's time to login as john:
 
 ```
-john'))) or 1 limit 1298,1 #
+john")) or 1 limit 1298,1 #
 ```
 
 Now if we look out on our profile we see that we are logged in as 'john'.
