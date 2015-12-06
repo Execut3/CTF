@@ -15,7 +15,7 @@ The goal is to find the flag word by “somehow” reading all *.txt files.
 
 **Write-up:**
 
-In this challenge we should read flag.txt, but we don't have premission to read it, so we should solve 5 stages before we can access to it. This Stages are described in a document file.
+In this challenge we should read flag.txt, but we don't have premission to read it, so we should solve 5 stages before we can access to it. Each of these Stages are described in a document file.
 
 ```bash
 Execut3@kali:~$ telnet caitsith.pwn.seccon.jp
