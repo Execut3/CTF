@@ -6,8 +6,11 @@
 **Description:** 
 
 telnet caitsith.pwn.seccon.jp
+
 User:root
+
 Password:seccon
+
 The goal is to find the flag word by “somehow” reading all *.txt files.
 
 **Write-up:**
