@@ -2,7 +2,8 @@
 
 **Category:** Steganography
 **Points:** 100
-**Description:**
+
+**Write-up:**
 
 In this challenge, we are given a url: 'https://youtu.be/8SFsln4VyEk'
 
