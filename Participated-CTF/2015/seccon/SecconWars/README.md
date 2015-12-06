@@ -9,7 +9,7 @@ In this challenge, we are given a url: 'https://youtu.be/8SFsln4VyEk'
 Looking at video shows that there a qrcode of black color in center of video. But it's not easy to detect it.
 We need to find a way to get this qrcode, cause obviosly the flag is in it.
 
-Looking at video file shows that bunch of texts with color are moving in the screen and whenever they cross the qrcode, we can detect some part of qrcode with them.
+Looking at video file shows that bunch of texts with yellow color are moving in the screen and whenever they cross the qrcode, we can detect some part of qrcode with them.
 
 A simple way is to just take snapshots of screen and put them all together.
 
@@ -38,4 +38,5 @@ now just use any program to decode this picture. i used this online site: https:
 
 and we will be rewarded a flag:
 
-```SECCON{TH3F0RC3AVVAK3N53P7}```
+### SECCON{TH3F0RC3AVVAK3N53P7}
+
