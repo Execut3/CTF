@@ -9,7 +9,7 @@ Find the flag in this apache access log
 
 Download: <a href="./access.log.zip">zip file</a>
 
-##AccessLog-Solution
+##AccessLog-Solution:
 
 In this challenges, each user is given a file that contains apache access.log file of a server that is under attack & the flag is send throught content of these messages (by attacker).
 

