@@ -23,24 +23,24 @@ the flag is in the fomat: [Your flag is: flagflagflag...] (without braces)
 
 ##Solution:
 
-We are given a web page with custom Persian-Captcha. We should BruteForce it, by first we should find a way to decode captcha.
+We are given a web page with custom Persian-Captcha. We should BruteForce it, but first we should find a way to decode captcha.
 So our tasks are:
 
 1 - Write a script to decode captcha
 
 2 - Send a GET request to /captcha url, save the captcha.image. Decode it and send a POST request to /login/submit url with captcha value in it's data
 
-3 - Iterate between 0001-9999 integers for password value and do 1&2 steps
+3 - Iterate between 0001-9999 integers for password value and do 1 & 2 steps
 
-![Image of main_page]
+![Image of main_page.jpg]
 
-I used a custom method by mine for decoding captcha's. But I know there should be lot's of other methods using machine-learning & ...
+I used a custom method of mine for decoding captcha's. But I know there should be lot's of other methods using machine-learning & ...
 But it's CTF & it's all about time. So i used this method:
 
-I splitted each captcha image to 6 images (cause it contains 6 persian-ancient characters). Convert it to gray-image, Calculated black-bit in each image and
-tried to define a algorithm to detect each character.
-Some of Character have specific number of black digits like 'E'. I assumed all the iamges that have less that 160 black-digits, are corresponded to 'E' and etc.
-And for characters that have close number of black-digits, i calculate black-bit in each half: top,bottom,right,left and tried to define statement that
+I splitted each captcha image to 6 images (Cause it contains 6 persian-ancient characters). Convert it to gray-image, Calculated black-bits in each image and
+tried to define an algorithm to detect each character.
+Some of Characters have specific number of black digits like 'E'. for example I assumed all the iamges that have less that 160 black-digits, are corresponded to 'E'.
+And for characters that have close number of black-digits, I calculate black-bits in each half: top,bottom,right,left and tried to define statements that
 describe each character.(It's not the best method ---> believe me: i know. but that shit worked for me.)
 
 Here is the code i used:
@@ -224,4 +224,4 @@ But the real problem is that after almost 1000 post request, you will be banned 
 (Really!!!!. you kidding me.)
 Because of this timing i wasn't able to get the flag in right time, And got it after the competition was done. But cheers to all who joined this challenge.
 
-I really enjoyed it and didn't much mention time to other web challenges, CAUSE IT WAS A FUN CHALLENGE.
+I really enjoyed it and didn't look on other web challenges, CAUSE THIS WAS A FUN CHALLENGE.
