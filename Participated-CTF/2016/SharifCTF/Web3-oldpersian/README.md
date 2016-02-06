@@ -1,7 +1,7 @@
 #Old persian cuneiform captcha
 
 **Category:** Web
-**Points:** 10
+**Points:** 250
 
 **Description:**
 
