@@ -32,7 +32,7 @@ while decoded.find('eval')>-1:
 print decoded
 ```
 
-decoding will result this:
+Decoding will result this:
 
 ```
 echo "the flag is ".md5("5+5=9<-- fix this"),PHP_EOL;

@@ -63,7 +63,7 @@ A.............................................a.................................
 
 The first 12 rows of the decrypted message are correct, But in the 13th row we should fix the message by making the text clear. In other hand
 we have part of the crypted-message in clear. So we know after text:```A fence is a ```, We should have " structure". So in the
-first column of 13th row, we should replace 'y' with ' '. and in the second column of it we should replace ' '  with 'e' and so on.
+first column of 13th row, we should replace 'y' with ' '. and in the second column we should replace ' '  with 'e' and so on.
 
 Looking at the decrypted message we can see that by removing first character -> '.' in the 13th column & shifting all furture character to left, we will fix 13th column
 and the clear-text will be look like this:
@@ -73,10 +73,10 @@ A fence is a spl{uamtlzrTu 0dhGirsencloses an area, SharifC tocQclFuyZoeYttIortT
 ```
 
 We should go throught all other rows and fix them to match the cleartext recieved from wikipedia link.
-For example in 14th row we should remove 's' to shift character to left. We keep removing character to make the clear-text recieved from wikipedia.
+For example in 14th row we should remove 's' to shift character to left. We keep removing characters to recover clear-text recieved from wikipedia.
 (remember to add a ' ' at the end of decrypted message after removing each character.)
 
-At that after removing all the additional characters, we will have something like this:
+After removing all the additional characters, We will have something like this:
 
 ```
 AaY  rpyfneJBeaaX0n ,ZZcs uXeeSVJ sh2tioaZ}slrg. ciE anfGt eCIys TzttFlra{GuhQIctm0t FYuezTrZ

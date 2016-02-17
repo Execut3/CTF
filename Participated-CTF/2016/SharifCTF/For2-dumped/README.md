@@ -10,7 +10,7 @@ In Windows Task Manager, I right clicked a process and selected "Create dump fil
 ##Solution:
 
 We are given RunMe.DMP.xz file. 
-it's archived with xz command.
+it's archived with xz command. Running
 
 ```
 $unxz RunMe.DMP.xz

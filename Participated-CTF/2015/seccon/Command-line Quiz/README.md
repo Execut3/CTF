@@ -16,6 +16,7 @@ The goal is to find the flag word by “somehow” reading all *.txt files.
 **Write-up:**
 
 In this challenge we should read flag.txt, but we don't have premission to read it, so we should solve 5 stages before we can access to it. Each of these Stages are described in a document file.
+Output of commands that i used to solve this challenge, are displayed below:
 
 ```bash
 Execut3@kali:~$ telnet caitsith.pwn.seccon.jp
@@ -85,4 +86,4 @@ $ sed -n 2,3p flags.txt
 SECCON{CaitSith@AQUA}
 ```
 
-and the flag is ```SECCON{CaitSith@AQUA}```.
+And the flag is ```SECCON{CaitSith@AQUA}```.
