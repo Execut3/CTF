@@ -10,7 +10,7 @@ I stumbled across this kinda oldskool blog. I bet it is unhackable, I mean, ther
 ##0ldsk00lBlog-Solution:
 
 For this challenge the only thing that we can see is a static page with a bunch of html tags.
-Nothing useful. expcept that in the contents, There is a little hint on GIT.
+Nothing useful. except that in the contents, There is a little hint about GIT.
 
 ```html
 
@@ -104,9 +104,9 @@ Checking objects: 100% (135/135), done.
 [!] No more items to fetch. That's it!
 ```
 
-From now on is simple. We should search file/folders for the flag. The flag is in the objects that
-that created by git. So we need a way to read this objects.
-I wrote a simple python code to surf in .git/objects folder and read all the files in there
+From now on is simple. We should search file/folders for the flag. The flag is in the objects
+that are created by git. So we need to find a way to read this objects.
+I wrote a simple python code to surf in .git/objects folder and read all the files in that directory
 and if it found the flag, will print it in terminal. Here is my code:
 
 ```python

@@ -11,7 +11,7 @@ Service: https://texmaker.ctf.internetwache.org
 
 ##TexMaker-Solution:
 
-By viewing the given webpage, we will see a form that takes LATEX commands from use and
+By viewing the given webpage, we will see a form that takes LATEX commands from us and
 generate corresponded pdf to our inputs.
 
 ![Image of 1]
@@ -22,9 +22,9 @@ This kind of stuff only ring one bell!!! Code Execution.
 But how?
 
 For solving this challenge we should find commands that let users execute shell commands.
-By searching google for it, I ended in this page: 'http://tex.stackexchange.com/questions/16790/write18-capturing-shell-script-output-as-command-variable'
+By searching google for it, I ended up in this page: 'http://tex.stackexchange.com/questions/16790/write18-capturing-shell-script-output-as-command-variable'
 
-For example for viewing the result of ```ls -la``` in current directory, We will have something like below in our latex file:
+For example for viewing the result of ```ls -la``` in current directory, we should use something like below in our latex file:
 
 ```
 \documentclass{minimal}
@@ -52,9 +52,9 @@ For exploit this task, i used this commands in form field:
 ![Image of 2]
 (./images/2.png)
 
-It will generate a pdf for us. by viewing the generated pdf, we can see that outputs of 'ls -la' commands, are
-not shown in pdf. After surfing a little more on this challenge and trying some other commands, i found out that
-The results are shown in the debug section in the bottom of that page.
+It will generate a pdf for us. But when viewing the generated pdf, we can't see the outputs of 'ls -la' commands
+in the pdf. After surfing a little more on this challenge and trying some other commands, I found out that
+the results are shown in the debug section in the bottom of the page.
 This is the result of ```ls -la``` command shown in debug section:
 
 ```
