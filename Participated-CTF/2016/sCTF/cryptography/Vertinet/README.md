@@ -1,4 +1,4 @@
-#Verticode
+#Vertinet
 
 **Category:** Cryptography
 
