@@ -10,47 +10,40 @@ r = requests.get(url, headers=headers)
 soup = BeautifulSoup(r.text)
 x = soup.find_all("div", class_="message")
 message = str(x).split('----- BEGIN MESSAGE -----<br/>')[1].split('----- END MESSAGE -----<br/>')[0].strip()
-
-
 m = message.split('<br/>')[1:]
-print m
-result = ''
-index = 0
-# while True:
-#     if m[index] == 'xxxxx':
-#         result += '5'
-#         index += 5
-#         continue
-#     if m[index] == '\xc2\xa0xxx\xc2\xa0':
-#         print 'here'
-#         index += 6
-#     print m[index]
-#     index += 1
+
+# for i in xrange(0, len(m), 6):
+#     for j in m[i:i+6]:
+#         print j
     
-for i in xrange(0, len(m), 6):
-    if m[i] == 'xxxxx':
-        result += '5'
-    elif m[i] == '\xc2\xa0xx\xc2\xa0\xc2\xa0':
-        result += '1'
-    elif m[i] == '\xc2\xa0xxx\xc2\xa0':
-        if m[i+1] == 'x\xc2\xa0\xc2\xa0\xc2\xa0x':
+result = ''
+i = -1
+while i < len(m):
+    i += 1
+    try:
+        if not m[i]:
+            continue
+        if m[i] == 'xxxxx':
+            result += '5'
+        elif m[i] == '\xc2\xa0xx\xc2\xa0\xc2\xa0':
+            result += '1'
+        elif m[i] == '\xc2\xa0xxx\xc2\xa0':
+            # if m[i+1] == 'x\xc2\xa0\xc2\xa0\xc2\xa0x':
             if m[i+2] == 'x\xc2\xa0\xc2\xa0\xc2\xa0x':
                 result += '0'
             elif m[i+2] == '\xc2\xa0\xc2\xa0xx\xc2\xa0':
-                result += '3'
-            else:
-                result += '2'
-            
-    elif m[i] == '\xc2\xa0x\xc2\xa0\xc2\xa0x':
-        result += '4'
-    else:
-        result += '-'
-    for j in m[i:i+6]:
-        print j
-    print '---------'
-print result
+                if m[i+3] == 'x\xc2\xa0\xc2\xa0\xc2\xa0x':
+                    result += '3'
+                else:
+                    result += '2'
+        else:
+            result += '4'
+        i += 4
+    except IndexError:
+        break
+
 r = requests.get(url+'/'+str(result), headers=headers)
 result = BeautifulSoup(r.text)
-flag = str(result.find_all("div", class_="alert alert-info"))
+flag = str(result.find_all("div", class_="flag"))
 print flag
 
