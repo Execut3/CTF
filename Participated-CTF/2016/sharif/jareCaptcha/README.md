@@ -135,4 +135,4 @@ while True:
 I also captured the values for csrf-token each time the page loads because of django-csrf-middleware-protection.
 Because if we do'nt send this value within our requests, Django will raise an 403 forbidden exception. (And i know if i wrote my requests better, i can handle this problem with python easily... but we didn't have that much time to find the correct python code...:D)
 
-& After 200 requests we get the flag in requests text data.
+& After 200 request's we get the flag in requests text data.
