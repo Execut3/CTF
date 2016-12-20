@@ -72,7 +72,7 @@ some characters are not send throught this urls and There are 41 '?' signs in re
 
 Now the problem was how to find these values.
 But again we noticed that if we send that request again to "blockchain.info/q/addressbalance/", we might get usefull data.
-Cause when the request is not correct we will get responses like "checksum not valid", but if the request is correct it returns a integer value insteam.
+Cause when the request is not correct we will get responses like "checksum not valid", but if the request is correct it returns an integer value instead.
 So again the task was clear, we should brute these requests to get the right value. Doing this will give us this character sequence:
 
 ```
