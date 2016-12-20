@@ -88,3 +88,46 @@ So i save the position of occurence of each character in each url request of .pc
 
 Now we just have to reorder this values by their position number which will give us the flag.
 
+Python code to solve this challenge (the dirty one :D)
+
+```python
+import pyshark
+import urllib
+import requests
+import itertools
+import re
+import json
+
+chars = '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/'
+
+result = {}
+outfile = open('all_info.out', 'w')
+pkts = pyshark.FileCapture('bsniff.pcap')
+count = 0
+for pkt in pkts:
+    try:
+        content = str(pkt.http).split('\n')
+    except:
+        continue
+    for c in content:
+        if 'GET /q/addressbalance' in c:
+            r = c.split('GET /q/addressbalance/')[1].split('?confirmations=6')[0]
+            break
+    if r:
+        count += 1
+        if '?' in r:
+            ch = '-'
+            req_text = ''
+            for xs in itertools.product(chars, repeat=1):
+                n_r = r.replace('?', ''.join(xs))
+                url = 'https://blockchain.info/q/addressbalance/{0}?confirmations=6'.format(n_r)
+                req = requests.get(url)
+                try:
+                    int(req.text)
+                    break
+                except:
+                    continue
+            print '{0},{1}'.format(r.index('?'), ''.join(xs))
+            result[r.index('?')] = ''.join(xs)
+print result
+```
