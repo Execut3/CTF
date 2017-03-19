@@ -1,0 +1,16 @@
+{
+    "name":"easy messaging",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Steganography",
+    "chain":"hidden sring",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"No one use this kind of messaging anymore...",
+    "story": "I don't think anyone anymore use this kind of message sending. do you? If yes, Please put your result in APACTF{<your-code>} and submit it for me.",
+    "path":"",
+    "files":[{"file": "cipher.txt", "name": "cipher file"}],
+    "flag":"APACTF{EVENNOOBSKNOWWHATISMORSE}"
+}

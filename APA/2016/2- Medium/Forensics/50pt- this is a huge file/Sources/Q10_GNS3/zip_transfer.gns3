@@ -1,0 +1,257 @@
+{
+    "auto_start": false,
+    "name": "zip_transfer",
+    "project_id": "b6281e64-d234-49c8-8705-8fca73539282",
+    "revision": 4,
+    "show_port_names": true,
+    "topology": {
+        "links": [
+            {
+                "description": "Link from ubuntu client port Ethernet0 to R1 port FastEthernet0/0",
+                "destination_node_id": 4,
+                "destination_port_id": 3,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": -3.9446092595204334,
+                    "y": 37.33283557145765
+                },
+                "id": 1,
+                "source_node_id": 3,
+                "source_port_id": 2,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 69.44460925952043,
+                    "y": 14.16716442854235
+                }
+            },
+            {
+                "description": "Link from R1 port FastEthernet1/0 to debian7 server port Ethernet0",
+                "destination_node_id": 2,
+                "destination_port_id": 1,
+                "destination_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -3.1149467454747253,
+                    "y": 11.290783423853767
+                },
+                "id": 2,
+                "source_node_id": 4,
+                "source_port_id": 8,
+                "source_port_label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f1/0",
+                    "x": 68.61494674547473,
+                    "y": 40.20921657614622
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "description": "VirtualBox VM",
+                "id": 2,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "debian7 server",
+                    "x": -48.0,
+                    "y": -25.0
+                },
+                "linked_clone": false,
+                "port_name_format": "Ethernet{0}",
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R1 on port FastEthernet1/0",
+                        "id": 1,
+                        "link_id": 2,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "console": 5001,
+                    "enable_remote_console": false,
+                    "headless": false,
+                    "name": "debian7 server",
+                    "ram": 5000,
+                    "use_any_adapter": false,
+                    "vmname": "debian7"
+                },
+                "server_id": 1,
+                "type": "VirtualBoxVM",
+                "vm_id": "830ac315-3807-4467-8bff-72c3ff760e0e",
+                "x": -203.5,
+                "y": -107.5
+            },
+            {
+                "description": "VirtualBox VM",
+                "id": 3,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "ubuntu client",
+                    "x": -40.0,
+                    "y": -25.0
+                },
+                "linked_clone": false,
+                "port_name_format": "Ethernet{0}",
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R1 on port FastEthernet0/0",
+                        "id": 2,
+                        "link_id": 1,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "acpi_shutdown": false,
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "console": 5002,
+                    "enable_remote_console": false,
+                    "headless": false,
+                    "name": "ubuntu client",
+                    "ram": 5000,
+                    "use_any_adapter": false,
+                    "vmname": "ubuntu server"
+                },
+                "server_id": 1,
+                "type": "VirtualBoxVM",
+                "vm_id": "679040bf-077a-4700-bf78-7ef8631aab89",
+                "x": -666.5,
+                "y": -142.5
+            },
+            {
+                "description": "Router c7200",
+                "dynamips_id": 1,
+                "id": 4,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R1",
+                    "x": 15.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to ubuntu client on port Ethernet0",
+                        "id": 3,
+                        "link_id": 1,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 4,
+                        "id": 4,
+                        "name": "GigabitEthernet4/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 5,
+                        "name": "FastEthernet2/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "id": 6,
+                        "name": "FastEthernet2/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to debian7 server on port Ethernet0",
+                        "id": 8,
+                        "link_id": 2,
+                        "name": "FastEthernet1/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "id": 9,
+                        "name": "FastEthernet1/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 7,
+                        "name": "GigabitEthernet3/0",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 4,
+                    "console": 5003,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60608434",
+                    "idlesleep": 30,
+                    "image": "c7200-adventerprisek9-mz.151-4.M.image",
+                    "image_md5sum": "b702cc16b3aae00deec519c939a7df5f",
+                    "mac_addr": "ca01.1a9b.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "name": "R1",
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-2FE-TX",
+                    "slot3": "PA-GE",
+                    "slot4": "PA-GE",
+                    "sparsemem": true,
+                    "startup_config": "configs/i1_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C7200",
+                "vm_id": "7379c551-a120-45b4-86c2-aede0d7522b7",
+                "x": -476.02943725152284,
+                "y": -239.08326112068517
+            }
+        ],
+        "servers": [
+            {
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 3080,
+                "protocol": "http",
+                "vm": false
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.5.3dev1"
+}

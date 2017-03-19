@@ -1,0 +1,34 @@
+{% extends 'index.html' %}
+
+{% block contents %}
+
+    <hr/>
+    <label>Your already have {{ shop_user.budget }}$. Be careful of what you buy, You need your money to buy the flag.</label>
+    <h2>Our items:</h2>
+    {% for item in items %}
+        <div>
+            <form method="post" action="/shop/">
+                <input type="hidden" value="{{ item.id }}" name="id">
+                <label>Item Name: {{ item.name }}</label><br>
+                <label>Item Price: {{ item.price }}</label><br>
+                <input type="submit" value="Buy this item">
+            </form>
+        </div>
+    {% endfor %}
+
+    {% if message %}<p>{{ message }}</p>{% endif %}
+
+    <hr/>
+    {% if purchased_items %}
+        <h2>You already purchased this items:</h2>
+        {% for item in purchased_items %}
+            <div>
+                <label>Name: "{{ item.item.name }}", Price: "{{ item.item.price }}", Description: "{{ item.item.description }}"</label>
+                <br>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <br><br><br><br><br><br>
+
+{% endblock %}

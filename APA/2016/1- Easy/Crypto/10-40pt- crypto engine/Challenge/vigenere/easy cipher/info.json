@@ -1,0 +1,16 @@
+{
+    "name":"easy cipher",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Cryptography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Decrypt me!",
+    "story":"Use our Crypto Engine to find the flag!",
+    "path":"http://crypto-engine.ctf/vigenere",
+    "files":[{"file": "cipher.txt", "name": "Ciphertext"}],
+    "flag":"APACTF{SUPEREASYCIPHER}"
+}

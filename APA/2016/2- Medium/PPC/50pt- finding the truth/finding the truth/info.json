@@ -1,0 +1,16 @@
+{
+    "name":"finding the truth",
+    "points":"1",
+    "level":"medium",
+    "categories":"PPC",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"45",
+    "extra":"0",
+    "desc":"Find the flag in the over-encrypted text.",
+    "story":"Flag is over-encrypted so many times, and we don't know how many times. The only things we know is the key and encryption method. method is transposition and key is the text at any encryption stage! start this recursive decryption with this string: odoqhthbygchxcmypylsnbchakbunsionbchesiovywigy. decrypt it until the flag!",
+    "path":"",
+    "files":[{"file": "encoding.py", "name": "Source for encryption"}],
+    "flag":"APACTF{The_mind_is_everything.What_you_think_you_become}"
+}

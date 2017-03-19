@@ -1,0 +1,16 @@
+{
+    "name":"django shop 2",
+    "points":"1",
+    "level":"hard",
+    "categories":"Web",
+    "chain":"django shop 1",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"I wrote a simple django shop...",
+    "story":"Okay, So you find out how to buy items from my shop in a way that i didn't even know what is it. But I guess you will never find out how to read flag2. (check source to find where is flag2)",
+    "path":"http://django-shop.ctf",
+    "files":[],
+    "flag":"APACTF{!f_there_were_no_character_limits_you_m4y_even_get_a_remote_sh3ll_on_my_server!}"
+}

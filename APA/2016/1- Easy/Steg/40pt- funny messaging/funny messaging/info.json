@@ -1,0 +1,16 @@
+{
+    "name":"funny messaging",
+    "points":"1",
+    "level":"easy",
+    "categories":"Steganography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Any idea how they send their hidden data?",
+    "story":"I got this weird message, I guess they used some kind of method to transfer their data. Can you find it out for me?",
+    "path":"",
+    "files":[{"file": "secret.dat", "name": "Secret data"}],
+    "flag":"APACTF{If_u_think_ab0ut_it_it_w4s_4_little_funny}"
+}

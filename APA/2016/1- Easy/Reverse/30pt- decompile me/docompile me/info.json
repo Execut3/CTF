@@ -1,0 +1,16 @@
+{
+    "name":"decompile me",
+    "points":"1",
+    "level":"easy",
+    "categories":"Reverse",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Decompile it",
+    "story":"Decompile it ... Follow Hints !",
+    "path":"",
+    "files":[{"file": "DecompileIt.jar", "name": "DecompileIt jar"}],
+    "flag":"APACTF{DecompileItDecompileIt677b591fe6d8ffff18f01fa2530a5029bde0e10687213e25bd2f9bbd227be0cc1198490913}"
+}

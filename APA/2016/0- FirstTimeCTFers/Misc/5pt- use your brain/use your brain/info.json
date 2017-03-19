@@ -1,0 +1,16 @@
+{
+    "name":"use your brain",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Miscellaneous",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Any idea how to look for flag?",
+    "story":"Execute this script to retrieve the flag. So simple...",
+    "path":"",
+    "files":[{"file": "data", "name": "data"}],
+    "flag":"APACTF{Funny_Programming}"
+}

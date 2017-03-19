@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>
+        CAN YOU FIND ME!!!
+    </title>
+</head>
+
+<body>
+<h1>
+    WELCOME, There is a serious bug in this website. CAN you find it!!!
+</h1>
+
+<p>
+    Use form below to do basic calculations like (+,-,flag!)
+</p>
+<form method="post" action="index">
+    {% csrf_token %}
+    <input type="text" name="num1" placeholder="num1">
+    <input type="text" name="operator" placeholder="operator">
+    <input type="text" name="num2" placeholder="num2">
+    <button type="submit">Calculate!!!</button>
+</form>
+
+{% if result %}
+    <p>
+        result is: {{ result }}
+    </p>
+{% endif %}
+
+</body>
+
+</html>

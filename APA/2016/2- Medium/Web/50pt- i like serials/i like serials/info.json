@@ -1,0 +1,16 @@
+{
+    "name":"i like serials",
+    "points":"1",
+    "level":"medium",
+    "categories":"Web",
+    "chain":"make it collide",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Simple php website, go and visit it.",
+    "story":"Simple php website, go and visit it.",
+    "path":"http://i-like-serials.ctf",
+    "files":[],
+    "flag":"APACTF{!7_couldnt_b3_Easi3r_than_7h!5}"
+}

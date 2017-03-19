@@ -1,0 +1,31 @@
+Points:
+    7pt
+
+WELL_DONE,_FLAG_IS_APACTF{CHANGE_POSITION_TO_DECIPHER}
+Flag:
+    APACTF{CHANGE_POSITION_TO_DECIPHER}
+
+
+Solutions:
+
+WOL_FGITIENAA{ETOPLEGPC_I_HL,_AHPODE__ICAONERDFSTNS_C}
+
+W   O   L   _   F   G   I   T   I
+E   N   A   A   {   E   T   O   P
+L   E   G   P   C   _   I   _   H
+L   ,   _   A   H   P   O   D   E
+_   _   I   C   A   O   N   E   R
+D   F   S   T   N   S   _   C   }
+
+
+
+W   E   L   L   _   D
+O   N   E   ,   _   F
+L   A   G   _   I   S
+_   A   P   A   C   T
+F   {   C   H   A   N
+G   E   _   P   O   S
+I   T   I   O   N   _
+T   O   _   D   E   C
+I   P   H   E   R   }
+

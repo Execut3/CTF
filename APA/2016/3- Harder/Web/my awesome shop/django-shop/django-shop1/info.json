@@ -1,0 +1,16 @@
+{
+    "name":"django shop 1",
+    "points":"1",
+    "level":"medium",
+    "categories":"Web",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"I wrote a simple django shop...",
+    "story":"I wrote a simple django shop. And for security purposes, I also created an admin pannel for managing my site, but it's only accessible from localhost. So there is no way you can access my admin pannel! <br>For your first task, I want you to buy my highest price item, which is <b>flag1</b>. And just so you know, I ran my admin server on localhost:5001 and will it visit it every minute.",
+    "path":"http://django-shop.ctf",
+    "files":[{"file": "source.zip", "name": "Source for my server."}],
+    "flag":"APACTF{okay,got_it,you_know_how_to_forge_requests...}"
+}

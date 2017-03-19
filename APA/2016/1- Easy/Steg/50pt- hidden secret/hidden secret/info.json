@@ -1,0 +1,16 @@
+{
+    "name":"hidden secret",
+    "points":"1",
+    "level":"easy",
+    "categories":"Steganography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Find out what tool i used to hide my data?",
+    "story":"I shared a secret with my friend but i used a popular software to hide it...",
+    "path":"",
+    "files":[{"file": "file", "name": "Transmitted data"}],
+    "flag":"APACTF{Always_f!rst_ch3ck_Stegsolve_for_this_kind_of_t45ks}"
+}

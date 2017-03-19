@@ -1,0 +1,17 @@
+
+Description:
+    I hate ruby on WEBs. So can you decrypt this for me.
+
+
+Well done, your flag is APACTF{rail_FENCE_c!ph3r}
+Flag:
+    APACTF{rail_FENCE_c!ph3r}
+    
+Points:
+    15pt
+    
+    
+Solution:
+    }A rCPdl3TAolhF nep{seW!ri,ca  _igyElaoC_luNFfrE 
+    }r3hp!c_ECNEF_liar{FTCAPA si galf ruoy ,enod lleW
+    

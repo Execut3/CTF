@@ -1,0 +1,77 @@
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, 
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, ****************************
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, Starting factorization of 75177623245453435913495026913414243445652048519232191500144347144847245671147
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, using pretesting plan: normal
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, no tune info: using qs/gnfs crossover of 95 digits
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, ****************************
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, rho: x^2 + 3, starting 1000 iterations on C77
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, rho: x^2 + 2, starting 1000 iterations on C77
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, rho: x^2 + 1, starting 1000 iterations on C77
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, pm1: starting B1 = 150K, B2 = gmp-ecm default on C77
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, current ECM pretesting depth: 0.00
+01/08/17 10:52:21 v1.34.3 @ execut3-binarycodes, scheduled 30 curves at B1=2000 toward target pretesting depth of 23.69
+01/08/17 10:52:22 v1.34.3 @ execut3-binarycodes, Finished 30 curves using Lenstra ECM method on C77 input, B1=2K, B2=gmp-ecm default
+01/08/17 10:52:22 v1.34.3 @ execut3-binarycodes, current ECM pretesting depth: 15.18
+01/08/17 10:52:22 v1.34.3 @ execut3-binarycodes, scheduled 74 curves at B1=11000 toward target pretesting depth of 23.69
+01/08/17 10:52:23 v1.34.3 @ execut3-binarycodes, Finished 74 curves using Lenstra ECM method on C77 input, B1=11K, B2=gmp-ecm default
+01/08/17 10:52:23 v1.34.3 @ execut3-binarycodes, current ECM pretesting depth: 20.24
+01/08/17 10:52:23 v1.34.3 @ execut3-binarycodes, scheduled 149 curves at B1=50000 toward target pretesting depth of 23.69
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, Finished 149 curves using Lenstra ECM method on C77 input, B1=50K, B2=gmp-ecm default
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, final ECM pretested depth: 23.72
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, scheduler: switching to sieve method
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, starting SIQS on c77: 75177623245453435913495026913414243445652048519232191500144347144847245671147
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, random seeds: 1495969144, 1915672664
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, ==== sieve params ====
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, n = 78 digits, 257 bits
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, factor base: 36160 primes (max prime = 918161)
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, single large prime cutoff: 78043685 (85 * pmax)
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, allocating 7 large prime slices of factor base
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, buckets hold 2048 elements
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, using 32k sieve core
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, sieve interval: 10 blocks of size 32768
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, polynomial A has ~ 10 factors
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, using multiplier of 3
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, using SPV correction of 20 bits, starting at offset 33
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, using SSE2 for trial division and x64 sieve scanning
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, using SSE4.1 enabled 32k sieve core
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, using SSE2 for resieving 13-16 bit primes
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, trial factoring cutoff at 89 bits
+01/08/17 10:52:38 v1.34.3 @ execut3-binarycodes, ==== sieving started (1 thread) ====
+01/08/17 10:54:04 v1.34.3 @ execut3-binarycodes, trial division touched 3044627 sieve locations out of 45786071040
+01/08/17 10:54:04 v1.34.3 @ execut3-binarycodes, 36388 relations found: 18658 full + 17730 from 187759 partial, using 69864 polys (279 A polys)
+01/08/17 10:54:04 v1.34.3 @ execut3-binarycodes, on average, sieving found 2.95 rels/poly and 2379.92 rels/sec
+01/08/17 10:54:04 v1.34.3 @ execut3-binarycodes, trial division touched 3044627 sieve locations out of 45786071040
+01/08/17 10:54:04 v1.34.3 @ execut3-binarycodes, ==== post processing stage (msieve-1.38) ====
+01/08/17 10:54:04 v1.34.3 @ execut3-binarycodes, begin with 206417 relations
+01/08/17 10:54:04 v1.34.3 @ execut3-binarycodes, reduce to 51875 relations in 2 passes
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, recovered 51875 relations
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, recovered 36615 polynomials
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, freed 24 duplicate relations
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, attempting to build 36364 cycles
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, found 36364 cycles in 1 passes
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, distribution of cycle lengths:
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes,    length 1 : 18657
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes,    length 2 : 17707
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, largest cycle: 2 relations
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, matrix is 36160 x 36364 (5.2 MB) with weight 1065556 (29.30/col)
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, sparse part has weight 1065556 (29.30/col)
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, filtering completed in 3 passes
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, matrix is 25816 x 25879 (4.0 MB) with weight 854405 (33.02/col)
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, sparse part has weight 854405 (33.02/col)
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, saving the first 48 matrix rows for later
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, matrix is 25768 x 25879 (3.3 MB) with weight 689363 (26.64/col)
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, sparse part has weight 608029 (23.50/col)
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, matrix includes 64 packed rows
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, using block size 10351 for processor cache size 6144 kB
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, commencing Lanczos iteration
+01/08/17 10:54:05 v1.34.3 @ execut3-binarycodes, memory use: 3.0 MB
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, lanczos halted after 409 iterations (dim = 25764)
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, recovered 14 nontrivial dependencies
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, prp39 = 269077763884745563624960620392345050013
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, prp39 = 279389950920115298845886167682594209319
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, Lanczos elapsed time = 1.1883 seconds.
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, Sqrt elapsed time = 0.0191 seconds.
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, SIQS elapsed time = 87.9404 seconds.
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, 
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, 
+01/08/17 10:54:06 v1.34.3 @ execut3-binarycodes, Total factoring time = 104.2545 seconds

@@ -1,0 +1,16 @@
+{
+    "name":"do you know how to debug",
+    "points":"1",
+    "level":"easy",
+    "categories":"Web",
+    "chain":"distinct authentication",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Find a way to read the flag.",
+    "story":"In this task you are given a simple web app that does a simple calculation. Can you find a way to read the flag.",
+    "path":"",
+    "files":[],
+    "flag":"APACTF{DJANGO_DEBUG_!S_D4NGEROUS}"
+}

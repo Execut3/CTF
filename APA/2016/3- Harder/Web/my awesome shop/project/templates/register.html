@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <title>Coding-Web-Based Challenges</title>
+    </head>
+
+    <body>
+
+        <p>Specify your username, password, email address to get access to our shop. </p>
+        <h5>Remember, Username or Password should be more than 8 characters long.</h5>
+        <form method="post" action="/register">
+            {{ register_form.as_p }}
+            <input type="submit" value="register">
+            <label>
+                Switch to <a href="/login">LOGIN</a> page
+            </label>
+        </form>
+
+        <hr/>
+        {% if messages %}
+            {% if messages.success %}
+                <h4>{{ messages.success }}</h4>
+            {% elif messages.error %}
+                <h4>{{ messages.error }}</h4>
+            {% endif %}
+        {% endif %}
+
+    </body>
+
+</html>

@@ -1,0 +1,81 @@
+Nov 30 11:32:39.759 HYPERVISOR: Release 0.2.16-amd64/Linux (tag 2015060118)
+Nov 30 11:32:39.759 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 37097.
+Nov 30 11:32:39.762 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 30 11:32:39.762 HYPERVISOR: exec_cmd: hypervisor working_dir /home/farzad/GNS3/projects/zip_transfer/project-files/dynamips 
+Nov 30 11:32:39.762 GENERAL: working_dir=/home/farzad/GNS3/projects/zip_transfer/project-files/dynamips
+Nov 30 11:32:39.763 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Nov 30 11:32:39.763 VM: VM R1 created.
+Nov 30 11:32:39.763 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5003 
+Nov 30 11:32:39.763 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Nov 30 11:32:39.764 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:39.764 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Nov 30 11:32:39.764 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 30 11:32:39.765 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Nov 30 11:32:39.765 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:39.765 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-2FE-TX 
+Nov 30 11:32:39.766 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:39.766 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 PA-GE 
+Nov 30 11:32:39.766 HYPERVISOR: exec_cmd: vm set_ios R1 /home/farzad/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M.image 
+Nov 30 11:32:39.767 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Nov 30 11:32:39.767 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:39.767 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60608434 
+Nov 30 11:32:39.768 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.1a9b.0000 
+Nov 30 11:32:39.768 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:39.768 HYPERVISOR: exec_cmd: vm slot_add_binding R1 4 0 PA-GE 
+Nov 30 11:32:39.769 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:39.769 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Nov 30 11:32:39.769 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Nov 30 11:32:39.849 HYPERVISOR: exec_cmd: nio create_udp udp-756b4d76-2d19-400f-966d-351a887c0539 10000 127.0.0.1 10002 
+Nov 30 11:32:39.858 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-756b4d76-2d19-400f-966d-351a887c0539 
+Nov 30 11:32:39.859 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:39.872 HYPERVISOR: exec_cmd: nio create_udp udp-8029f668-1574-41b5-8f50-bcb9a904c7f6 10001 127.0.0.1 10003 
+Nov 30 11:32:39.873 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-8029f668-1574-41b5-8f50-bcb9a904c7f6 
+Nov 30 11:32:39.874 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:49.603 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Nov 30 11:32:49.604 VM: VM Ghost created.
+Nov 30 11:32:49.606 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/farzad/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M.image 
+Nov 30 11:32:49.608 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 30 11:32:49.611 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost c7200-adventerprisek9-mz.151-4.M.image-512.ghost 
+Nov 30 11:32:49.613 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Nov 30 11:32:49.614 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 30 11:32:49.657 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 30 11:32:53.539 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 30 11:32:53.541 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 30 11:32:53.723 VM: VM Ghost shutdown.
+Nov 30 11:32:53.725 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 30 11:32:53.725 VM: VM Ghost destroyed.
+Nov 30 11:32:53.728 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Nov 30 11:32:53.730 HYPERVISOR: exec_cmd: vm set_ghost_file R1 c7200-adventerprisek9-mz.151-4.M.image-512.ghost 
+Nov 30 11:32:53.730 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 11:32:53.731 HYPERVISOR: exec_cmd: vm start R1 
+Nov 30 12:14:59.295 HYPERVISOR: exec_cmd: nio bind_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 capture 
+Nov 30 12:14:59.297 HYPERVISOR: exec_cmd: nio setup_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 en10mb /home/farzad/GNS3/projects/zip_transfer/project-files/captures/R1_FastEthernet0-0_to_ubuntu-server_Ethernet0.pcap 
+Nov 30 12:25:27.098 HYPERVISOR: exec_cmd: nio unbind_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 
+Nov 30 12:25:30.383 HYPERVISOR: exec_cmd: nio bind_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 capture 
+Nov 30 12:25:30.383 HYPERVISOR: exec_cmd: nio setup_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 en10mb /home/farzad/GNS3/projects/zip_transfer/project-files/captures/R1_FastEthernet0-0_to_ubuntu-server_Ethernet0.pcap 
+Nov 30 12:25:44.073 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 12:25:47.828 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 12:25:47.829 HYPERVISOR: exec_cmd: vm stop R1 
+Nov 30 12:25:47.948 VM: VM R1 shutdown.
+Nov 30 12:25:47.950 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 12:25:53.300 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 12:25:53.314 HYPERVISOR: exec_cmd: vm start R1 
+Nov 30 12:43:56.493 HYPERVISOR: exec_cmd: nio unbind_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 
+Nov 30 12:44:18.059 HYPERVISOR: exec_cmd: nio bind_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 capture 
+Nov 30 12:44:18.060 HYPERVISOR: exec_cmd: nio setup_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 en10mb /home/farzad/GNS3/projects/zip_transfer/project-files/captures/R1_FastEthernet0-0_to_ubuntu-server_Ethernet0.pcap 
+Nov 30 12:50:07.318 HYPERVISOR: exec_cmd: nio unbind_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 
+Nov 30 12:50:09.403 HYPERVISOR: exec_cmd: nio bind_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 capture 
+Nov 30 12:50:09.404 HYPERVISOR: exec_cmd: nio setup_filter udp-756b4d76-2d19-400f-966d-351a887c0539 2 en10mb /home/farzad/GNS3/projects/zip_transfer/project-files/captures/R1_FastEthernet0-0_to_ubuntu-server_Ethernet0.pcap 
+Nov 30 13:04:11.977 HYPERVISOR: exec_cmd: nio bind_filter udp-8029f668-1574-41b5-8f50-bcb9a904c7f6 2 capture 
+Nov 30 13:04:11.978 HYPERVISOR: exec_cmd: nio setup_filter udp-8029f668-1574-41b5-8f50-bcb9a904c7f6 2 en10mb /home/farzad/GNS3/projects/zip_transfer/project-files/captures/R1_FastEthernet1-0_to_debian7_Ethernet0.pcap 
+Nov 30 13:07:01.627 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 13:07:01.639 HYPERVISOR: exec_cmd: vm stop R1 
+Nov 30 13:07:01.741 VM: VM R1 shutdown.
+Nov 30 13:07:01.747 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 13:07:56.118 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 30 13:07:56.120 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 30 13:07:56.122 HYPERVISOR: exec_cmd: vm delete R1 
+Nov 30 13:07:56.122 VM: VM R1 destroyed.
+Nov 30 13:07:56.124 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 30 13:07:56.585 HYPERVISOR: Stopped.
+Nov 30 13:07:56.585 GENERAL: reset done.

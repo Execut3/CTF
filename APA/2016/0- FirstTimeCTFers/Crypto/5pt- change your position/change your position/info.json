@@ -1,0 +1,16 @@
+{
+    "name":"change your position",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Cryptography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Encrypt the ciphertext",
+    "story":"WOL_FGITIENAA{ETOPLEGPC_I_HL,_AHPODE__ICAONERDFSTNS_C}",
+    "path":"",
+    "files":[],
+    "flag":"APACTF{CHANGE_POSITION_TO_DECIPHER}"
+}

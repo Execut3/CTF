@@ -1,0 +1,10 @@
+Create:
+    zip --password Y0uWillN3v3rFindM3e3 flag.zip flag.txt \!pd.nfo www.p30forum.com.url www.p30download.com.url pd.jpg
+    Password used for zip file:     Y0uWillN3v3rFindM3e3
+    
+Solution:
+    zip pd.zip pd.jpg
+    pkcrack -C flag.zip -c pd.jpg -p pd.jpg -P pd.zip -d out.zip
+    
+Flag:
+    APACTF{Y0U_successfully_Cr4ck3d_ME}

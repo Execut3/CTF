@@ -1,0 +1,16 @@
+{
+    "name":"hardcoded flag",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Reverse",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Reverse Binary.",
+    "story":"Find the flag in this binary file.",
+    "path":"",
+    "files":[{"file": "main", "name": "Binary File for challenge"}],
+    "flag":"APACTF{Ok4y_u_know_r3v3r53_bas!cs}"
+}

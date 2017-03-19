@@ -1,0 +1,16 @@
+{
+    "name":"modern website",
+    "points":"1",
+    "level":"easy",
+    "categories":"Web",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Do you know anything about http requests?",
+    "story":"We want to attack to this web application and fortunately occult relief mentioned us there is an authenticated user in website with username='a' and password='b'. We are looking for 'admin' password ...",
+    "path":"http://modern-website.ctf",
+    "files":[],
+    "flag":"APACTF{N3V3R_TRU57_US3R_INPUTS_even_in_user_agents}"
+}

@@ -1,0 +1,21 @@
+Description:
+    I shared a secret with my friend but i used a popular software to hide it...
+    
+
+Creation:
+    steghide --embed -cf sample.jpg -ef secret.txt -sf hidden
+    password: 1345
+    cat hidden pass.txt > hidden
+    steghide --embed -cf sample.wav -ef hidden -sf file
+
+
+
+Solution:
+    steghide --extract -sf file -xf out
+    found this: "remember, I put the 4-digit word that we always use when we share stuff, for the password."
+    steghide --extract -sf out -xf outt
+    brute on password that lead to "1345"
+    
+    
+Flag:
+    APACTF{Always_f!rst_ch3ck_Stegsolve_for_this_kind_of_t45ks}

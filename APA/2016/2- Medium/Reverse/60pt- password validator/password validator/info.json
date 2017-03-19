@@ -1,0 +1,16 @@
+{
+    "name":"password validator",
+    "points":"1",
+    "level":"medium",
+    "categories":"Reverse",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Find the valid password to get the flag.",
+    "story":"Find the valid password to get the flag.",
+    "path":"",
+    "files":[{"file": "rev", "name": "binary file"}],
+    "flag":"APACTF{Ok4y_Chi3f_Ug0t_me_again}"
+}

@@ -1,0 +1,9 @@
+<html>
+   <body>
+        {% for comment in comments %}
+            <a href="/comment/view?id={{comment.id}}">
+                Comment ID: <b>{{ comment.id }}</b>, Username: <b>{{ comment.username }}</b>, Comment content: <small>{{ comment.comment }}</small><br>
+            </a>
+        {% endfor %}
+   </body>
+</html>

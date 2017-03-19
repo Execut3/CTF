@@ -1,0 +1,16 @@
+{
+    "name":"hidden string",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Steganography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Find the flag.",
+    "story":"A flag is hidden in this image. Can you find it?",
+    "path":"",
+    "files":[{"file": "nature.jpg", "name": "download secret image"}],
+    "flag":"APACTF{Alw4ys_Ch3ck_string_command_f!r57}"
+}

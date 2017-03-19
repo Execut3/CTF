@@ -1,0 +1,10 @@
+Flag:
+    APACTF{L00king_Good_w!th_outguess}
+
+
+Description:
+    Try this one, I hide another flag. I'm pretty sure you can't find this one that easily.
+    
+    
+Solution:
+    outguess -r hidden.jpg out.txt

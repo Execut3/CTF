@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=http://www.p30forum.com/
+[InternetShortcut]
+URL=http://www.p30forum.com/
+Modified=806B707E29DEC601A7
+IconFile=http://www.p30forum.com/favicon.ico
+IconIndex=1
+IDList=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

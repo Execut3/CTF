@@ -1,0 +1,16 @@
+{
+    "name":"what is your dna",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Miscellaneous",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Find the flag.",
+    "story":"Can you find out what kind of encryption is this?",
+    "path":"",
+    "files":[{"file": "cipher.txt", "name": "source"}],
+    "flag":"APACTF{What_!5_ur_DNA!}"
+}

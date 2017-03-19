@@ -1,0 +1,16 @@
+{
+    "name":"this is a huge file",
+    "points":"1",
+    "level":"medium",
+    "categories":"Forensics,Network",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Try to find the flag in transfering files in pcap!",
+    "story":"An arbitary user is downloading some data(containg the flag) from a server. you have the pcap of user's network interface. The password (if needed) is sent by server as a usual procedure. So waht is the flag?",
+    "path":"",
+    "files":[{"file": "traffic.pcap", "name": "PCAP"}],
+    "flag":"APA_2016{OPEN_YOUR_MIND_PLEASE!}"
+}

@@ -1,0 +1,16 @@
+{
+    "name":"old php",
+    "points":"1",
+    "level":"medium",
+    "categories":"Web",
+    "chain":"make it collide",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Find the bug and get the flag",
+    "story":"I wrote a simple web page to replace strings in texts. Can you check it for me?",
+    "path":"",
+    "files":[],
+    "flag":"APACTF{AT_13457_us3_PHP7}"
+}

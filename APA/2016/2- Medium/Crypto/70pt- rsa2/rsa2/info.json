@@ -1,0 +1,16 @@
+{
+    "name":"rsa2",
+    "points":"1",
+    "level":"medium",
+    "categories":"Cryptography",
+    "chain":"rsa1",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Decrypt the cipher text!!",
+    "story":"You are provided with a encrypted text and a public key. Can you decrypt it?",
+    "path":"",
+    "files":[{"file": "msg.enc", "name": "Encrypted message"}, {"file": "out.pub", "name": "public key"}],
+    "flag":"APACTF{T0o0_w3e3e3k}"
+}
