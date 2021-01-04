@@ -1,0 +1,2 @@
+create table flag (flag text);
+insert into flag values ('flag_6d39cacfac640042eb39113aacaa7493');

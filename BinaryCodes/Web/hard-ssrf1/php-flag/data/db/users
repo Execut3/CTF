@@ -1,0 +1,8 @@
+create table users (
+    id integer not null primary key auto_increment,
+    username text,
+    password text
+);
+insert into users values (null, 'admin', 'c3623b470852f6d889a9d3af7214becc'); -- somethingstrange
+insert into users values (null, 'reza', '5d41402abc4b2a76b9719d911017c592'); -- hello
+

