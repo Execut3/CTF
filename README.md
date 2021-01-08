@@ -11,17 +11,17 @@ Main Challenge categories are:
 Exploit and Reverse categories will also be added soon.
 
 ### Iran Cert
-These challenges that use in iran local cert center (APA) in isfahan university of technology.
-Challenges are categoriezed in levels.
+These challenges are used in iran local cert center (APA) in isfahan university of technology.
+**Note:** Challenges are categoriezed in levels.
 
 
 ### BinaryCodes
 
-In this folder also deploy guides for each challenge is provided. I tried to add 
-dockerFiles and guides to deploy with docker for faster deployment, so u can easily use
+In this folder also deploy guide for each challenge is provided. I tried to add 
+dockerFiles and guides to deploy with docker for faster deployment, so u can easily work on
 challenges.
 
-Each challenge provided a solution file, If no solution found that specific challenge plz issue a comment or
+Each challenge provided a solution file, If no solution found for that specific challenge plz issue a comment or
 feel free to pull request your solve. will be glad to make this repo more complete;
 
 
