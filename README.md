@@ -1,4 +1,5 @@
-In this repository will gather all CTF Challenges that I developed and were used in CTF Competitions. Please feel free to help improve this repo by any comment or pull-requests u can.
+In this repository I will gather all CTF Challenges that I developed and were used in CTF Competitions. 
+Please feel free to help improve this repository by any comment or pull-requests you can.
 
 Main Challenge categories are:
 
@@ -11,20 +12,16 @@ Main Challenge categories are:
 Exploit and Reverse categories will also be added soon.
 
 ### Iran Cert
-These challenges are used in iran local cert center (APA) in isfahan university of technology.
+These challenges are used in iran local cert center in Isfahan University of Technology.
 **Note:** Challenges are categoriezed in levels.
 
 
 ### BinaryCodes
+These are challenges are developed by myself for fun. 
+In this folder, also deploy guide for each challenge is provided.
 
-In this folder also deploy guide for each challenge is provided. I tried to add 
-dockerFiles and guides to deploy with docker for faster deployment, so u can easily work on
-challenges.
-
-Each challenge provided a solution file, If no solution found for that specific challenge plz issue a comment or
-feel free to pull request your solve. will be glad to make this repo more complete;
-
+Each challenge provided a solution file, If no solution found for that specific challenge please issue a comment or
+feel free to pull request your solve. 
 
 
 **peace;)**
-
