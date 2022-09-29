@@ -1,7 +1,7 @@
-In this repository I will gather all CTF Challenges that I developed and were used in CTF Competitions. 
+In this repository, Will gather all the CTF Challenges that I developed and were used in CTF Competitions. 
 Please feel free to help improve this repository by any comment or pull-requests you can.
 
-Main Challenge categories are:
+Challenges are in below categories:
 
 - Web Application 
 - Forensics
