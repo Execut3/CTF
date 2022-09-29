@@ -16,8 +16,8 @@ In this repository I tried to put some of challenges developed by myself just fo
 All challenges include Deployment guide and docker instruction to run the challenge environment.
 Also Solution and writeup for each challenge is provided. 
 
-### Iran Cert
-These challenges are used in iran local cert center in Isfahan University of Technology.
+### IUT Cert
+These challenges are used in local cert center of IUT University.
 **Note:** Challenges are categoriezed in levels.
 
 
