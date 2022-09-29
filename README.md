@@ -11,17 +11,14 @@ Challenges are in below categories:
 
 Exploit and Reverse categories will also be added soon.
 
+### BinaryCodes
+In this repository I tried to put some of challenges developed by myself just for fun.
+All challenges include Deployment guide and docker instruction to run the challenge environment.
+Also Solution and writeup for each challenge is provided. 
+
 ### Iran Cert
 These challenges are used in iran local cert center in Isfahan University of Technology.
 **Note:** Challenges are categoriezed in levels.
-
-
-### BinaryCodes
-These are challenges are developed by myself for fun. 
-In this folder, also deploy guide for each challenge is provided.
-
-Each challenge provided a solution file, If no solution found for that specific challenge please issue a comment or
-feel free to pull request your solve. 
 
 
 **peace;)**
