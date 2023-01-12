@@ -1,0 +1,16 @@
+{
+    "name":"i hate captchas",
+    "points":"1",
+    "level":"hard",
+    "categories":"PPC",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Brute as many captchas as you can to get the flag.",
+    "story":"Brute captchas as you can to get the flag.",
+    "path":"http://i-hate-captchas.ctf",
+    "files":[],
+    "flag":"APACTF{Wh0_l!k3_C4ptch4sSsSsS}"
+}

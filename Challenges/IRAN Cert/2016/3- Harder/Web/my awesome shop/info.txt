@@ -1,0 +1,8 @@
+flag1:
+    APACTF{okay,got_it,you_know_how_xss_works...}   # Removed from challenges
+    
+flag2:
+    APACTF{okay,got_it,you_know_how_to_forge_requests...}
+
+flag3:
+    APACTF{!f_there_were_no_character_limits_you_m4y_even_get_a_remote_sh3ll_on_my_server!}

@@ -1,0 +1,16 @@
+{
+    "name":"corruption",
+    "points":"1",
+    "level":"easy",
+    "categories":"Forensics",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Find the flag.",
+    "story":"Flag is hidden some where in this file. Find it...",
+    "path":"",
+    "files":[{"file": "file", "name": "source file"}],
+    "flag":"APACTF{IT'S_JUST_THE_Begining_OF_For3nsics}"
+}

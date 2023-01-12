@@ -1,0 +1,16 @@
+{
+    "name":"catch me if you can",
+    "points":"1",
+    "level":"medium",
+    "categories":"Miscellaneous",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Crack zip file.",
+    "story":"There is no way you can crack this zip file?",
+    "path":"",
+    "files":[{"file": "flag.zip", "name": "Flag file"}],
+    "flag":"APACTF{Y0U_successfully_Cr4ck3d_ME}"
+}

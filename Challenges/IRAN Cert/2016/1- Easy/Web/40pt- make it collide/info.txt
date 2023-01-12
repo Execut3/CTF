@@ -1,0 +1,8 @@
+Flag:
+    APA{First_l00k_for_7h3_bug5}
+
+Soloution:
+    ?pass1[]=testing&pass2[]=testing
+
+Points:
+    25pt

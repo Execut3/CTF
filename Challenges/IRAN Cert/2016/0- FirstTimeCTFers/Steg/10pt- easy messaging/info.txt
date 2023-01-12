@@ -1,0 +1,5 @@
+Description:
+    Even thieves know this kind of encryption. It's very common and also distincted. Can you decrypt this text. If yes, please put the result in APACTF{<your-code>} and submit it for me.
+
+Flag:
+    APACTF{EVENNOOBSKNOWWHATISMORSE}

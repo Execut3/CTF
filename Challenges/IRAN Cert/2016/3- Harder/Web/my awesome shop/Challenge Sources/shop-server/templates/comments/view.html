@@ -1,0 +1,30 @@
+{% extends 'index.html' %}
+
+{% block contents %}
+
+    <label>You already have {{ comments|length }} accepted comments. </label>
+
+    <label>To remove all your comments, <a href="{% url 'flush_comments' %}">Click here</a></label>
+
+    <hr/>
+    <h2>Post new comment:</h2>
+    <form method="post" action="{% url 'create_new_comment' %}">
+        <label>Comment:
+            <textarea name="content" rows="6">Provide your comment here.....</textarea>
+        </label>
+        <br>
+        <input type="submit" value="Buy this item">
+    </form>
+
+    {% if message %}<p>{{ message }}</p>{% endif %}
+
+    <hr/>
+    <h2>You already purchased this items:</h2>
+    {% for comment in comments %}
+        <div>
+            <label>{{ comment.content|safe }}</label>
+            <br>
+        </div>
+    {% endfor %}
+
+{% endblock %}

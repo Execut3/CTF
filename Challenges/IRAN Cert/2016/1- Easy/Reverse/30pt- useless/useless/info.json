@@ -1,0 +1,16 @@
+{
+    "name":"useless",
+    "points":"1",
+    "level":"easy",
+    "categories":"Reverse",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"I like to not use some variables.",
+    "story":"Any idea where to look for flag.",
+    "path":"",
+    "files":[{"file": "binary", "name": "Binary file for challenge"}],
+    "flag":"APACTF{345Y_with_Debugging_right?}"
+}

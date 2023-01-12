@@ -1,0 +1,10 @@
+01/08/17 10:52:12 v1.34.3 @ execut3-binarycodes, System/Build Info: 
+Using GMP-ECM 7.0.4, Powered by GMP 6.1.1
+cached 78498 primes. pmax = 999983
+detected Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz
+detected L1 = 32768 bytes, L2 = 6291456 bytes, CL = 64 bytes
+measured cpu frequency ~= 2394.366470
+using 20 random witnesses for Rabin-Miller PRP checks
+
+01/08/17 10:52:12 v1.34.3 @ execut3-binarycodes, New random seeds: 3847230254, 1159307709
+

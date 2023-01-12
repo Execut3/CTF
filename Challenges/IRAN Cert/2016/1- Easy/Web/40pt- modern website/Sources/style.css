@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border: none;
+    margin: 0%;
+}
+
+.info, .success, .warning, .error, .validation {
+    border: 1px solid;
+    margin: 0px 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 45px;
+    padding-right: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('info.png');
+}
+
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image: url('success.png');
+}
+
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('warning.png');
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    margin-top: -19px;
+    background-image: url('Untitled-1.png');
+
+}

@@ -1,0 +1,7 @@
+create table data (
+    id integer not null primary key auto_increment,
+    owner_id integer,
+    data_name text,
+    data_content text
+);
+

@@ -1,0 +1,17 @@
+Description:
+    In this task you are given a simple django app that does a simple calculation. Can you find the bug and use it to lead to flag.
+
+Flag:
+    APACTF{DJANGO_DEBUG_!S_D4NGEROUS}
+
+Points:
+    20pt
+
+Solution:
+    Send a post request like this:
+        num1 = 1
+        operator = +
+        num2 = 2
+        debug_me = 1
+        get_flag = yes
+        

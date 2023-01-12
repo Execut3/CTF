@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Coding-Web-Based Challenges</title>
+</head>
+
+<body>
+    <label>
+        For Solving these challenges u should first login.
+    </label>
+    <hr/>
+    {% if messages %}
+        {% if messages.success %}
+            <h4>{{ messages.success }}</h4>
+        {% elif messages.error %}
+            <h4>{{ messages.error }}</h4>
+        {% endif %}
+    {% endif %}
+
+    <form method="post" action="/login">
+{#        {% csrf_token %}#}
+        {{ login_form.as_p }}
+        <input type="submit" value="login">
+        <label>
+            switch to <a href="/register">REGISTER</a> page
+        </label>
+    </form>
+</body>
+
+</html>

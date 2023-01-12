@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block Main %}
+    <div class="text-center">
+        <h1>Welcome to <b>(NOTHING-but-HACKING)</b> webpage<h1/>
+    </div>
+    <div class="container row">
+        {% if not subscribe %}
+            <h3>I feel so happy to see you comments about my site. so please share anything that is in your mind</h3>
+            <form method="post" action="/subscribe.php">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" name="username">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Comment here..." name="subscribe">
+                </div>
+                <input type="submit" value="Subscribe">
+            </form>
+        {% else %}
+            <h2>
+                Thank you dear {{ username }}. I received your Comment: {{ subscribe }}
+            </h2>
+        {% endif %}
+        <!-- my next task : i should complete session.php page -->
+    </div>
+
+{% endblock %}

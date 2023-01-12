@@ -1,0 +1,5 @@
+Flag:
+    APACTF{What_!5_ur_DNA!}
+
+Solution:
+    Use this site to decrypt it: http://dna2z.com/DNA-o-gram/decode.php#.WG_lop8ksfA

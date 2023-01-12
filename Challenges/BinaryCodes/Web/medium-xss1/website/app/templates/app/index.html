@@ -1,0 +1,69 @@
+{% extends 'app/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Heading Row -->
+        <div class="row">
+{#            <div class="col-md-6">#}
+{#                <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt="">#}
+{#            </div>#}
+            <!-- /.col-md-8 -->
+            <div class="col-md-12">
+                <h3 class="text-center">
+آموزش جانگو به زبان خیلی ساده
+                </h3><br>
+                <p align="justify">
+جنگو (Django) یک فریم ورک سطح بالا به زبان پایتون برای وب می باشد که امکان طراحی و ایجاد بسیار سریع و آسان برنامه های تحت وب را فراهم می کند .
+                </p>
+{#                <label>#}
+{#                    جنگو یک فریم ورک سطح بالا با زبان پایتون می باشد#}
+{#                </label>#}
+{#                <p align="justify">#}
+{#یک فریم ورک و چهار چوب سطح بالا برای وب نرم افزاری می باشد که باعث سهولت ایجاد وب سایت هایی داینامیک می شود . یک فریم ورک سطح بالا بسیاری از موارد برنامه نویسی را بصورت خودکار فراهم کرده و در اختیار برنامه نویس قرار می دهد . همچنین روش هایی میانبر و واسط برای اجرای اعمال مختلف را دارا می باشد . پس برنامه نویس نیازی به نوشتن کد هایی اضافی و مشخص را ندارد .#}
+{##}
+{#یک وب سایت دایانامیک و پویا وبسایتی هست که شامل کد های ساده Html نبوده بلکه بصورت پویا و توسط نرم افزار (web application) تگ های اچ تی ام ال و در حقیقت صفحات سایت از روی کد ها و دستورات نوشته شده توسط برنامه نویس ایجاد می گردد . برای مثال ممکن است بر اساس در خواست کاربر اطلاعاتی بصورت داینامیک از پایگاه داده دریافت و نمایش داده شود .#}
+{##}
+{#                </p>#}
+
+                <p>
+                    این فریم ورک به خودی خود دارای امنیت بالایی است. به خصوص شما می‌توانید با اضافه کردن ماژول‌هایی مثل csp امنیت اون رو خیلی خیلی افزایش بدید.
+                </p>
+
+                <p>
+                    در ادامه چند تا لینک براتون میذارم تا بهتر بتونید این فریم ورک رو یاد بگیرید:
+                </p>
+
+                <ul>
+                    <li><a href="https://www.tutorialspoint.com/django/">https://www.tutorialspoint.com/django/</a></li>
+                    <li><a href="https://www.djangoproject.com/start/">https://www.djangoproject.com/start/</a></li>
+                    <li><a href="https://hackr.io/tutorials/learn-django">https://hackr.io/tutorials/learn-django</a></li>
+                    <li><a href="https://www.fullstackpython.com/django.html">https://www.fullstackpython.com/django.html</a></li>
+                </ul>
+                <img src="http://www.unixstickers.com/image/cache/data/stickers/django/django.sh-600x600.png">
+            </div>
+            <!-- /.col-md-4 -->
+        </div>
+        <!-- /.row -->
+
+        <hr/>
+        <!-- Content Row -->
+        <div class="row">
+            {% for main_content in main_contents %}
+                <div class="col-md-4 text-center">
+                    <h4><b>{{ main_content.title }}</b></h4>
+                    <p dir="ltr">{{ main_content.creation_date|timesince }} ago</p>
+                    <a class="btn btn-default" href="{% url 'main_content' id=main_content.id %}">
+                    مشاهده
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+{% endblock %}

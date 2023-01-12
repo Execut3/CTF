@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /flag.php
+Disallow: /setup.php
+
+
+

@@ -1,0 +1,14 @@
+Source:
+    https://github.com/the-mandarine/ndh-challenges/tree/master/2k14-Heptakaidecabase
+
+Description:
+    We have a source for a custom encryption, can you please cheack it out and decrypt this text for us:
+        <pre>
+        eawethkthcrthcrthonutiuckirthoniskisuucthththcrthanthisucthirisbruceaankceaaneabrkeaeathiseneatithirthbrthkeadthonthueauisuthkthanthenthirthtithiseabrthiriscthwethkisukeathwethaniseaeaeathonthkisbrthtiiseaeakisththkthtieakiswethirisbriseaisyputi
+        </pre>
+
+Flag:
+    APACTF{NiceJobBreakingCipherThatDoesntEvenExist}
+
+Points:
+    50pt

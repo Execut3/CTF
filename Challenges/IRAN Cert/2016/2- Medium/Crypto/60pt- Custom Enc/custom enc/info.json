@@ -1,0 +1,16 @@
+{
+    "name":"custom enc",
+    "points":"1",
+    "level":"medium",
+    "categories":"Cryptography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Decrypt this custom encrypted cipher.",
+    "story":"We have a source for a custom encryption, can you please check it out and decrypt this text for us: 'eawethkthcrthcrthonutiuckirthoniskisuucthththcrthanthisucthirisbruceaankceaaneabrkeaeathiseneaonthenthanisirkeathwethirisbrkeathirthypthkkirthoniskeatithkthktheakeathoneauisuthkthantheneaypthkisyputi'",
+    "path":"",
+    "files":[{"file": "enc.py", "name": "encryption source"}],
+    "flag":"APACTF{OkayThisTimeYouNeedToBreakMe}"
+}

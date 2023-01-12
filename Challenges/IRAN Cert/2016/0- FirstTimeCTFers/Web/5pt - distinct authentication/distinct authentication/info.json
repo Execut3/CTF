@@ -1,0 +1,16 @@
+{
+    "name":"distinct authentication",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Web",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Authentication failed!",
+    "story":"I guess this kind of authentication distinct like billion years ago... Or let me think, does it ever existed!!!",
+    "path":"http://auth.ctf",
+    "files":[],
+    "flag":"APACTF{N0NeedToKnowP@sswordTh!sT!m3}"
+}

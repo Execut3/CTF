@@ -1,0 +1,16 @@
+{
+    "name":"ascii-art",
+    "points":"1",
+    "level":"easy",
+    "categories":"Cryptography",
+    "chain":"easy cipher",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Decrypt me!",
+    "story":"Use our Crypto Engine to find the flag!",
+    "path":"http://crypto-engine.ctf/ascii-art",
+    "files":[{"file": "cipher.txt", "name": "Ciphertext"}],
+    "flag":"APACTF{d03s_!7_r341y_W0r7h3d_7h47_much_points}"
+}

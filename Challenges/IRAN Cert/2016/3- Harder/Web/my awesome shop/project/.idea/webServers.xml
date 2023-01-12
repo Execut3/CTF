@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a2b747af-ed2f-418b-a4c6-598e53308d87" name="django-shop-ctf-challenge" url="http://10.10.0.4">
+        <fileTransfer host="10.10.0.4" port="22" rootFolder="/var/www/html/django-shop-xyzfdsfds" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

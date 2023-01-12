@@ -1,0 +1,16 @@
+{
+    "name":"hash factory",
+    "points":"1",
+    "level":"hard",
+    "categories":"PPC",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Generate my custom hashes.",
+    "story":"I own a hash factory. Come & visit me sometimes.",
+    "path":"nc 176.101.48.188 31823",
+    "files":[],
+    "flag":"APACTF{H0W_D!D_you_DO_7h47}"
+}

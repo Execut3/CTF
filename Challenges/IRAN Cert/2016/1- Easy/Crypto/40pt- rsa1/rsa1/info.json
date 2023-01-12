@@ -1,0 +1,16 @@
+{
+    "name":"rsa1",
+    "points":"1",
+    "level":"easy",
+    "categories":"Cryptography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"RSA couldn't be easier than this...",
+    "story":"Your are provied an encrypted file with some parameters to decrypt it. Flag is in the encrypted file. Find it...",
+    "path":"",
+    "files":[{"file": "data.secret", "name": "secret data"}, {"file": "rsa.dat", "name": "RSA needed info"}],
+    "flag":"APACTF{N!C3_J08_D3CRYP7!NG_M3}"
+}

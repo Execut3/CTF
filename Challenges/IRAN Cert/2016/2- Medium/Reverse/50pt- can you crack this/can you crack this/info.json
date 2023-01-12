@@ -1,0 +1,16 @@
+{
+    "name":"can you crack this",
+    "points":"1",
+    "level":"medium",
+    "categories":"Reverse",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Can you crack this tool?",
+    "story":"Can you crack this tool?",
+    "path":"",
+    "files":[{"file": "crackme", "name": "Tool binary file"}],
+    "flag":"APACTF{jnhFClg2sv3uaBBxs}"
+}

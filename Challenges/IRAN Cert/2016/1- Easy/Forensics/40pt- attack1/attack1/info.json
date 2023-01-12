@@ -1,0 +1,16 @@
+{
+    "name":"attack1",
+    "points":"1",
+    "level":"easy",
+    "categories":"Forensics,Network",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"I guess an attack happened in my network..",
+    "story":"Someone is trying to do something really bad in my network. I intercepted my network packets. Can you find attacker for me. Submit flag in format of: APACTF{<attacker-ip-address>_<victim-ip-address>_<attack type in lowercase without any space seperator>}, for example: APACTF{192.168.1.1_192.168.3.1_maninthemiddle}",
+    "path":"",
+    "files":[{"file": "attack.pcapng", "name": "Captured file"}],
+    "flag":"APACTF{192.168.43.233_192.168.43.143_arppoisoning}"
+}

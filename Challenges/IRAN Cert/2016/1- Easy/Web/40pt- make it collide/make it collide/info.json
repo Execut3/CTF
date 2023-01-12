@@ -1,0 +1,16 @@
+{
+    "name":"make it collide",
+    "points":"1",
+    "level":"easy",
+    "categories":"Web",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Make it collide to get the flag.",
+    "story":"I guess there is a better way to just look for collision. Or maybe there isn't!!!",
+    "path":"http://make-it-collide.ctf",
+    "files":[],
+    "flag":"APA{First_l00k_for_7h3_bug5}"
+}

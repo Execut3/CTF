@@ -1,0 +1,4 @@
+Flag:
+    APACTF{Alw4ys_Ch3ck_string_command_f!r57}
+
+

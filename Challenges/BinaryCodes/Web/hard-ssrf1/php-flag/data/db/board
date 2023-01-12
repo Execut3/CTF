@@ -1,0 +1,5 @@
+create table board (
+    id integer not null primary key auto_increment,
+    author text,
+    content text
+);

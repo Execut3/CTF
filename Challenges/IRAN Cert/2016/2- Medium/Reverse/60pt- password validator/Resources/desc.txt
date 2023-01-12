@@ -1,0 +1,16 @@
+$res="Crack this\n\n";
+
+$res.="You can find the program here:\n";
+
+$file="";
+$sql = "SELECT `file` FROM `rev300` WHERE `teamID`=?";
+$stmt = $db->prepare($sql);
+$stmt->bind_param("i", $team->id);
+$stmt->bind_result($file);
+$stmt->execute();
+$stmt->store_result();
+$stmt->fetch();
+$stmt->close();
+
+$res.="<a href='$file'>$file</a>\n";
+return $res;

@@ -1,0 +1,16 @@
+{
+    "name":"slsb",
+    "points":"1",
+    "level":"hard",
+    "categories":"Steganography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"I like the second least place. don't you?",
+    "story":"I always hated to be that last one, At least I have to be in the second least place.",
+    "path":"",
+    "files":[{"file": "file.bmp", "name": "Download image"}],
+    "flag":"APACTF{7H!5_0n3_was_4_little_TRICKY}"
+}

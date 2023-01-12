@@ -1,0 +1,36 @@
+<html>
+
+    <head>
+
+        <title>My awesome shop</title>
+
+    </head>
+
+    <body>
+
+        <form method="post" action="{% url 'change_alias' %}">
+            <p>Welcome dear "{{ shop_user.alias }}" ---------
+            <small>Change my user alias:</small>
+            <input type="text" placeholder="new alias ..." name="alias">
+            <input type="submit" value="Change">
+        </form>
+        <p>Your name: <b>{{ request.user.username }}</b>,    Your identifier: <b>{{ request.session.identifier }}</b></p>
+        <small>(This credentials are unique for each user.)</small>
+        <hr/>
+
+        <label>
+            Welcome, This is my first project for writing a shop. And i guess it will be full of bugs.
+        </label>
+        <!-- I should really use something like bootstrap for my shop, It's really ugly. isn't it? (funny that you are looking for flag in comments!!!) -->
+
+        <p>
+            <a href="{% url 'shop_index' %}"> Buy Something! </a> --------
+            <a href="{% url 'view_comments' %}"> Any new idea for my shop? so just post it for me please! </a> --------
+            <a href="{% url 'logout' %}"> Logout </a>
+        </p>
+
+        {% block contents %}{% endblock %}
+
+    </body>
+
+</html>

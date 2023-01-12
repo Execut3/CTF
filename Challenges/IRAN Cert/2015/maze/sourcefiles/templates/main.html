@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block Main %}
+    <div class="text-center">
+        <h1>Welcome to <b>(NOTHING-but-HACKING)</b> webpage<h1/>
+    </div>
+    <div class="container row">
+        {{ message|safe }}
+        {% if pages %}
+            <div class="container col-md-8 col-lg-offset-2">
+                <h3>
+                Hi. I'm just new to hacking stuff and decided to start sharing my thoughts and knowledge with others like me.
+                So here i will put my newest stuff about hacking, hope be useful.
+                And i forgot you can subscribe my page <a href="/subscribe.php">here</a>
+                <h3/>
+                <!-- my tasks to be done: check sqli -->
+            </div>
+            {% for page in pages %}
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2><a href="/main/page={{ page.name }}">{{ page.name }}</a></h2>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            {% if sqli %}
+                <h3>{{ sqli }}</h3>
+            {% else %}
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <h1>
+                            {{ name }}
+                        </h1>
+                        <h3>
+                            {{ content }}
+                        </h3>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div><!-- end row -->
+            {% endif %}
+        {% endif %}
+    </div>
+
+{% endblock %}

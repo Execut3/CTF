@@ -1,0 +1,32 @@
+version: "2"
+services:
+    web_edge:
+        #build: cgi-edge/.
+        #container_name: service_laravel   
+        image: 'ctf/ssrf1_edge'
+        ports:
+            - "1111:80"
+        networks:
+            net:
+                ipv4_address: 11.10.10.54
+        volumes:
+            - /home/execut3/Projects/Execut3/binarycodes.ir/ssrf1/cgi-edge/cgi-bin:/usr/lib/cgi-bin
+    web_internal:
+        #build: php-flag/.
+        image: ctf/ssrf1_flag
+        ports:
+            - "2222:80"
+        networks:
+            net:
+                ipv4_address: 11.10.10.77
+        volumes:
+            - /home/execut3/Projects/Execut3/binarycodes.ir/ssrf1/php-flag/html:/var/www/html
+networks:
+    net:
+        #driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 11.10.10.0/16
+                  gateway: 11.10.10.1
+

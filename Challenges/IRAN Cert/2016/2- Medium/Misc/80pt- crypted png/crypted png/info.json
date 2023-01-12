@@ -1,0 +1,16 @@
+{
+    "name":"crypted png",
+    "points":"1",
+    "level":"medium",
+    "categories":"Miscellaneous",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Find the flag in png.",
+    "story":"Find the flag in this picture. But I guess picture is encrypted someway!",
+    "path":"",
+    "files":[{"file": "flag_encrypted.png", "name": "Encrypted Picture"}, {"file": "encrypt.py", "name": "Source for encryption file"}],
+    "flag":"APACTF{laugh_in_the_face_of_danger}"
+}

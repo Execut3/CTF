@@ -1,0 +1,11 @@
+Sources:
+    https://github.com/ernacktob/CTF-Writeups/tree/master/Internetwache-CTF-2016/crypto60
+    https://github.com/p4-team/ctf/tree/master/2015-09-26-trendmicro/rsa
+    https://www.xil.se/post/internetwache-2016-crypto60-kbeckmann/
+    
+
+Description:
+    PNU6VRL6dCGLVO9yegiLsH38mwoO+CALdyJzMMayCzM=
+
+Flag:
+    APACTF{T0o0_w3e3e3k}

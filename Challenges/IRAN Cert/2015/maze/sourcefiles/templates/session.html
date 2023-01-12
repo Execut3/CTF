@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block Main %}
+    <div class="text-center">
+        <h1>Welcome to <b>(NOTHING-but-HACKING)</b> webpage<h1/>
+    </div>
+    <div class="container row">
+        {% if not message %}
+            <div class="col-md-8 col-md-offset-2">
+                <h4>New to my site!!! You should have a SESSION to get into good stuff...khkhkh:</h4>
+                <form method="post" action="session.php">
+                    {{ form.as_p }}
+                    <input type="submit" value="Get New Session" class="btn btn-block">
+                </form>
+            </div>
+        {% else %}
+            <h4>{{ message }}</h4>
+            {% if my_session %}
+                <h4>session_id={{ my_session }}</h4>
+            {% endif %}
+        {% endif %}
+    </div>
+
+{% endblock %}

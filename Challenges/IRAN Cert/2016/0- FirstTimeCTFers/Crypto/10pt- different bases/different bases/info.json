@@ -1,0 +1,16 @@
+{
+    "name":"different bases",
+    "points":"1",
+    "level":"supereasy",
+    "categories":"Cryptography, Miscellaneous",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Can you decrypt this cipher.",
+    "story":"OB4GKZJAO5UGO6BMEB4WK5D2EBRGYICUJFKFMTKZPNKXI3DYGMZF6QSHL5FUQTK7KZRGSYJTNN6Q",
+    "path":"",
+    "files":[],
+    "flag":"APACTF{Base32_IN_ROT_Ciph3r}"
+}

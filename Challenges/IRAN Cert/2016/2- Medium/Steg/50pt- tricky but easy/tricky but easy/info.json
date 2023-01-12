@@ -1,0 +1,16 @@
+{
+    "name":"tricky but easy",
+    "points":"1",
+    "level":"medium",
+    "categories":"Steganography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Some datas are hidden.",
+    "story":"Try this one, I hide another flag. I'm pretty sure you can't find this one that easily.",
+    "path":"",
+    "files":[{"file": "hidden.jpg", "name": "Hidden image"}],
+    "flag":"APACTF{L00king_Good_w!th_outguess}"
+}

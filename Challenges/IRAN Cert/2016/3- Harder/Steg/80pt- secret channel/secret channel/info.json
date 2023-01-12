@@ -1,0 +1,16 @@
+{
+    "name":"secret channel",
+    "points":"1",
+    "level":"hard",
+    "categories":"Steganography",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Do you know anything about secret channels?",
+    "story":"I'm pretty sure there is a secret communication in this pcap file. maybe you can find it?",
+    "path":"",
+    "files":[{"file": "secret.pcapng", "name": "PCAP file"}],
+    "flag":"APACTF{C00l_!_Found_4N0TH3R_Fl4G}"
+}

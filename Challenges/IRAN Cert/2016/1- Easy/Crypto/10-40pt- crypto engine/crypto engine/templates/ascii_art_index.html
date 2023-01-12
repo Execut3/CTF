@@ -1,0 +1,25 @@
+<html>
+
+    <head>
+        <title>
+            The world's second simplest crypto engine...
+        </title>
+    </head>
+
+    <body>
+        <h1>The world's second simplest crypto engine...</h1><br><br>
+
+        Use this form to encrypt you data! and then break the cipher! (or at least try to)
+        <form method="post" action="/ascii-art">
+            {% csrf_token %}
+            <label>PlainText: </label>
+            <input name="plain">
+            <input type="submit" value="Encrypt">
+        </form>
+        {% if cipher %}
+            <pre>{{ cipher }}</pre>
+        {% endif %}
+
+    </body>
+
+</html>

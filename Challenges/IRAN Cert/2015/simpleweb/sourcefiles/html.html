@@ -1,0 +1,177 @@
+#!/bin/bash
+
+echo "Content-Type: text/html";
+echo ""
+echo '
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Web</title>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+	
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">My Simple Web</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+					<li>
+						<a href="css.html">CSS</a>
+					</li>
+					<li>
+						<a href="javascript.html">JavaScript</a>
+					</li>
+					<li>
+						<a href="html.html">Html</a>
+					</li>
+					<!-- i wish i learn something about php to add a tab for it -->
+					<li>
+						uptime'
+						echo `uptime`;
+						echo '
+					</li>
+				</ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <h2 class="text-center">HTML</h2>
+			<h4 class="text-center">HyperText Markup Language</h4>
+        </header>
+    </div>
+    <!-- /.container -->
+	
+	<div class="container">
+		
+		
+		
+		
+	<p><b>HyperText Markup Language</b>, commonly referred to as <b>HTML</b>, is the standard <a href="/wiki/Markup_language" title="Markup language">markup language</a> used to create <a href="/wiki/Web_page" title="Web page">web pages</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> <a href="/wiki/Web_browser" title="Web browser">Web browsers</a> can read HTML files and render them into visible or audible web pages. HTML describes the structure of a <a href="/wiki/Website" title="Website">website</a> <a href="/wiki/Semantic" title="Semantic" class="mw-redirect">semantically</a> along with cues for presentation, making it a markup language, rather than a <a href="/wiki/Programming_language" title="Programming language">programming language</a>.</p>
+<p>HTML elements form the building blocks of all websites. HTML allows <a href="/wiki/Img_(HTML_element)" title="Img (HTML element)" class="mw-redirect">images and objects</a> to be embedded and can be used to create <a href="/wiki/Fieldset" title="Fieldset" class="mw-redirect">interactive forms</a>. It provides a means to create <a href="/wiki/Structured_document" title="Structured document">structured documents</a> by denoting structural semantics for text such as headings, paragraphs, lists, <a href="/wiki/Hyperlink" title="Hyperlink">links</a>, quotes and other items.</p>
+<p>The language is written in the form of <a href="/wiki/HTML_element" title="HTML element">HTML elements</a> consisting of <i>tags</i> enclosed in <a href="/wiki/Bracket#Angle_brackets" title="Bracket">angle brackets</a> (like <code class="nowrap" style="">&lt;html&gt;</code>). Browsers do not display the HTML tags and scripts, but use them to interpret the content of the page.</p>
+<p>HTML can embed <a href="/wiki/Scripting_language" title="Scripting language">scripts</a> written in languages such as <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a> which affect the behavior of HTML web pages. Web browsers can also refer to <a href="/wiki/Cascading_Style_Sheets" title="Cascading Style Sheets">Cascading Style Sheets</a> (CSS) to define the look and layout of text and other material. The <a href="/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium">World Wide Web Consortium</a> (W3C), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.<sup id="cite_ref-deprecated_2-0" class="reference"><a href="#cite_note-deprecated-2"><span>[</span>2<span>]</span></a></sup></p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+
+</div>
+<p></p>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTML&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:102px;"><a href="/wiki/File:Old_HTML_Logo.svg" class="image"><img alt="" src=" width="100" height="100" class="thumbimage"  data-file-width="113" data-file-height="113" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Old_HTML_Logo.svg" class="internal" title="Enlarge"></a></div>
+The historic logo made by the W3C</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:HTML_Example_Code.png" class="internal" title="Enlarge"></a></div>
+An example website written in HTML Code</div>
+</div>
+</div>
+<h3><span class="mw-headline" id="Development">Development</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTML&amp;action=edit&amp;section=2" title="Edit section: Development">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:172px;"><a href="/wiki/File:Tim_Berners-Lee_April_2009.jpg" class="image"><img alt=""  width="170" height="234" class="thumbimage"  data-file-width="1195" data-file-height="1648" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Tim_Berners-Lee_April_2009.jpg" class="internal" title="Enlarge"></a></div>
+<a href="/wiki/Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a></div>
+</div>
+</div>
+<p>In 1980, physicist <a href="/wiki/Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a>, who was a contractor at <a href="/wiki/CERN" title="CERN">CERN</a>, proposed and prototyped <a href="/wiki/ENQUIRE" title="ENQUIRE">ENQUIRE</a>, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an <a href="/wiki/Internet" title="Internet">Internet</a>-based <a href="/wiki/Hypertext" title="Hypertext">hypertext</a> system.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer <a href="/wiki/Robert_Cailliau" title="Robert Cailliau">Robert Cailliau</a> collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> from 1990 he listed<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> "some of the many areas in which hypertext is used" and put an encyclopedia first.</p>
+<p>The first publicly available description of HTML was a document called "HTML Tags", first mentioned on the Internet by Berners-Lee in late 1991.<sup id="cite_ref-tagshtml_6-0" class="reference"><a href="#cite_note-tagshtml-6"><span>[</span>6<span>]</span></a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> It describes 18 elements comprising the initial, relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by <a href="/wiki/SGMLguid" title="SGMLguid">SGMLguid</a>, an in-house <a href="/wiki/Standard_Generalized_Markup_Language" title="Standard Generalized Markup Language">Standard Generalized Markup Language</a> (SGML)-based documentation format at CERN. Eleven of these elements still exist in HTML 4.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup></p>
+<p>HTML is a <a href="/wiki/Markup_language" title="Markup language">markup language</a> that <a href="/wiki/Web_browser" title="Web browser">web browsers</a> use to interpret and <a href="/wiki/Typesetting" title="Typesetting">compose</a> text, images and other material into visual or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designers additional use of <a href="/wiki/Cascading_Style_Sheets" title="Cascading Style Sheets">CSS</a>. Many of the text elements are found in the 1988 ISO technical report TR 9537 <i>Techniques for using SGML</i>, which in turn covers the features of early text formatting languages such as that used by the <a href="/wiki/TYPSET_and_RUNOFF" title="TYPSET and RUNOFF">RUNOFF command</a> developed in the early 1960s for the <a href="/wiki/Compatible_Time-Sharing_System" title="Compatible Time-Sharing System">CTSS</a> (Compatible Time-Sharing System) operating system: these formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with also the separation of structure and markup; HTML has been progressively moved in this direction with CSS.</p>
+<p>Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the <a href="/wiki/Internet_Engineering_Task_Force" title="Internet Engineering Task Force">Internet Engineering Task Force</a> (IETF) with the mid-1993 publication of the first proposal for an HTML specification: <a rel="nofollow" class="external text" >"Hypertext Markup Language (HTML)" Internet-Draft</a> by Berners-Lee and <a href="/wiki/Dan_Connolly_(computer_scientist)" title="Dan Connolly (computer scientist)">Dan Connolly</a>, which included an SGML <a href="/wiki/Document_Type_Definition" title="Document Type Definition" class="mw-redirect">Document Type Definition</a> to define the grammar.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> The draft expired after six months, but was notable for its acknowledgment of the <a href="/wiki/Mosaic_(web_browser)" title="Mosaic (web browser)">NCSA Mosaic</a> browses custom tag for embedding in-line images, reflecting the IETFs philosophy of basing standards on successful prototypes.<sup id="cite_ref-raymond_10-0" class="reference"><a href="#cite_note-raymond-10"><span>[</span>10<span>]</span></a></sup> Similarly, <a href="/wiki/Dave_Raggett" title="Dave Raggett">Dave Raggett</a>s competing Internet-Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.<sup id="cite_ref-html.2B_11-0" class="reference"><a href="#cite_note-html.2B-11"><span>[</span>11<span>]</span></a></sup></p>
+<p>After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group, which in 1995 completed "HTML 2.0", the first HTML specification intended to be treated as a standard against which future implementations should be based.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup></p>
+<p>Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the <a href="/wiki/World_Wide_Web_Consortium" title="World Wide Web Consortium">World Wide Web Consortium</a> (W3C).<sup id="cite_ref-raggett_13-0" class="reference"><a href="#cite_note-raggett-13"><span>[</span>13<span>]</span></a></sup> However, in 2000, HTML also became an international standard (<a href="/wiki/International_Organization_for_Standardization" title="International Organization for Standardization">ISO</a>/<a href="/wiki/International_Electrotechnical_Commission" title="International Electrotechnical Commission">IEC</a> 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001. In 2004 development began on HTML5 in the <a href="/wiki/Web_Hypertext_Application_Technology_Working_Group" title="Web Hypertext Application Technology Working Group" class="mw-redirect">Web Hypertext Application Technology Working Group</a> (WHATWG), which became a joint deliverable with the W3C in 2008, and completed and standardized on 28 October 2014. <sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="HTML_versions_timeline">HTML versions timeline</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTML&amp;action=edit&amp;section=3" title="Edit section: HTML versions timeline">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="metadata plainlinks ambox ambox-content ambox-Update" role="presentation">
+<tr>
+<td class="mbox-image">
+</td>
+<td class="mbox-text"><span class="mbox-text-span">Parts of this article (those related to HTML5) are <b>outdated</b>. <span class="hide-when-compact">Please update this article to reflect recent events or newly available information.</span> <small><i>(October 2014)</i></small></span></td>
+</tr>
+</table>
+<dl>
+<dt>November 24, 1995</dt>
+<dd>HTML 2.0 was published as IETF <a class="external mw-magiclink-rfc" rel="nofollow">RFC 1866</a>. Supplemental <a href="/wiki/Request_for_Comments" title="Request for Comments">RFCs</a> added capabilities:
+
+</dd>
+</dl>
+<dl>
+<dt>January 1997</dt>
+<dd>HTML 3.2<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> was published as a <a href="/wiki/W3C_Recommendation" title="W3C Recommendation" class="mw-redirect">W3C Recommendation</a>. It was the first version developed and standardized exclusively by the W3C, as the IETF had closed its HTML Working Group in September 1996.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></dd>
+<dd>Initially code-named "Wilbur",<sup id="cite_ref-engelfriet_17-0" class="reference"><a href="#cite_note-engelfriet-17"><span>[</span>17<span>]</span></a></sup> HTML 3.2 dropped math formulas entirely, reconciled overlap among various proprietary extensions and adopted most of <a href="/wiki/Netscape" title="Netscape">Netscape</a>s visual markup tags. Netscapes <a href="/wiki/Blink_element" title="Blink element">blink element</a> and <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a>s <a href="/wiki/Marquee_element" title="Marquee element">marquee element</a> were omitted due to a mutual agreement between the two companies.<sup id="cite_ref-raggett_13-1" class="reference"><a href="#cite_note-raggett-13"><span>[</span>13<span>]</span></a></sup> A markup for mathematical formulas similar to that in HTML was not standardized until 14 months later in <a href="/wiki/MathML" title="MathML">MathML</a>.</dd>
+<dt>December 1997</dt>
+<dd>HTML 4.0<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> was published as a W3C Recommendation . It offers three variations:
+<ul>
+<li>Strict, in which deprecated elements are forbidden,</li>
+<li>Transitional, in which deprecated elements are allowed,</li>
+<li>Frameset, in which mostly only <a href="/wiki/Framing_(World_Wide_Web)" title="Framing (World Wide Web)">frame</a> related elements are allowed.</li>
+</ul>
+</dd>
+<dd>Initially code-named "Cougar",<sup id="cite_ref-engelfriet_17-1" class="reference"><a href="#cite_note-engelfriet-17"><span>[</span>17<span>]</span></a></sup> HTML 4.0 adopted many browser-specific element types and attributes, but at the same time sought to phase out Netscapes visual markup features by marking them as <a href="/wiki/Deprecation" title="Deprecation">deprecated</a> in favor of style sheets. HTML 4 is an SGML application conforming to ISO 8879&#160;– SGML.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup></dd>
+<dt>April 1998</dt>
+<dd>HTML 4.0<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup> was reissued with minor edits without incrementing the version number.</dd>
+<dt>December 1999</dt>
+<dt>May 2000</dt>
+<dd>ISO/IEC 15445:2000<sup id="cite_ref-iso-html_22-0" class="reference"><a href="#cite_note-iso-html-22"><span>[</span>22<span>]</span></a></sup><sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup> ("<a href="/wiki/International_Organization_for_Standardization" title="International Organization for Standardization">ISO</a> HTML", based on HTML 4.01 Strict) was published as an ISO/IEC international standard. In the ISO this standard falls in the domain of the <a href="/wiki/ISO/IEC_JTC1/SC34" title="ISO/IEC JTC1/SC34" class="mw-redirect">ISO/IEC JTC1/SC34</a> (ISO/IEC Joint Technical Committee 1, Subcommittee 34&#160;– Document description and processing languages).<sup id="cite_ref-iso-html_22-1" class="reference"><a href="#cite_note-iso-html-22"><span>[</span>22<span>]</span></a></sup></dd>
+<dd>As of mid-2008, HTML 4.01 and ISO/IEC 15445:2000 were the most recent versions of HTML. Development of the parallel, XML-based language XHTML occupied the W3Cs HTML Working Group through the early and mid-2000s.</dd>
+<dt>October 2014</dt>
+<dd>HTML5<sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup> was published as a W3C Recommendation.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25"><span>[</span>25<span>]</span></a></sup></dd>
+</dl>
+<h4><span class="mw-headline" id="HTML_draft_version_timeline">HTML draft version timeline</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=HTML&amp;action=edit&amp;section=4" title="Edit section: HTML draft version timeline">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright">
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:HTML5_logo_and_wordmark.svg" class="internal" title="Enlarge"></a></div>
+Logo of HTML5</div>
+</div>
+</div>
+<dl>
+<dt>October 1991</dt>
+<dd><i>HTML Tags</i>,<sup id="cite_ref-tagshtml_6-1" class="reference"><a href="#cite_note-tagshtml-6"><span>[</span>6<span>]</span></a></sup> an informal CERN document listing 18 HTML tags, was first mentioned in public.</dd>
+<dt>June 1992</dt>
+<dd>First informal draft of the HTML DTD,<sup id="cite_ref-26" class="reference"><a href="#cite_note-26"><span>[</span>26<span>]</span></a></sup> with seven<sup id="cite_ref-27" class="reference"><a href="#cite_note-27"><span>[</span>27<span>]</span></a></sup><sup id="cite_ref-28" class="reference"><a href="#cite_note-28"><span>[</span>28<span>]</span></a></sup><sup id="cite_ref-html11_29-0" class="reference"><a href="#cite_note-html11-29"><span>[</span>29<span>]</span></a></sup> subsequent revisions (July 15, August 6, August 18, November 17, November 19, November 20, November 22)</dd>
+<dt>November 1992</dt>
+<dd>HTML DTD 1.1 (the first with a version number, based on RCS revisions, which start with 1.1 rather than 1.0), an informal draft<sup id="cite_ref-html11_29-1" class="reference"><a href="#cite_note-html11-29"><span>[</span>29<span>]</span></a></sup></dd>
+<dt>June 1993</dt>
+<dd>Hypertext Markup Language<sup id="cite_ref-30" class="reference"><a href="#cite_note-30"><span>[</span>30<span>]</span></a></sup> was published by the <a href="/wiki/Internet_Engineering_Task_Force" title="Internet Engineering Task Force">IETF</a> IIIR Working Group as an Internet-Draft (a rough proposal for a standard). It was replaced by a second version<sup id="cite_ref-ietfiiir_31-0" class="reference"><a href="#cite_note-ietfiiir-31"><span>[</span>31<span>]</span></a></sup> one month later, followed by six further drafts published by IETF itself<sup id="cite_ref-32" class="reference"><a href="#cite_note-32"><span>[</span>32<span>]</span></a></sup> that finally led to HTML 2.0 in RFC1866</dd>
+<dt>November 1993</dt>
+<dd>HTML+ was published by the IETF as an Internet-Draft and was a competing proposal to the Hypertext Markup Language draft. It expired in May 1994.</dd>
+<dt>April 1995 (authored March 1995)</dt>
+<dd>HTML 3.0<sup id="cite_ref-33" class="reference"><a href="#cite_note-33"><span>[</span>33<span>]</span></a></sup> was proposed as a standard to the IETF, but the proposal expired five months later (28 September 1995)<sup id="cite_ref-html30cover_34-0" class="reference"><a href="#cite_note-html30cover-34"><span>[</span>34<span>]</span></a></sup> without further action. It included many of the capabilities that were in Raggetts HTML+ proposal, such as support for tables, text flow around figures and the display of complex mathematical formulas.<sup id="cite_ref-html30cover_34-1" class="reference"><a href="#cite_note-html30cover-34"><span>[</span>34<span>]</span></a></sup></dd>
+<dd>W3C began development of its own <a href="/wiki/Arena_(web_browser)" title="Arena (web browser)">Arena browser</a> as a <a href="/wiki/Test_bed" title="Test bed" class="mw-redirect">test bed</a> for HTML 3 and Cascading Style Sheets,<sup id="cite_ref-35" class="reference"><a href="#cite_note-35"><span>[</span>35<span>]</span></a></sup><sup id="cite_ref-36" class="reference"><a href="#cite_note-36"><span>[</span>36<span>]</span></a></sup><sup id="cite_ref-37" class="reference"><a href="#cite_note-37"><span>[</span>37<span>]</span></a></sup> but HTML 3.0 did not succeed for several reasons. The draft was considered very large at 150 pages and the pace of browser development, as well as the number of interested parties, had outstripped the resources of the IETF.<sup id="cite_ref-raggett_13-2" class="reference"><a href="#cite_note-raggett-13"><span>[</span>13<span>]</span></a></sup> Browser vendors, including Microsoft and Netscape at the time, chose to implement different subsets of HTML 3s draft features as well as to introduce their own extensions to it.<sup id="cite_ref-raggett_13-3" class="reference"><a href="#cite_note-raggett-13"><span>[</span>13<span>]</span></a></sup> (See <a href="/wiki/Browser_wars" title="Browser wars">Browser wars</a>) These included extensions to control stylistic aspects of documents, contrary to the "belief [of the academic engineering community] that such things as text color, background texture, font size and font face were definitely outside the scope of a language when their only intent was to specify how a document would be organized."<sup id="cite_ref-raggett_13-4" class="reference"><a href="#cite_note-raggett-13"><span>[</span>13<span>]</span></a></sup> Dave Raggett, who has been a W3C Fellow for many years has commented for example, "To a certain extent, Microsoft built its business on the Web by extending HTML features."<sup id="cite_ref-raggett_13-5" class="reference"><a href="#cite_note-raggett-13"><span>[</span>13<span>]</span></a></sup></dd>
+<dt>January 2008</dt>
+<dd>Although its syntax closely resembles that of <a href="/wiki/SGML" title="SGML" class="mw-redirect">SGML</a>, <a href="/wiki/HTML5" title="HTML5">HTML5</a> has abandoned any attempt to be an SGML application and has explicitly defined its own "html" serialization, in addition to an alternative XML-based XHTML5 serialization.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39"><span>[</span>39<span>]</span></a></sup></dd>
+<dt>May 2011</dt>
+</dl>
+		
+		
+		
+	</div>
+	
+		
+</body>
+
+</html>
+
+'

@@ -1,0 +1,16 @@
+{
+    "name":"do the impossible",
+    "points":"1",
+    "level":"hard",
+    "categories":"Network",
+    "chain":"",
+    "priority":"0",
+    "hints":[],
+    "total":"1",
+    "extra":"0",
+    "desc":"Locating techniques are essential!",
+    "story":"You know that locating hidden services are impossible. So please locate this hidden service for us!",
+    "path":"",
+    "files":[],
+    "flag":"APACTF{32.720035099997:51.533010900142}"
+}
