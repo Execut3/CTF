@@ -8,9 +8,9 @@ This Repo include following items:
 - Tools
 - Wiki
 
-## 1- Challenge Setups
+## 1- Challenges
 
-I Developed Some challenges by myself and place them in this section. All challenges are free to use and almost all of the them has writeup and solution scripts. Feel free to clone and setup challenges, and have fun solving them.
+In this folder, You can access to challenges I developed. All chanlleges are free to use & Almost all them has proper writeups or solution scripts.
 
 These Challenges are categorized in:
 
@@ -23,15 +23,13 @@ These Challenges are categorized in:
 Exploit and Reverse categories will also be added soon.
 
 #### 1-1- BinaryCodes
-In this repository I tried to put some of challenges developed by myself just for fun.
-All challenges include Deployment guide and docker instruction to run the challenge environment.
-Also Solution and writeup for each challenge is provided. 
+This folder includes, challenges for binarycodes. 
+All challenges include Deployment guide, Docker Instruction, Solution Files.
 
-These challenges are really fun and include multiple bugs in the same challenge and you should do a sequence of actions to get the flag.
+These challenges are developed for fun. Each challenge include more than one vulnerability, And the idea is to create a chain of exploits to get the final flag.
 
 **Note:** One of the most fun challenges is: https://github.com/Execut3/Held-CTF/tree/master/BinaryCodes/Web/hard-ssrf1
 
-----
 
 #### 1-2- Cert
 These challenges are used in local cert center of IUT University.
