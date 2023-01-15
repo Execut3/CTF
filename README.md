@@ -8,9 +8,9 @@ This Repo include following items:
 - Tools
 - Wiki
 
-## 1- Challenges
+# 1- Challenges
 
-In this folder, You can access to challenges I developed. All chanlleges are free to use & Almost all them has proper writeups or solution scripts.
+In this folder, You can access to challenges I developed. All challenges are free to use & Almost all of them have writeup or solution scripts.
 
 These Challenges are categorized in:
 
@@ -23,17 +23,27 @@ These Challenges are categorized in:
 Exploit and Reverse categories will also be added soon.
 
 #### 1-1- BinaryCodes
-This folder includes, challenges for binarycodes. 
-All challenges include Deployment guide, Docker Instruction, Solution Files.
+This folder includes, challenges for binarycodes which are developed just for fun.
+All challenges include Deployment guide, Docker Instruction and Solution Files.
 
-These challenges are developed for fun. Each challenge include more than one vulnerability, And the idea is to create a chain of exploits to get the final flag.
+Each challenge include more than one vulnerability, And the idea is to create a chain of exploits to get the final flag.
 
-**Note:** One of the most fun challenges is: https://github.com/Execut3/Held-CTF/tree/master/BinaryCodes/Web/hard-ssrf1
+- One of the most fun challenges is: https://github.com/Execut3/Held-CTF/tree/master/BinaryCodes/Web/hard-ssrf1
 
 
 #### 1-2- Cert
-These challenges are used in local cert center of IUT University.
-**Note:** Challenges are categoriezed in levels.
+These challenges were used in local cert center of IUT University.
+
+- Challenges are categoriezed in levels.
+
+
+# 2- Writeups
+
+Writeup for challenges I Participated in will be placed in this folder. 
+
+# 3- Wiki
+
+Include Links, Docs, Keynotes which are usefull in CTF Challenges.
 
 ----
 
