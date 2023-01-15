@@ -32,14 +32,14 @@ Each challenge include more than one vulnerability, And the idea is to create a 
 
 
 #### 1-2- Cert
-These challenges are used in local cert center of IUT University.
+These challenges were used in local cert center of IUT University.
 
 - Challenges are categoriezed in levels.
 
 
 # 2- Writeups
 
-Writeup for challenges I Participated in. 
+Writeup for challenges I Participated in will be placed in this folder. 
 
 # 3- Wiki
 
