@@ -1,2 +1,1 @@
-# Participated-CTF
-All Resources from CTF Competitions that i participated including writeups/sources/hints...
+This repo includes Challenge writeups for CTF Competitions which I Participated and solve myself. 
