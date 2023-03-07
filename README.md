@@ -29,7 +29,7 @@ All challenges include Deployment guide, Docker Instruction and Solution Files.
 
 Each challenge include more than one vulnerability, And the idea is to create a chain of exploits to get the final flag.
 
-- One of the most fun challenges is: https://github.com/Execut3/Held-CTF/tree/master/BinaryCodes/Web/hard-ssrf1
+- One of the most fun challenges is: https://github.com/Execut3/CTF/tree/master/Challenges/BinaryCodes/Web/hard-ssrf1
 
 
 #### 1-2- Cert
