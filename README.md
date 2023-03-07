@@ -40,15 +40,15 @@ These challenges were used in local cert center of IUT University.
 
 # 2- Writeups
 
-Writeup for challenges I Participated in will be placed in this folder. 
+Writeup for challenges that I Participated, are placed in this folder.
 
 # 3- Online-CTF
 
-Online CTF Websites.
+Online CTF Websites Writeups and their related resources.
 
 # 4- Wiki
 
-Include Links, Docs, Keynotes which are usefull in CTF Challenges.
+Include Links, Docs and Keynotes that are usefull in the CTF Challenges.
 
 # 5- Tools
 
