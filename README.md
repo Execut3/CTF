@@ -1,7 +1,7 @@
-This Repository include a collection of CTF Challenges (Developed by me), Writeups, Tools and related stuff to CTF Competitions.
-Follow this repo if you will to learn more about CTF and security competitions.
+This Repository includes CTF Challenges That I Developed and their writeups. Also inclues Writeups, Tools & anything to CTF Competitions.
+Follow this repo if you want to learn more about CTF competitions.
 
-This Repo include following items:
+This repo includes:
 
 - Challenges
 - Writeups
