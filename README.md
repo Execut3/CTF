@@ -44,13 +44,15 @@ Writeup for challenges that I Participated, are placed in this folder.
 
 # 3- Online-CTF
 
-Online CTF Websites Writeups and their related resources.
+Writeup and Solution codes for Online CTF Websites.
 
 # 4- Wiki
 
 Include Links, Docs and Keynotes that are usefull in the CTF Challenges.
 
 # 5- Tools
+
+list of tools that are usefull in CTF Competitions.
 
 ----
 
