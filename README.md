@@ -21,7 +21,7 @@ These Challenges are categorized in:
 - Steg
 - PPC 
 
-Exploit and Reverse categories will also be added soon.
+Exploit & Reverse categories will also be added soon.
 
 #### 1-1- BinaryCodes
 This folder includes, challenges for binarycodes which are developed just for fun.
