@@ -1,7 +1,7 @@
-This Repository include a collection of CTF Challenge Setups (Which I developed myself), Writeups, Tools and anything usefull related.
-Please feel free to help improve this repository by any comment or pull-requests you can.
+This Repository includes CTF Challenges That I Developed and their writeups. Also inclues Writeups, Tools & anything to CTF Competitions.
+Follow this repo if you want to learn more about CTF competitions.
 
-This Repo include following items:
+This repo includes:
 
 - Challenges
 - Writeups
@@ -21,7 +21,7 @@ These Challenges are categorized in:
 - Steg
 - PPC 
 
-Exploit and Reverse categories will also be added soon.
+Exploit & Reverse categories will also be added soon.
 
 #### 1-1- BinaryCodes
 This folder includes, challenges for binarycodes which are developed just for fun.
@@ -29,7 +29,7 @@ All challenges include Deployment guide, Docker Instruction and Solution Files.
 
 Each challenge include more than one vulnerability, And the idea is to create a chain of exploits to get the final flag.
 
-- One of the most fun challenges is: https://github.com/Execut3/Held-CTF/tree/master/BinaryCodes/Web/hard-ssrf1
+- One of the most fun challenges is: https://github.com/Execut3/CTF/tree/master/Challenges/BinaryCodes/Web/hard-ssrf1
 
 
 #### 1-2- Cert
@@ -40,17 +40,19 @@ These challenges were used in local cert center of IUT University.
 
 # 2- Writeups
 
-Writeup for challenges I Participated in will be placed in this folder. 
+Writeup for challenges that I Participated, are placed in this folder.
 
 # 3- Online-CTF
 
-Online CTF Websites.
+Writeup and Solution codes for Online CTF Websites.
 
 # 4- Wiki
 
-Include Links, Docs, Keynotes which are usefull in CTF Challenges.
+Include Links, Docs and Keynotes that are usefull in the CTF Challenges.
 
 # 5- Tools
+
+list of tools that are usefull in CTF Competitions.
 
 ----
 
