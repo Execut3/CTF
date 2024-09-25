@@ -22,8 +22,8 @@ Decompiling this binary with IDA results us with following images:
 
 
 ![main](images/1.jpg)
-![hello_admin](images/1.jpg)
-![auth_admin](images/1.jpg)
+![hello_admin](images/2.jpg)
+![auth_admin](images/3.jpg)
 
 As we can see in the images we should change value in `security_code` using format strings to pass the condition,
 And get to the `auth_admin` which will lead us to flag.
