@@ -12,10 +12,10 @@ The Snoopy challenge involves analyzing unusual traffic captured from a recent A
 
 
 Opening the pcap file, we see a comuncation between two IPs which one them is the attacker that created the attack. It's a simple udp connection.
-![image1](images/image1.jpg)
+![image1](images/image1.png)
 
 Let's follow udp stream and we get this:
-![image2](images/image2.jpg)
+![image2](images/image2.png)
 
 It seem attacker send a couple of udp packets and was able to make an access to do Code Execution on server and read `/etc/passwd` file.
 
@@ -91,7 +91,7 @@ sock.close()
 
 and run this script. But remember to also run a wireshark instance and try to capture network traffic with filer of `ip.addr == 65.109.198.183` like image below:
 
-![image3](images/image3.jpg)
+![image3](images/image3.png)
 
 And as you can see, only one packet is received from the server. Something is wrong.
 I did alot of time wast on this part and couldn't pass this section until the end of competion.
@@ -196,7 +196,7 @@ Asn you can see when sending packet2, we replaces value of secretId received fro
 
 As you can see in the image, we received the next response from server:
 
-![image4](images/image4.jpg)
+![image4](images/image4.png)
 
 Checking the difference of payload received from server and pcap file:
 
