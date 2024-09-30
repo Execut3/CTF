@@ -1,0 +1,7 @@
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - 8004:5000
+    privileged: true
