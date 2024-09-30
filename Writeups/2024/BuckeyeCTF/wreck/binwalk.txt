@@ -1,0 +1,1304 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 64-bit LSB core file AMD x86-64, version 1 (SYSV)
+18052         0x4684          Unix path: /usr/bin/python3.10
+32768         0x8000          ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+611664        0x95550         Unix path: /usr/lib/locale/C.UTF-8.utf8/LC_CTYPE
+612064        0x956E0         Unix path: /usr/lib/locale/C.utf8/LC_CTYPE
+743584        0xB58A0         Unix path: /usr/lib/python3.10/lib-dynload
+821272        0xC8818         Copyright string: "copyright -- copyright notice pertaining to this interpreter"
+821285        0xC8825         Copyright string: "copyright notice pertaining to this interpreter"
+841584        0xCD770         Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs/libjpeg-e44fd0cd.so.62.4.0
+900032        0xDBBC0         Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs/
+921584        0xE0FF0         Unix path: /home/gsemaj/.local/bin:/home/gsemaj/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/loc
+1005216       0xF56A0         Unix path: /usr/lib/python3.10/lib-dynload/_bz2.cpython-310-x86_64-linux-gnu.so
+1012624       0xF7390         Unix path: /usr/lib/python3.10/lib-dynload/_lzma.cpython-310-x86_64-linux-gnu.so
+1030767       0xFBA6F         Copyright string: "Copyright CNRI, All Rights Reserved. NO WARRANTY."
+1049600       0x100400        Unix path: /lib/x86_64-linux-gnu/liblzma.so.5
+1090288       0x10A2F0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs
+1113392       0x10FD30        Unix path: /lib/x86_64-linux-gnu/libpthread.so.0
+1134696       0x115068        Unix path: /usr/local/lib/python<version>/dist-packages, Debian addons
+1134769       0x1150B1        Unix path: /usr/lib/python3/dist-packages.
+1134801       0x1150D1        Unix path: /usr/lib/python<version>/site-packages is not used.
+1135996       0x11557C        Unix path: /usr/local/lib/python2.5/site-packages
+1136361       0x1156E9        Unix path: /usr/local/lib/python2.5/site-packages/bar
+1136406       0x115716        Unix path: /usr/local/lib/python2.5/site-packages/foo
+1203692       0x125DEC        ESP Image segment count: 1, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x18, hash: none
+1238064       0x12E430        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs
+1297280       0x13CB80        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs/libtiff-91af027d.so.6.0.2
+1364288       0x14D140        Unix path: /usr/lib/python3.10/lib-dynload
+1468864       0x1669C0        Unix path: /lib/x86_64-linux-gnu/libbz2.so.1.0
+1491664       0x16C2D0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/_imaging.cpython-310-x86_64-linux-gnu.so
+1542720       0x178A40        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL
+1546352       0x179870        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs/libopenjp2-eca49203.so.2.5.0
+1644063       0x19161F        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+1648080       0x1925D0        Unix path: /usr/lib/python3.10/lib-dynload
+1653904       0x193C90        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs/libxcb-f0538cc0.so.1.1.0
+1674592       0x198D60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs
+1684736       0x19B500        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs/liblzma-13fa198c.so.5.4.5
+1709352       0x1A1528        Unix path: /usr/lib/python3.10/lib-dynload/_bz2.cpython-310-x86_64-linux-gnu.so
+1723512       0x1A4C78        Unix path: /usr/lib/python3.10/lib-dynload/_lzma.cpython-310-x86_64-linux-gnu.so
+1733056       0x1A71C0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs
+1752752       0x1ABEB0        Unix path: /lib/x86_64-linux-gnu/libmpdec.so.3
+1758288       0x1AD450        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs/libXau-154567c4.so.6.0.0
+1770416       0x1B03B0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs
+1843320       0x1C2078        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/_imaging.cpython-310-x86_64-linux-gnu.so
+1847328       0x1C3020        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/_imagingmath.cpython-310-x86_64-linux-gnu.so
+1955040       0x1DD4E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/../pillow.libs
+2050335       0x1F491F        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+2081312       0x1FC220        Unix path: /lib/x86_64-linux-gnu/libssl.so.3
+2108592       0x202CB0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL
+2108736       0x202D40        JPEG image data, JFIF standard 1.01
+2134722       0x2092C2        Executable script, shebang: "/usr/bin/env python', r'python(2\.\d)?')"
+2134724       0x2092C4        Unix path: /usr/bin/env python', r'python(2\.\d)?')
+2134807       0x209317        Executable script, shebang: "/usr/bin/python2.4', r'python(2\.\d)?')"
+2134809       0x209319        Unix path: /usr/bin/python2.4', r'python(2\.\d)?')
+2134891       0x20936B        Executable script, shebang: "/usr/bin/python-ruby', r'python(2\.\d)?')"
+2134893       0x20936D        Unix path: /usr/bin/python-ruby', r'python(2\.\d)?')
+2134978       0x2093C2        Executable script, shebang: "/usr/bin/python/ruby', r'python(2\.\d)?')"
+2134980       0x2093C4        Unix path: /usr/bin/python/ruby', r'python(2\.\d)?')
+2135065       0x209419        Executable script, shebang: "/usr/bin/startsomethingwith python',"
+2135067       0x20941B        Unix path: /usr/bin/startsomethingwith python',
+2138880       0x20A300        Unix path: /usr/lib/python3.10/lib-dynload
+2349240       0x23D8B8        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/_imagingmath.cpython-310-x86_64-linux-gnu.so
+2396224       0x249040        Unix path: /usr/lib/python3.10/lib-dynload/_queue.cpython-310-x86_64-linux-gnu.so
+2404720       0x24B170        ESP Image (ESP32): segment count: 8, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+2495896       0x261598        Unix path: /usr/lib/python3.10/lib-dynload/_opcode.cpython-310-x86_64-linux-gnu.so
+2549200       0x26E5D0        Unix path: /usr/lib/python3.10/lib-dynload
+2563584       0x271E00        Unix path: /usr/lib/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so
+2570925       0x273AAD        Copyright string: "copyright: Copyright 2008 by Armin Ronacher."
+2570936       0x273AB8        Copyright string: "Copyright 2008 by Armin Ronacher."
+2571680       0x273DA0        Unix path: /usr/lib/python3.10/lib-dynload/_opcode.cpython-310-x86_64-linux-gnu.so
+2573136       0x274350        Unix path: /usr/lib/python3.10/lib-dynload
+2617920       0x27F240        Unix path: /usr/lib/python3.10/lib-dynload
+2711552       0x296000        Unix path: /usr/lib/python3.10/lib-dynload
+2729784       0x29A738        Unix path: /usr/lib/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so
+2735216       0x29BC70        Unix path: /usr/lib/python3.10/lib-dynload/_sqlite3.cpython-310-x86_64-linux-gnu.so
+2765936       0x2A3470        Unix path: /usr/lib/python3.10/lib-dynload/termios.cpython-310-x86_64-linux-gnu.so
+2818352       0x2B0130        Unix path: /usr/lib/python3.10/lib-dynload/_decimal.cpython-310-x86_64-linux-gnu.so
+2939352       0x2CD9D8        Unix path: /usr/lib/python3.10/lib-dynload/_queue.cpython-310-x86_64-linux-gnu.so
+3015505       0x2E0351        Copyright string: "Copyright (C) 2000  Luke Kenneth Casson Leighton <lkcl@samba.org>"
+3154268       0x30215C        Unix path: /usr/lib/x86_64-linux-gnu' '--enable-ipv6' '--enable-loadable-sqlite-extensions' '--with-dbmliborder=bdb:gdbm' '--with-computed-
+3158961       0x3033B1        Unix path: /home/fperez/usr/lib/python2.6/site-packages/IPython',
+3159193       0x303499        Unix path: /usr/bin/python',
+3183292       0x3092BC        Unix path: /usr/share/doc/pythonX.Y/html/library
+3191877       0x30B445        Copyright string: "Copyright (c) 1999-2000, Marc-Andre Lemburg; mailto:mal@lemburg.com"
+3191949       0x30B48D        Copyright string: "Copyright (c) 2000-2010, eGenix.com Software GmbH; mailto:info@egenix.com"
+3192206       0x30B58E        Copyright string: "copyright notice appear in all copies and that"
+3192267       0x30B5CB        Copyright string: "copyright notice and this permission notice appear in"
+3194272       0x30BDA0        Unix path: /usr/lib/python3.10/lib-dynload/resource.cpython-310-x86_64-linux-gnu.so
+3216384       0x311400        Unix path: /lib/x86_64-linux-gnu/libsqlite3.so.0
+3356222       0x33363E        Copyright string: "Copyright (c) 2021 Alex Hall"
+3356696       0x333818        Copyright string: "copyright notice and this permission notice shall be included in all"
+3407008       0x33FCA0        Unix path: /usr/lib/python3.10/lib-dynload/_hashlib.cpython-310-x86_64-linux-gnu.so
+3422272       0x343840        Unix path: /usr/lib/python3.10/lib-dynload
+3441426       0x348312        Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+3441437       0x34831D        Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+3447134       0x34995E        ESP Image (ESP32): segment count: 12, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+3488352       0x353A60        Unix path: /usr/lib/python3.10/lib-dynload
+3496398       0x3559CE        Minix filesystem, V1, little endian, 30 char names, 28684 zones
+3575671       0x368F77        Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+3575682       0x368F82        Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+3837808       0x3A8F70        Unix path: /usr/lib/python3.10/lib-dynload
+3856227       0x3AD763        Copyright string: "Copyright (c) 2012, Noah Spurrier <noah@noah.org>"
+3875208       0x3B2188        Unix path: /usr/lib/python3.10/lib-dynload/termios.cpython-310-x86_64-linux-gnu.so
+3883176       0x3B40A8        Unix path: /usr/lib/python3.10/lib-dynload/resource.cpython-310-x86_64-linux-gnu.so
+3905711       0x3B98AF        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+3906611       0x3B9C33        Unix path: /usr/bin/ftp')
+3906661       0x3B9C65        Unix path: /usr/bin/ssh user@example.com')
+3906850       0x3B9D22        Unix path: /usr/bin/ftp', [])
+3906904       0x3B9D58        Unix path: /usr/bin/ssh', ['user@example.com'])
+3941195       0x3C234B        Unix path: /usr/local/apache/bin/apachectl start")
+4005352       0x3D1DE8        Unix path: /usr/lib/python3.10/lib-dynload/_hashlib.cpython-310-x86_64-linux-gnu.so
+4079072       0x3E3DE0        Unix path: /usr/lib/python3.10/lib-dynload/_ssl.cpython-310-x86_64-linux-gnu.so
+4081504       0x3E4760        Unix path: /usr/lib/python3.10/lib-dynload
+4305024       0x41B080        Unix path: /usr/lib/python3.10/lib-dynload
+4348160       0x425900        Unix path: /usr/lib/python3.10/lib-dynload/_asyncio.cpython-310-x86_64-linux-gnu.so
+4381397       0x42DAD5        Unix path: /lib/tests/test.wav')  # doctest: +SKIP
+4381468       0x42DB1C        Unix path: /lib/tests/test.wav')  # doctest: +SKIP
+4396469       0x4315B5        Unix path: /lib/tests/test.wav')  # doctest: +SKIP
+4396540       0x4315FC        Unix path: /lib/tests/test.wav')  # doctest: +SKIP
+4409465       0x434879        Copyright string: "copyright: 2007 by Armin Ronacher."
+4587609       0x460059        ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash size: 4MB, entry address: 0x59000000, hash: sha256
+4621665       0x468561        Copyright string: "Copyright 2006-2021 by the Pygments team."
+4621768       0x4685C8        HTML document header
+4621961       0x468689        Copyright string: "Copyright 2006-2021 by the Pygments team."
+4627525       0x469C45        ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash size: 4MB, entry address: 0x5f000000, hash: none
+4644469       0x46DE75        ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash size: 4MB, entry address: 0x43000000, hash: none
+4652777       0x46FEE9        ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: sha256
+4655781       0x470AA5        ESP Image segment count: 1, flash mode: QUIO, flash size: 4MB, entry address: 0x4a000000, hash: none
+4728848       0x482810        Unix path: /usr/lib/python3.10/lib-dynload
+4745568       0x486960        Unix path: /usr/lib/python3.10/lib-dynload/_uuid.cpython-310-x86_64-linux-gnu.so
+4928200       0x4B32C8        Unix path: /usr/lib/python3.10/lib-dynload/_sqlite3.cpython-310-x86_64-linux-gnu.so
+4978128       0x4BF5D0        Unix path: /usr/lib/python3.10/lib-dynload/_contextvars.cpython-310-x86_64-linux-gnu.so
+5010096       0x4C72B0        Unix path: /lib/x86_64-linux-gnu/libuuid.so.1
+5076328       0x4D7568        Unix path: /usr/lib/python3.10/lib-dynload/_ssl.cpython-310-x86_64-linux-gnu.so
+5184792       0x4F1D18        Unix path: /usr/lib/python3.10/lib-dynload/_asyncio.cpython-310-x86_64-linux-gnu.so
+5202712       0x4F6318        Unix path: /usr/lib/python3.10/lib-dynload/_contextvars.cpython-310-x86_64-linux-gnu.so
+5657888       0x565520        ESP Image (ESP32): segment count: 6, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+6468440       0x62B358        Unix path: /usr/lib/python3.10/lib-dynload/_uuid.cpython-310-x86_64-linux-gnu.so
+6613328       0x64E950        Unix path: /usr/lib/python3.10/lib-dynload/_lsprof.cpython-310-x86_64-linux-gnu.so
+6849248       0x6882E0        Unix path: /usr/lib/python3.10/lib-dynload
+6993824       0x6AB7A0        ESP Image (ESP32): segment count: 7, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+7770479       0x76916F        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+8798728       0x864208        Unix path: /usr/lib/python3.10/lib-dynload/_lsprof.cpython-310-x86_64-linux-gnu.so
+8942904       0x887538        Unix path: /usr/local/lf9560/bin:/usr/local/intel/compiler70/ia32/bin:...
+8946349       0x8882AD        Unix path: /home/tsuser/parent/child
+9051496       0x8A1D68        Unix path: /usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcas
+9072576       0x8A6FC0        Zlib compressed data, default compression
+9516422       0x913586        ESP Image (ESP32): segment count: 11, flash mode: DOUT, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: sha256
+10909904      0xA678D0        Unix path: /home/gsemaj/.local/bin/display
+11932704      0xB61420        Unix path: /usr/lib/python3.10/email/_policybase.py
+11935200      0xB61DE0        Unix path: /usr/lib/python3.10/email/quoprimime.py
+11935872      0xB62080        Unix path: /usr/lib/python3.10/email/base64mime.py
+11937024      0xB62500        Unix path: /usr/lib/python3.10/email/encoders.py
+11939904      0xB63040        Unix path: /usr/lib/python3.10/email/_parseaddr.py
+11941536      0xB636A0        Unix path: /usr/lib/python3.10/email/message.py
+11945664      0xB646C0        XML document, version: "1.0"
+11976272      0xB6BE50        Unix path: /usr/lib/python3.10/quopri.py
+11976752      0xB6C030        Unix path: /usr/lib/python3.10/quopri.py
+12111008      0xB8CCA0        HTML document header
+12111328      0xB8CDE0        HTML document footer
+12114768      0xB8DB50        Unix path: /usr/lib/python3.10/calendar.py
+12149888      0xB96480        Unix path: /usr/lib/python3.10/email/__pycache__/iterators.cpython-310.pyc
+12152240      0xB96DB0        Unix path: /usr/lib/python3.10/__pycache__/cProfile.cpython-310.pyc
+12153808      0xB973D0        Unix path: /usr/lib/python3.10/__pycache__/pstats.cpython-310.pyc
+12163552      0xB999E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/config.py
+12164192      0xB99C60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/contexts.py
+12165472      0xB9A160        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/display.py
+12167648      0xB9A9E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/module_paths.py
+12169184      0xB9AFE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/timing.py
+12170976      0xB9B6E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/logging.py
+12171872      0xB9BA60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/logging.py
+12172256      0xB9BBE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/osm.py
+12172512      0xB9BCE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/osm.py
+12174176      0xB9C360        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/pylab.py
+12174944      0xB9C660        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/pylab.py
+12175840      0xB9C9E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/script.py
+12176096      0xB9CAE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/script.py
+12176608      0xB9CCE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/shellapp.py
+12205488      0xBA3DB0        Unix path: /usr/lib/python3.10/uu.py
+12246208      0xBADCC0        Unix path: /usr/lib/python3.10/email/_encoded_words.py
+12246688      0xBADEA0        Unix path: /usr/lib/python3.10/email/iterators.py
+12403600      0xBD4390        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/execution.py
+12405760      0xBD4C00        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/extension.py
+12488800      0xBE9060        Unix path: /usr/lib/python3.10/cProfile.py
+12493040      0xBEA0F0        Unix path: /usr/lib/python3.10/profile.py
+12499280      0xBEB950        Unix path: /usr/lib/python3.10/pstats.py
+12503440      0xBEC990        Unix path: /usr/lib/python3.10/timeit.py
+12626928      0xC0ABF0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/extension.py
+12628224      0xC0B100        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/namespace.py
+12631680      0xC0BE80        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/packaging.py
+12634848      0xC0CAE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/packaging.py
+12784032      0xC311A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/pylabtools.cpython-310.pyc
+12784672      0xC31420        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/shellapp.cpython-310.pyc
+12786112      0xC319C0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/extensions/__pycache__/__init__.cpython-310.pyc
+12806432      0xC36920        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/extensions/storemagic.py
+12866144      0xC45260        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/extensions/__init__.py
+12866784      0xC454E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/frame.py
+12995152      0xC64A50        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/plugins/__pycache__/flask.cpython-310.pyc
+13126000      0xC84970        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/shortcuts/__pycache__/auto_suggest.cpython-310.pyc
+13151072      0xC8AB60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/shortcuts/__init__.py
+13152224      0xC8AFE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/shortcuts/__init__.py
+13154384      0xC8B850        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/shortcuts/auto_match.py
+13260528      0xCA56F0        Unix path: /usr/lib/python3.10/concurrent/futures/thread.py
+13260640      0xCA5760        Unix path: /usr/lib/python3.10/concurrent/futures/thread.py
+13266464      0xCA6E20        Unix path: /usr/lib/python3.10/urllib/__pycache__/request.cpython-310.pyc
+13319264      0xCB3C60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/pt_inputhooks/__pycache__/__init__.cpython-310.pyc
+13407168      0xCC93C0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/pt_inputhooks/__init__.py
+13417392      0xCCBBB0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__init__.py
+13575808      0xCF2680        Unix path: /usr/lib/python3.10/urllib/request.py
+13678024      0xD0B5C8        Unix path: /opt/secret/bin/ruby'
+13688032      0xD0DCE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/contexts.py
+13691872      0xD0EBE0        Unix path: /usr/lib/python3.10/lib-dynload/_lsprof.cpython-310-x86_64-linux-gnu.so
+13694560      0xD0F660        Unix path: /usr/lib/python3.10/email/__pycache__/_policybase.cpython-310.pyc
+13695584      0xD0FA60        Unix path: /usr/lib/python3.10/email/__pycache__/quoprimime.cpython-310.pyc
+13697120      0xD10060        Unix path: /usr/lib/python3.10/email/__pycache__/base64mime.cpython-310.pyc
+13698528      0xD105E0        Unix path: /usr/lib/python3.10/email/__pycache__/_encoded_words.cpython-310.pyc
+13706336      0xD12460        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/contexts.cpython-310.pyc
+13707616      0xD12960        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/config.cpython-310.pyc
+13712896      0xD13E00        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/display.cpython-310.pyc
+13714656      0xD144E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/module_paths.cpython-310.pyc
+13715296      0xD14760        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/ast_mod.cpython-310.pyc
+13715936      0xD149E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/history.cpython-310.pyc
+13716096      0xD14A80        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/osm.cpython-310.pyc
+13716736      0xD14D00        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/pylab.cpython-310.pyc
+13717376      0xD14F80        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/packaging.cpython-310.pyc
+13775843      0xD233E3        Unix path: /home/tsuser/sprint/ipython'
+13851552      0xD35BA0        Unix path: /usr/lib/python3.10/email/__init__.py
+13856544      0xD36F20        Unix path: /usr/lib/python3.10/urllib/error.py
+13859520      0xD37AC0        Unix path: /usr/lib/python3.10/email/parser.py
+13859904      0xD37C40        Unix path: /usr/lib/python3.10/email/parser.py
+13866736      0xD396F0        Unix path: /usr/lib/python3.10/http/__pycache__/__init__.cpython-310.pyc
+13870432      0xD3A560        Unix path: /usr/lib/python3.10/urllib/__pycache__/error.cpython-310.pyc
+13872112      0xD3ABF0        Unix path: /usr/lib/python3.10/email/__pycache__/errors.cpython-310.pyc
+13873904      0xD3B2F0        Unix path: /usr/lib/python3.10/email/__pycache__/header.cpython-310.pyc
+13875136      0xD3B7C0        Unix path: /usr/lib/python3.10/email/__pycache__/utils.cpython-310.pyc
+13875920      0xD3BAD0        Unix path: /usr/lib/python3.10/email/__pycache__/charset.cpython-310.pyc
+13879280      0xD3C7F0        Unix path: /usr/lib/python3.10/__pycache__/calendar.cpython-310.pyc
+13882480      0xD3D470        Unix path: /usr/lib/python3.10/email
+13915744      0xD45660        Ubiquiti partition header, header size: 56 bytes, name: "PARTIAL_CONTENT", base address: 0x3C36816B, data size: -452984832 bytes
+13983344      0xD55E70        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/function.py
+14176864      0xD85260        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/base.py
+14179680      0xD85D60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/syntax_tree.py
+14180064      0xD85EE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/_compatibility.py
+14180960      0xD86260        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/exceptions.py
+14183904      0xD86DE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/syntax_tree.py
+14185312      0xD87360        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/keywords.py
+14185952      0xD875E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/helpers.py
+14186592      0xD87860        Unix path: /usr/lib/python3.10/pydoc_data/__pycache__/__init__.cpython-310.pyc
+14189280      0xD882E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/completion.py
+14190816      0xD888E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/environment.py
+14191840      0xD88CE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/environment.py
+14220432      0xD8FC90        End of Zip archive, footer length: 22
+14225936      0xD91210        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/type_var.py
+14234576      0xD933D0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/type_var.py
+14300960      0xDA3720        Unix path: /usr/lib/python3.10/zipfile.py
+14312464      0xDA6410        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/subprocess
+14357104      0xDB1270        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/subprocess/__pycache__/functions.cpython-310.pyc
+14365543      0xDB3367        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+14407488      0xDBD740        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/__pycache__/exceptions.cpython-310.pyc
+14407968      0xDBD920        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/__pycache__/annotation.cpython-310.pyc
+14408768      0xDBDC40        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__pycache__/param.cpython-310.pyc
+14409408      0xDBDEC0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/__pycache__/decorator.cpython-310.pyc
+14409728      0xDBE000        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/__pycache__/mixed.cpython-310.pyc
+14411168      0xDBE5A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/__pycache__/environment.cpython-310.pyc
+14413088      0xDBED20        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__pycache__/references.cpython-310.pyc
+14414528      0xDBF2C0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/plugins/__pycache__/registry.cpython-310.pyc
+14416768      0xDBFB80        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/shortcuts/__pycache__/filters.cpython-310.pyc
+14418368      0xDC01C0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/__pycache__/magics.cpython-310.pyc
+14420128      0xDC08A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/__pycache__/ipapp.cpython-310.pyc
+14420608      0xDC0A80        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/__init__.cpython-310.pyc
+14421088      0xDC0C60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/__pycache__/auto.cpython-310.pyc
+14531936      0xDDBD60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/subprocess/__main__.py
+14574176      0xDE6260        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/annotation.py
+14579504      0xDE7730        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/decorator.py
+14587296      0xDE95A0        Unix path: /usr/lib/python3.10/pydoc_data/__init__.py
+14589024      0xDE9C60        Unix path: /usr/lib/python3.10/pydoc_data/topics.py
+14636544      0xDF5600        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/conversion.py
+14643312      0xDF7070        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/__pycache__/helpers.cpython-310.pyc
+14654928      0xDF9DD0        Unix path: /usr/lib/python3.10/pydoc_data
+14725376      0xE0B100        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/__pycache__/strings.cpython-310.pyc
+14745888      0xE10120        Unix path: /usr/lib/python3.10/filecmp.py
+14768528      0xE15990        Unix path: /usr/lib/python3.10/__pycache__/filecmp.cpython-310.pyc
+14788000      0xE1A5A0        Unix path: /usr/local/bin
+14799584      0xE1D2E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/errors.py
+14800352      0xE1D5E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/references.py
+14801248      0xE1D960        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/errors.py
+14801760      0xE1DB60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/plugins/stdlib.py
+14803424      0xE1E1E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/plugins/flask.py
+14805088      0xE1E860        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/plugins/django.py
+14805472      0xE1E9E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/plugins/pytest.py
+14807008      0xE1EFE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/ptutils.py
+14808672      0xE1F660        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/magics.py
+14809568      0xE1F9E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/magics.py
+14810336      0xE1FCE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/pt_inputhooks
+14811232      0xE20060        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/prompts.py
+14811616      0xE201E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/prompts.py
+14812512      0xE20560        Unix path: /usr/lib/python3.10/email/__pycache__/feedparser.cpython-310.pyc
+14813024      0xE20760        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/auto.py
+14813536      0xE20960        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/basic.py
+14814816      0xE20E60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magics/code.py
+14856016      0xE2AF50        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/__pycache__/project.cpython-310.pyc
+14863072      0xE2CAE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/__pycache__/errors.cpython-310.pyc
+14863648      0xE2CD20        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/refactoring/__init__.py
+14887425      0xE32A01        Ubiquiti firmware header, third party, ~CRC32: 0x7F000001, version: "ED_FILE_LIMIT"
+14963216      0xE45210        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/refactoring/__init__.py
+14963936      0xE454E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/namespace.py
+14968544      0xE466E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/refactoring/extract.py
+14972432      0xE47610        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/utils.py
+15013520      0xE51690        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/__pycache__/file_io.cpython-310.pyc
+15018560      0xE52A40        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/__pycache__/parser_utils.cpython-310.pyc
+15022592      0xE53A00        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/__pycache__/debug.cpython-310.pyc
+15028113      0xE54F91        Unix path: /usr/lib/python3.9/os.py``
+15045824      0xE594C0        Unix path: /home/gsemaj/.cache/jedi
+15062672      0xE5D690        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/mixed.py
+15175936      0xE79100        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__pycache__/sys_path.cpython-310.pyc
+15178176      0xE799C0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__pycache__/filters.cpython-310.pyc
+15179456      0xE79EC0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__pycache__/recursion.cpython-310.pyc
+15182656      0xE7AB40        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__pycache__/analysis.cpython-310.pyc
+15184736      0xE7B360        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/__pycache__/klass.cpython-310.pyc
+15185056      0xE7B4A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__pycache__/arguments.cpython-310.pyc
+15188096      0xE7C080        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/__pycache__/function.cpython-310.pyc
+15189216      0xE7C4E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/__pycache__/generics.cpython-310.pyc
+15189696      0xE7C6C0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/__pycache__/base.cpython-310.pyc
+15190176      0xE7C8A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/__pycache__/typing.cpython-310.pyc
+15190496      0xE7C9E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/__pycache__/type_var.cpython-310.pyc
+15190976      0xE7CBC0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/__pycache__/_compatibility.cpython-310.pyc
+15191296      0xE7CD00        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/subprocess/functions.py
+15191616      0xE7CE40        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/subprocess/functions.py
+15235344      0xE87910        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/common.py
+15235680      0xE87A60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/common.py
+15379728      0xEAAD10        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/__init__.py
+15380448      0xEAAFE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/value.py
+15382176      0xEAB6A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/flow_analysis.py
+15387072      0xEAC9C0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/__pycache__/common.cpython-310.pyc
+15422304      0xEB5360        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/analysis.py
+15423840      0xEB5960        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/names.py
+15424736      0xEB5CE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/names.py
+15426272      0xEB62E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/docstrings.py
+15427040      0xEB65E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/lazy_value.py
+15430496      0xEB7360        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/module.py
+15430752      0xEB7460        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/module.py
+15435360      0xEB8660        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/parser_cache.py
+15437280      0xEB8DE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/_compatibility.py
+15656096      0xEEE4A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/access.py
+15656816      0xEEE770        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/getattr_static.py
+15675040      0xEF2EA0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/__pycache__/getattr_static.cpython-310.pyc
+15773520      0xF0AF50        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled/subprocess/__pycache__/__init__.cpython-310.pyc
+15790336      0xF0F100        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/typeshed.py
+15792640      0xF0FA00        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/__init__.py
+15793648      0xF0FDF0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/gradual/typing.py
+15797824      0xF10E40        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/instance.py
+15863200      0xF20DA0        Unix path: /usr/lib/python3.10/__pycache__/zipfile.cpython-310.pyc
+15946400      0xF352A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/iterable.py
+15948416      0xF35A80        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/dynamic_arrays.py
+16012935      0xF45687        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+16013824      0xF45A00        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/value/__pycache__/dynamic_arrays.cpython-310.pyc
+16079056      0xF558D0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/__pycache__/__init__.cpython-310.pyc
+16081216      0xF56140        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/__pycache__/tree.cpython-310.pyc
+16081792      0xF56380        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/__pycache__/utils.cpython-310.pyc
+16094023      0xF59347        mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+16307168      0xF8D3E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso
+16308960      0xF8DAE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/utils.py
+16310752      0xF8E1E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/pgen2
+16311760      0xF8E5D0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python
+16315120      0xF8F2F0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/cache.py
+16536224      0xFC52A0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__pycache__/token.cpython-310.pyc
+16546016      0xFC78E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/__pycache__/grammar.cpython-310.pyc
+16548608      0xFC8300        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/__pycache__/cache.cpython-310.pyc
+16588480      0xFD1EC0        Unix path: /usr/lib/python3.10/difflib.py
+16656384      0xFE2800        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__pycache__/tree.cpython-310.pyc
+16734432      0xFF58E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/pep8.py
+16734688      0xFF59E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/prefix.py
+16735712      0xFF5DE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/normalizer.py
+16736480      0xFF60E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/pep8.py
+16738144      0xFF6760        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/normalizer.py
+16739424      0xFF6C60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/parser_utils.py
+16739808      0xFF6DE0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/file_io.py
+16740704      0xFF7160        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/classes.py
+16740960      0xFF7260        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__init__.py
+16742240      0xFF7760        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/imports.py
+16742368      0xFF77E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__init__.py
+16742752      0xFF7960        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/cache.py
+16744032      0xFF7E60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/param.py
+16745184      0xFF82E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/helpers.py
+16745696      0xFF84E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/base_value.py
+16746336      0xFF8760        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/utils.py
+16746976      0xFF89E0        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/compiled
+16747360      0xFF8B60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/utils.py
+16748384      0xFF8F60        Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/analysis.py
+16791712      0x10038A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/debug.py
+16792496      0x1003BB0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/cache.py
+16794624      0x1004400       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference
+16880288      0x10192A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__pycache__/pep8.cpython-310.pyc
+17202624      0x1067DC0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/__pycache__/ansi_escape_sequences.cpython-310.pyc
+17294376      0x107E428       ESP Image (ESP32): segment count: 5, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+17388480      0x10953C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/emacs_state.py
+17399712      0x1097FA0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts/dialogs.py
+17401872      0x1098810       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/focus.py
+17402592      0x1098AE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/widgets/__init__.py
+17415264      0x109BC60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts/progress_bar/__pycache__/base.cpython-310.pyc
+17469536      0x10A9060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/widgets/base.py
+17477600      0x10AAFE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/patch_stdout.py
+17478496      0x10AB360       Unix path: /usr/lib/python3.10/lib-dynload/_uuid.cpython-310-x86_64-linux-gnu.so
+17479392      0x10AB6E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/shortcuts
+17480800      0x10ABC60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/ptutils.py
+17485152      0x10ACD60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/guarded_eval.py
+17519984      0x10B5570       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/widgets/dialogs.py
+17528480      0x10B76A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/widgets/dialogs.py
+17576288      0x10C3160       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts/progress_bar/__pycache__/formatters.cpython-310.pyc
+17685552      0x10DDC30       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts/prompt.py
+17693616      0x10DFBB0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts/utils.py
+17758928      0x10EFAD0       Unix path: /usr/lib/python3.10/__pycache__/uuid.cpython-310.pyc
+17762064      0x10F0710       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi
+17785584      0x10F62F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/__pycache__/auto_suggest.cpython-310.pyc
+17786992      0x10F6870       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/__pycache__/open_in_editor.cpython-310.pyc
+17834912      0x11023A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/shortcuts/__pycache__/auto_match.cpython-310.pyc
+17841776      0x1103E70       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/shortcuts/__pycache__/__init__.cpython-310.pyc
+17863872      0x11094C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/guarded_eval.cpython-310.pyc
+17867232      0x110A1E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/pgen2/__pycache__/__init__.cpython-310.pyc
+17868352      0x110A640       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__pycache__/__init__.cpython-310.pyc
+17868992      0x110A8C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__pycache__/tokenize.cpython-310.pyc
+17870432      0x110AE60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__pycache__/parser.cpython-310.pyc
+17873792      0x110BB80       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__pycache__/prefix.cpython-310.pyc
+17874592      0x110BEA0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__pycache__/errors.cpython-310.pyc
+17878272      0x110CD00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/__pycache__/interpreter.cpython-310.pyc
+17878592      0x110CE40       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/inference/__pycache__/__init__.cpython-310.pyc
+18011808      0x112D6A0       Unix path: /usr/lib/python3.10/uuid.py
+18094816      0x1141AE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/api/__init__.py
+18096608      0x11421E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/plugins/registry.py
+18096992      0x1142360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/__init__.py
+18098528      0x1142960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/_compatibility.py
+18099424      0x1142CE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/__init__.py
+18100192      0x1142FE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/pgen2/grammar_parser.py
+18100320      0x1143060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/pgen2/grammar_parser.py
+18100832      0x1143260       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/token.py
+18101600      0x1143560       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/jedi/settings.py
+18102368      0x1143860       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/token.py
+18102880      0x1143A60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/diff.py
+18104160      0x1143F60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/errors.py
+18105952      0x1144660       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/parser.py
+18106336      0x11447E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/parser.py
+18106848      0x11449E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/prefix.py
+18107232      0x1144B60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/parso/python/tree.py
+18145920      0x114E280       XML document, version: "1.0"
+18175776      0x1155720       Unix path: /usr/lib/python3.10/xml/dom/minicompat.py
+18178560      0x1156200       Unix path: /usr/lib/python3.10/xml/dom/NodeFilter.py
+18178752      0x11562C0       Unix path: /usr/lib/python3.10/xml/dom/NodeFilter.py
+18195888      0x115A5B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/completion/__pycache__/word_completer.cpython-310.pyc
+18279696      0x116ED10       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text/pygments.py
+18285456      0x1170390       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/completion/deduplicate.py
+18322512      0x1179450       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/completion/nested.py
+18371296      0x11852E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/__pycache__/base.cpython-310.pyc
+18372096      0x1185600       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/__pycache__/typeahead.cpython-310.pyc
+18373696      0x1185C40       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/named_commands.py
+18375456      0x1186320       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/__init__.cpython-310.pyc
+18376256      0x1186640       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/menus.cpython-310.pyc
+18379936      0x11874A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/layout.cpython-310.pyc
+18381536      0x1187AE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/lexers/__pycache__/base.cpython-310.pyc
+18382016      0x1187CC0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/lexers/__pycache__/pygments.cpython-310.pyc
+18382816      0x1187FE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/utils.cpython-310.pyc
+18384896      0x1188800       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/margins.cpython-310.pyc
+18385696      0x1188B20       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/screen.cpython-310.pyc
+18386656      0x1188EE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/completion.py
+18408464      0x118E410       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/typeahead.py
+18412640      0x118F460       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/defaults.py
+18416240      0x1190270       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/defaults.py
+18416816      0x11904B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/basic.py
+18418256      0x1190A50       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__init__.py
+18438128      0x11957F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/__pycache__/__init__.cpython-310.pyc
+18438656      0x1195A00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/__pycache__/basic.cpython-310.pyc
+18441648      0x11965B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/__pycache__/emacs_state.cpython-310.pyc
+18519136      0x11A9460       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/lexers
+18519392      0x11A9560       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/menus.py
+18527584      0x11AB560       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/lexers/base.py
+18530912      0x11AC260       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/utils.py
+18533600      0x11ACCE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/menus.py
+18570576      0x11B5D50       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/controls.py
+18572448      0x11B64A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/lexers/__init__.py
+18574464      0x11B6C80       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/lexers/pygments.py
+18826576      0x11F4550       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/mouse_handlers.cpython-310.pyc
+18870960      0x11FF2B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/dimension.py
+18872688      0x11FF970       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/margins.py
+18872976      0x11FFA90       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/margins.py
+18875424      0x1200420       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/screen.py
+18997280      0x121E020       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/scrollable_pane.py
+19003472      0x121F850       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/scrollable_pane.py
+19033760      0x1226EA0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/scrollable_pane.cpython-310.pyc
+19040448      0x12288C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/__pycache__/mouse.cpython-310.pyc
+19042880      0x1229240       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/completion.py
+19048480      0x122A820       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/__pycache__/vt100_parser.cpython-310.pyc
+19048800      0x122A960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/__pycache__/dummy.cpython-310.pyc
+19049120      0x122AAA0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__pycache__/renderer.cpython-310.pyc
+19049920      0x122ADC0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application/__pycache__/dummy.cpython-310.pyc
+19052320      0x122B720       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/widgets/__pycache__/menus.cpython-310.pyc
+19052960      0x122B9A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts/__pycache__/prompt.cpython-310.pyc
+19053760      0x122BCC0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts/progress_bar/formatters.py
+19054080      0x122BE00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts/progress_bar/formatters.py
+19055680      0x122C440       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/auto_suggest.py
+19057440      0x122CB20       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/completer.cpython-310.pyc
+19062496      0x122DEE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/dummy.py
+19064544      0x122E6E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/shortcuts
+19072096      0x1230460       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout/dummy.py
+19073760      0x1230AE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/widgets
+19074528      0x1230DE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/patch_stdout.py
+19112544      0x123A260       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/cpr.py
+19114416      0x123A9B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/mouse.py
+19114704      0x123AAD0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/mouse.py
+19115280      0x123AD10       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/vi.py
+19120320      0x123C0C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/emacs_state.py
+19121760      0x123C660       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/ansi_escape_sequences.py
+19146864      0x1242870       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/__pycache__/digraphs.cpython-310.pyc
+19285680      0x12646B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/__pycache__/__init__.cpython-310.pyc
+19326736      0x126E710       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/__pycache__/vi_state.cpython-310.pyc
+19429984      0x1287A60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth
+19434688      0x1288CC0       Unix path: /usr/lib/python3.10/__pycache__/colorsys.cpython-310.pyc
+19439648      0x128A020       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth/__pycache__/__init__.cpython-310.pyc
+19440080      0x128A1D0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth/__pycache__/wcwidth.cpython-310.pyc
+19440368      0x128A2F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth/__pycache__/table_vs16.cpython-310.pyc
+19450448      0x128CA50       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/data_structures.py
+19550304      0x12A5060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth/wcwidth.py
+19550688      0x12A51E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth/wcwidth.py
+19551200      0x12A53E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth/unicode_versions.py
+19551712      0x12A55E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth/unicode_versions.py
+19551968      0x12A56E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles/base.py
+19552096      0x12A5760       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles/base.py
+19553632      0x12A5D60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles/style.py
+19554016      0x12A5EE0       Unix path: /usr/lib/python3.10/xml/dom/__pycache__/__init__.cpython-310.pyc
+19555808      0x12A65E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/output/vt100.py
+19557088      0x12A6AE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/mouse_events.py
+19558112      0x12A6EE0       Unix path: /usr/lib/python3.10/xml/dom/__pycache__/minicompat.cpython-310.pyc
+19561312      0x12A7B60       Unix path: /usr/lib/python3.10/xml/dom/__pycache__/xmlbuilder.cpython-310.pyc
+19561568      0x12A7C60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input
+19563104      0x12A8260       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/history.py
+19564384      0x12A8760       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/validation.py
+19564768      0x12A88E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/base.py
+19565536      0x12A8BE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/layout
+19627497      0x12B7DE9       ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x1000000, hash: sha256
+19627529      0x12B7E09       ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x1000000, hash: sha256
+19665712      0x12C1330       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/output/color_depth.py
+19666864      0x12C17B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles/defaults.py
+19668592      0x12C1E70       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles/defaults.py
+19671760      0x12C2AD0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles/style_transformation.py
+19672480      0x12C2DA0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles/style_transformation.py
+19708672      0x12CBB00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles/__pycache__/style_transformation.cpython-310.pyc
+19728264      0x12D0788       ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+19830992      0x12E98D0       Unix path: /usr/lib/python3.10/colorsys.py
+19831472      0x12E9AB0       Unix path: /usr/lib/python3.10/colorsys.py
+19896832      0x12F9A00       Unix path: /usr/lib/python3.10/xml/__pycache__/__init__.cpython-310.pyc
+19897280      0x12F9BC0       Unix path: /usr/lib/python3.10/xml/dom/__pycache__/domreg.cpython-310.pyc
+19934768      0x1302E30       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/output/defaults.py
+19941680      0x1304930       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text/base.py
+19966720      0x130AB00       Unix path: /usr/lib/python3.10/xml/__init__.py
+19968064      0x130B040       Unix path: /usr/lib/python3.10/xml/dom/minidom.py
+20025584      0x13190F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text/base.py
+20034368      0x131B340       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text/html.py
+20046704      0x131E370       Unix path: /usr/lib/python3.10/xml/dom
+20060672      0x1321A00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text/__pycache__/pygments.cpython-310.pyc
+20126816      0x1331C60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/bindings/__pycache__/page_navigation.cpython-310.pyc
+20155616      0x1338CE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text/__pycache__/utils.cpython-310.pyc
+20383840      0x1370860       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit
+20455072      0x1381EA0       Unix path: /usr/lib/python3.10/asyncio/base_subprocess.py
+20573456      0x139ED10       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/interactiveshell.py
+20658400      0x13B38E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/interactiveshell.py
+20660272      0x13B4030       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application/__init__.py
+20662000      0x13B46F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application/dummy.py
+20702288      0x13BE450       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application/__pycache__/__init__.cpython-310.pyc
+20822816      0x13DBB20       Unix path: /usr/bin/editor
+20880096      0x13E9AE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/auto_suggest.py
+20880480      0x13E9C60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/clipboard
+20881120      0x13E9EE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/document.py
+20881504      0x13EA060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/document.py
+20883680      0x13EA8E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text
+20884320      0x13EAB60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/selection.py
+20885856      0x13EB160       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/filters/base.py
+20886368      0x13EB360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/filters/base.py
+20888544      0x13EBBE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding
+20888800      0x13EBCE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/output/base.py
+20889696      0x13EC060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/styles
+20889952      0x13EC160       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/keys.py
+20891360      0x13EC6E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/utils.py
+20892896      0x13ECCE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/wcwidth/__init__.py
+20906816      0x13F0340       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application/__pycache__/run_in_terminal.cpython-310.pyc
+20911328      0x13F14E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application/current.py
+20911472      0x13F1570       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application/current.py
+20913776      0x13F1E70       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application/run_in_terminal.py
+20915216      0x13F2410       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/eventloop/utils.py
+20920688      0x13F3970       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/clipboard/__init__.py
+20921120      0x13F3B20       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/clipboard/base.py
+20924432      0x13F4810       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/clipboard/in_memory.py
+21074176      0x1419100       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/clipboard/__pycache__/base.cpython-310.pyc
+21075136      0x14194C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/clipboard/__pycache__/in_memory.cpython-310.pyc
+21077376      0x1419D80       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/completion/__pycache__/__init__.cpython-310.pyc
+21080896      0x141AB40       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__pycache__/keys.cpython-310.pyc
+21081536      0x141ADC0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__pycache__/utils.cpython-310.pyc
+21084096      0x141B7C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/output/__pycache__/color_depth.cpython-310.pyc
+21086336      0x141C080       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__pycache__/mouse_events.cpython-310.pyc
+21088096      0x141C760       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/completion/__pycache__/nested.cpython-310.pyc
+21088736      0x141C9E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__pycache__/history.cpython-310.pyc
+21089536      0x141CD00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__pycache__/search.cpython-310.pyc
+21090016      0x141CEE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__pycache__/validation.cpython-310.pyc
+21114848      0x1422FE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/completion/__init__.py
+21116864      0x14237C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text/ansi.py
+21117440      0x1423A00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/output/__init__.py
+21118160      0x1423CD0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/output/defaults.py
+21118736      0x1423F10       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/vi_state.py
+21119312      0x1424150       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/key_binding/key_bindings.py
+21217184      0x143BFA0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/filters/utils.py
+21217616      0x143C150       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/filters/utils.py
+21241200      0x1441D70       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/completion/__pycache__/deduplicate.cpython-310.pyc
+21245952      0x1443000       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/completion/__pycache__/filesystem.cpython-310.pyc
+21248240      0x14438F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/formatted_text/__pycache__/__init__.cpython-310.pyc
+22593536      0x158C000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+22595316      0x158C6F4       ESP Image (ESP32): segment count: 2, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x2eb, hash: none
+22634488      0x1595FF8       ESP Image (ESP32): segment count: 8, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+22654976      0x159B000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+22658936      0x159BF78       ESP Image (ESP32): segment count: 5, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x12, hash: none
+22699745      0x15A5EE1       ESP Image (ESP32): segment count: 2, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0xe0000000, hash: none
+22762432      0x15B53C0       Unix path: /usr/lib/python3.10/concurrent
+22768912      0x15B6D10       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "SSL_VERSION_NUMBER"
+22772193      0x15B79E1       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "SSL_API_VERSION"
+22772272      0x15B7A30       Unix path: /usr/lib/python3.10/ssl.py
+22780448      0x15B9A20       Ubiquiti firmware header, third party, ~CRC32: 0x327F0000, version: "SSL_VERSION"
+22937776      0x15E00B0       PEM certificate
+22981221      0x15EAA65       Ubiquiti firmware header, third party, ~CRC32: 0x52524F52, version: "_MODE"
+23143808      0x1612580       Unix path: /usr/lib/python3.10/asyncio/coroutines.py
+23150048      0x1613DE0       Unix path: /usr/lib/python3.10/asyncio/futures.py
+23239008      0x1629960       Unix path: /usr/lib/python3.10/base64.py
+23239568      0x1629B90       Unix path: /usr/lib/python3.10/base64.py
+23312006      0x163B686       HTML document header
+23312231      0x163B767       HTML document footer
+23315984      0x163C610       Unix path: /usr/lib/python3.10/asyncio/__pycache__/log.cpython-310.pyc
+23321920      0x163DD40       Unix path: /usr/lib/python3.10/asyncio/__pycache__/locks.cpython-310.pyc
+23323824      0x163E4B0       Unix path: /usr/lib/python3.10/asyncio/__pycache__/tasks.cpython-310.pyc
+23329872      0x163FC50       Unix path: /usr/lib/python3.10/asyncio/__pycache__/threads.cpython-310.pyc
+23446560      0x165C420       Unix path: /usr/lib/python3.10/contextvars.py
+23448000      0x165C9C0       Unix path: /usr/lib/python3.10/asyncio/base_tasks.py
+23448384      0x165CB40       Unix path: /usr/lib/python3.10/asyncio/futures.py
+23450112      0x165D200       Unix path: /usr/lib/python3.10/asyncio/protocols.py
+23455104      0x165E580       Unix path: /usr/lib/python3.10/asyncio/staggered.py
+23458080      0x165F120       Unix path: /usr/lib/python3.10/asyncio/locks.py
+23525559      0x166F8B7       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+23527648      0x16700E0       Unix path: /usr/lib/python3.10/asyncio/__pycache__/sslproto.cpython-310.pyc
+23528032      0x1670260       Unix path: /usr/lib/python3.10/asyncio/__pycache__/transports.cpython-310.pyc
+23528672      0x16704E0       Unix path: /usr/lib/python3.10/asyncio/__pycache__/staggered.cpython-310.pyc
+23532128      0x1671260       Unix path: /usr/lib/python3.10/asyncio/__pycache__/base_subprocess.cpython-310.pyc
+23536096      0x16721E0       Unix path: /usr/lib/python3.10/asyncio/__pycache__/selector_events.cpython-310.pyc
+23539296      0x1672E60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__init__.py
+23541856      0x1673860       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/eventloop
+23677184      0x1694900       Unix path: /usr/lib/python3.10/asyncio/trsock.py
+23677472      0x1694A20       Unix path: /usr/lib/python3.10/asyncio/runners.py
+23677952      0x1694C00       Unix path: /usr/lib/python3.10/asyncio/queues.py
+23681600      0x1695A40       Unix path: /usr/lib/python3.10/asyncio/subprocess.py
+23683424      0x1696160       Unix path: /usr/lib/python3.10/asyncio/threads.py
+23713504      0x169D6E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/terminal/__pycache__/interactiveshell.cpython-310.pyc
+23717184      0x169E540       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/__pycache__/buffer.cpython-310.pyc
+23721504      0x169F620       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/input/__pycache__/__init__.cpython-310.pyc
+23721984      0x169F800       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/eventloop/__pycache__/__init__.cpython-310.pyc
+23723264      0x169FD00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/clipboard/__pycache__/__init__.cpython-310.pyc
+23748608      0x16A6000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+23751955      0x16A6D13       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+23785472      0x16AF000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+23893152      0x16C94A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py
+23895600      0x16C9E30       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/interactiveshell.py
+23902656      0x16CB9C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/hooks.cpython-310.pyc
+23905239      0x16CC3D7       mcrypt 2.2 encrypted data, algorithm: 3DES, mode: CBC, keymode: 8bit
+24026560      0x16E9DC0       Unix path: /usr/lib/python3.10/runpy.py
+24068624      0x16F4210       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/alias.cpython-310.pyc
+24069200      0x16F4450       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/macro.cpython-310.pyc
+24108240      0x16FDCD0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/decorator.py
+24113056      0x16FEFA0       Unix path: /usr/lib/python3.10/sqlite3/__pycache__/dbapi2.cpython-310.pyc
+24114406      0x16FF4E6       Copyright string: "copyright', 'credits' or 'license' for more information"
+24115632      0x16FF9B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/exceptiongroup
+24166976      0x170C240       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/splitinput.cpython-310.pyc
+24167616      0x170C4C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/builtin_trap.cpython-310.pyc
+24168576      0x170C880       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/extensions.cpython-310.pyc
+24169376      0x170CBA0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/history.cpython-310.pyc
+24171456      0x170D3C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/payload.cpython-310.pyc
+24172736      0x170D8C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/capture.cpython-310.pyc
+24174336      0x170DF00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/exceptiongroup/__pycache__/_version.cpython-310.pyc
+24318848      0x1731380       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/__pycache__/decorator.cpython-310.pyc
+24366048      0x173CBE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/sentinel.py
+24370016      0x173DB60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/logger.py
+24371168      0x173DFE0       Unix path: /usr/lib/python3.10/lib-dynload/_sqlite3.cpython-310-x86_64-linux-gnu.so
+24373728      0x173E9E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/logger.py
+24374368      0x173EC60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/payload.py
+24374752      0x173EDE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/capture.py
+24375776      0x173F1E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/strdispatch.py
+24376160      0x173F360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/capture.py
+24377696      0x173F960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/exceptiongroup/_exceptions.py
+24378592      0x173FCE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/exceptiongroup/_version.py
+24424096      0x174AEA0       Unix path: /usr/lib/python3.10/sqlite3
+24435072      0x174D980       Unix path: /usr/lib/python3.10/sqlite3/__init__.py
+24616784      0x1779F50       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/usage.cpython-310.pyc
+24624560      0x177BDB0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/syspathcontext.py
+24756704      0x179C1E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/exceptiongroup/_suppress.py
+24757856      0x179C660       Unix path: /usr/lib/python3.10/asyncio/__pycache__/subprocess.cpython-310.pyc
+24762080      0x179D6E0       Unix path: /usr/lib/python3.10/concurrent/futures/__pycache__/__init__.cpython-310.pyc
+24768352      0x179EF60       Unix path: /usr/lib/python3.10/asyncio/__pycache__/constants.cpython-310.pyc
+24769504      0x179F3E0       Unix path: /usr/lib/python3.10/asyncio/__pycache__/format_helpers.cpython-310.pyc
+24770272      0x179F6E0       Unix path: /usr/lib/python3.10/asyncio/__pycache__/protocols.cpython-310.pyc
+24771424      0x179FB60       Unix path: /usr/lib/python3.10/lib-dynload/_asyncio.cpython-310-x86_64-linux-gnu.so
+24779984      0x17A1CD0       Unix path: /usr/lib/python3.10/concurrent/futures/__init__.py
+24787824      0x17A3B70       Unix path: /usr/lib/python3.10/__pycache__/base64.cpython-310.pyc
+24806032      0x17A8290       Unix path: /usr/lib/python3.10/asyncio
+24822048      0x17AC120       Unix path: /usr/lib/python3.10/asyncio/__init__.py
+24835776      0x17AF6C0       Unix path: /usr/lib/python3.10/concurrent/__init__.py
+24868304      0x17B75D0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/data.cpython-310.pyc
+24909344      0x17C1620       AU audio data, 33554432 sample rate, 0 channels
+24920709      0x17C4285       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+24920720      0x17C4290       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+24923110      0x17C4BE6       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+24923121      0x17C4BF1       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+24928624      0x17C6170       Copyright string: "copyright', 'credits' or 'license' for more information"
+25005824      0x17D8F00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/lib/__pycache__/pretty.cpython-310.pyc
+25018208      0x17DBF60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/dir2.cpython-310.pyc
+25054704      0x17E4DF0       Unix path: /usr/lib/python3/dist-packages/pygments/lexers/__init__.py
+25055712      0x17E51E0       Unix path: /usr/lib/python3/dist-packages/pygments/lexers/python.py
+25061088      0x17E66E0       Unix path: /usr/lib/python3/dist-packages/pygments/unistring.py
+25061648      0x17E6910       Unix path: /usr/lib/python3/dist-packages/pygments/filters/__init__.py
+25081159      0x17EB547       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+25091081      0x17EDC09       HTML document header
+25100816      0x17F0210       Unix path: /usr/lib/python3/dist-packages/pygments/lexers/__pycache__/__init__.cpython-310.pyc
+25109024      0x17F2220       Unix path: /usr/lib/python3/dist-packages/pygments/filters/__pycache__/__init__.cpython-310.pyc
+25142272      0x17FA400       Unix path: /usr/lib/python3/dist-packages/pygments/filters
+25150481      0x17FC411       Copyright string: "Copyright 2006-2021 by the Pygments team."
+25641378      0x18741A2       Copyright string: "copyright>"
+25663385      0x1879799       HTML document header
+25697896      0x1881E68       HTML document footer
+25757536      0x1890760       Unix path: /usr/lib/python3/dist-packages/pygments/formatters/html.py
+25769632      0x18936A0       Unix path: /usr/lib/python3.10/__pycache__/runpy.cpython-310.pyc
+25814688      0x189E6A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/inputtransformer2.py
+25824096      0x18A0B60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/tokenutil.py
+25824992      0x18A0EE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/prompt_toolkit/application
+25830240      0x18A2360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/prefilter.py
+25830624      0x18A24E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/autocall.py
+25831520      0x18A2860       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/displayhook.py
+25831904      0x18A29E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/alias.py
+25833184      0x18A2EE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/alias.py
+25833824      0x18A3160       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/builtin_trap.py
+25834336      0x18A3360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/builtin_trap.py
+25834720      0x18A34E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/displayhook.py
+25835360      0x18A3760       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/displaypub.py
+25836000      0x18A39E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/events.py
+25899008      0x18B3000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+26034222      0x18D402E       JBOOT STAG header, image id: 0, timestamp 0x7F32BFC3, image size: 0 bytes, image JBOOT checksum: 0x0, header JBOOT checksum: 0x0
+26300416      0x1915000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+26302936      0x19159D8       ESP Image (ESP32): segment count: 5, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x12, hash: none
+26448976      0x1939450       Unix path: /usr/lib/python3.10/__pycache__/bdb.cpython-310.pyc
+26452000      0x193A020       Unix path: /usr/lib/python3.10/__pycache__/glob.cpython-310.pyc
+26455248      0x193ACD0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect
+26457712      0x193B670       Unix path: /usr/lib/python3.10/__pycache__/pty.cpython-310.pyc
+26458608      0x193B9F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/ptyprocess
+26460848      0x193C2B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/run.py
+26465152      0x193D380       Unix path: /usr/lib/python3.10/cmd.py
+26467552      0x193DCE0       Unix path: /usr/lib/python3.10/bdb.py
+26476032      0x193FE00       Unix path: /usr/lib/python3.10/code.py
+26479712      0x1940C60       Unix path: /usr/lib/python3.10/codeop.py
+26579280      0x1959150       Unix path: /usr/lib/python3.10/glob.py
+26611552      0x1960F60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/path.cpython-310.pyc
+26629344      0x19654E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/_process_posix.py
+26632224      0x1966020       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/__pycache__/expect.cpython-310.pyc
+26637984      0x19676A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/__pycache__/spawnbase.cpython-310.pyc
+26638992      0x1967A90       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/ptyprocess/__pycache__/util.cpython-310.pyc
+26712672      0x1979A60       Unix path: /usr/lib/python3.10/pty.py
+26714352      0x197A0F0       Unix path: /usr/lib/python3.10/tty.py
+26729535      0x197DC3F       HTML document header
+26767881      0x1987209       HTML document header
+26783907      0x198B0A3       PARity archive data - Index file
+26825440      0x19952E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/spawnbase.py
+26826464      0x19956E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/terminal.py
+26827232      0x19959E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/sysinfo.py
+26828128      0x1995D60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/config/profile/default
+26829024      0x19960E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/importstring.py
+26830688      0x1996760       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/compilerop.py
+26832992      0x1997060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/text.py
+26835296      0x1997960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magic.py
+26837216      0x19980E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/hooks.py
+26837856      0x1998360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/page.py
+26838112      0x1998460       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/oinspect.py
+26839520      0x19989E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/display.py
+26840160      0x1998C60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/display.py
+26882736      0x19A32B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/__pycache__/run.cpython-310.pyc
+26883744      0x19A36A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/_process_common.py
+26903776      0x19A84E0       Unix path: /usr/lib/python3.10/hashlib.py
+26904496      0x19A87B0       Unix path: /usr/lib/python3.10/hashlib.py
+26932032      0x19AF340       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/__pycache__/paths.cpython-310.pyc
+27054736      0x19CD290       Unix path: /usr/lib/python3.10/__pycache__/hashlib.cpython-310.pyc
+27059216      0x19CE410       Unix path: /usr/lib/python3.10/__pycache__/getopt.cpython-310.pyc
+27063472      0x19CF4B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/lib
+27065488      0x19CFC90       Unix path: /usr/lib/python3.10/__pycache__/mimetypes.cpython-310.pyc
+27071424      0x19D13C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/magic_arguments.py
+27072144      0x19D1690       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/error.cpython-310.pyc
+27079056      0x19D3190       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/magic.cpython-310.pyc
+27083232      0x19D41E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/page.cpython-310.pyc
+27084240      0x19D45D0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/display_functions.py
+27146471      0x19E38E7       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+27152640      0x19E5100       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/oinspect.cpython-310.pyc
+27153600      0x19E54C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/inputtransformer2.cpython-310.pyc
+27155680      0x19E5CE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/lib/__pycache__/__init__.cpython-310.pyc
+27156800      0x19E6140       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/lib/__pycache__/display.cpython-310.pyc
+27157440      0x19E63C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/openpy.cpython-310.pyc
+27157760      0x19E6500       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/wildcard.cpython-310.pyc
+27162560      0x19E77C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/tokenutil.cpython-310.pyc
+27163520      0x19E7B80       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/interactiveshell.cpython-310.pyc
+27168160      0x19E8DA0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/prefilter.cpython-310.pyc
+27175264      0x19EA960       Unix path: /usr/lib/python3.10/getopt.py
+27197559      0x19F0077       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+27205544      0x19F1FA8       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+27205555      0x19F1FB3       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+27206091      0x19F21CB       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+27206102      0x19F21D6       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+27281168      0x1A04710       Unix path: /etc/httpd/mime.types
+27281328      0x1A047B0       Unix path: /etc/httpd/conf/mime.types
+27288640      0x1A06440       Unix path: /usr/lib/python3.10/mimetypes.py
+27299776      0x1A08FC0       Unix path: /usr/lib/python3/dist-packages/pygments/lexers
+27300960      0x1A09460       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/lib/__init__.py
+27302880      0x1A09BE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/testing/__init__.py
+27303392      0x1A09DE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/lib/display.py
+27303776      0x1A09F60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/lib/display.py
+27305440      0x1A0A5E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/lib/pretty.py
+27306080      0x1A0A860       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/data.py
+27308256      0x1A0B0E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/dir2.py
+27309280      0x1A0B4E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/wildcard.py
+27310560      0x1A0B9E0       Unix path: /usr/lib/python3/dist-packages/pygments/__pycache__/lexer.cpython-310.pyc
+27312096      0x1A0BFE0       Unix path: /usr/lib/python3/dist-packages/pygments/__pycache__/filter.cpython-310.pyc
+27315168      0x1A0CBE0       Unix path: /usr/lib/python3/dist-packages/pygments/__pycache__/regexopt.cpython-310.pyc
+27365376      0x1A19000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+27390976      0x1A1F400       Unix path: /usr/lib/python3/dist-packages/six.py
+27481168      0x1A35450       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/executing/__pycache__/version.cpython-310.pyc
+27483328      0x1A35CC0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/asttokens/__pycache__/util.cpython-310.pyc
+27496544      0x1A39060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/asttokens/asttokens.py
+27498208      0x1A396E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/asttokens/util.py
+27499744      0x1A39CE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pure_eval/my_getattr_static.py
+27500000      0x1A39DE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pure_eval/my_getattr_static.py
+27500256      0x1A39EE0       Unix path: /usr/lib/python3/dist-packages/pygments/__pycache__/formatter.cpython-310.pyc
+27500512      0x1A39FE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pure_eval/utils.py
+27501152      0x1A3A260       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/stack_data/utils.py
+27502304      0x1A3A6E0       Unix path: /usr/lib/python3/dist-packages/pygments/__pycache__/plugin.cpython-310.pyc
+27503840      0x1A3ACE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/stack_data/formatting.py
+27506272      0x1A3B660       Unix path: /usr/lib/python3/dist-packages/pygments/__pycache__/util.cpython-310.pyc
+27507424      0x1A3BAE0       Unix path: /usr/lib/python3/dist-packages/pygments/formatters/terminal256.py
+27507936      0x1A3BCE0       Unix path: /usr/lib/python3/dist-packages/pygments/__pycache__/console.cpython-310.pyc
+27508448      0x1A3BEE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/colorable.py
+27511136      0x1A3C960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/PyColorize.py
+27511648      0x1A3CB60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/PyColorize.py
+27512416      0x1A3CE60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/py3compat.py
+27637046      0x1A5B536       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+27637057      0x1A5B541       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+27681088      0x1A66140       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pure_eval/__pycache__/core.cpython-310.pyc
+27681808      0x1A66410       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pure_eval/__pycache__/utils.cpython-310.pyc
+27696912      0x1A69F10       Unix path: /usr/lib/python3.10/datetime.py
+27697632      0x1A6A1E0       Unix path: /usr/lib/python3.10/decimal.py
+27706192      0x1A6C350       Unix path: /usr/lib/python3.10/numbers.py
+27716256      0x1A6EAA0       Unix path: /usr/lib/python3.10/fractions.py
+27725184      0x1A70D80       Unix path: /usr/lib/python3/dist-packages/pygments/styles
+27804128      0x1A841E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pure_eval/__pycache__/version.cpython-310.pyc
+27841056      0x1A8D220       Unix path: /usr/lib/python3/dist-packages/pygments/formatters/__init__.py
+27845984      0x1A8E560       Unix path: /usr/lib/python3/dist-packages/pygments/console.py
+27850576      0x1A8F750       Unix path: /usr/lib/python3.10/__pycache__/locale.cpython-310.pyc
+27853264      0x1A901D0       Unix path: /usr/lib/python3.10/__pycache__/pdb.cpython-310.pyc
+27981040      0x1AAF4F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/stack_data/__pycache__/version.cpython-310.pyc
+27984208      0x1AB0150       Unix path: /usr/lib/python3/dist-packages/pygments/formatters/__pycache__/_mapping.cpython-310.pyc
+28070837      0x1AC53B5       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28070848      0x1AC53C0       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28071869      0x1AC57BD       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28071880      0x1AC57C8       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28080577      0x1AC79C1       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28080588      0x1AC79CC       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28082367      0x1AC80BF       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28082378      0x1AC80CA       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28121296      0x1AD18D0       Unix path: /usr/lib/python3/dist-packages/pygments/styles/__pycache__/__init__.cpython-310.pyc
+28265888      0x1AF4DA0       Unix path: /usr/lib/python3.10/pdb.py
+28266128      0x1AF4E90       Unix path: /usr/lib/python3.10/locale.py
+28299520      0x1AFD100       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/display_trap.cpython-310.pyc
+28299840      0x1AFD240       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/coloransi.cpython-310.pyc
+28303360      0x1AFE000       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/terminal.cpython-310.pyc
+28305760      0x1AFE960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/process.cpython-310.pyc
+28308800      0x1AFF540       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/ptyprocess/__pycache__/__init__.cpython-310.pyc
+28311520      0x1AFFFE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/_process_common.cpython-310.pyc
+28312320      0x1B00300       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/importstring.cpython-310.pyc
+28313760      0x1B008A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/magic_arguments.cpython-310.pyc
+28314560      0x1B00BC0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/decorators.cpython-310.pyc
+28348512      0x1B09060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/py3compat.py
+28348768      0x1B09160       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/encoding.py
+28351072      0x1B09A60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/excolors.py
+28357230      0x1B0B26E       Copyright string: "copyright", "credits" or "license" for more information."
+28357856      0x1B0B4E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/path.py
+28359392      0x1B0BAE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/__init__.py
+28359904      0x1B0BCE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/exceptions.py
+28361312      0x1B0C260       Unix path: /usr/lib/python3.10/lib-dynload/termios.cpython-310-x86_64-linux-gnu.so
+28361568      0x1B0C360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/pty_spawn.py
+28362464      0x1B0C6E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pexpect/pty_spawn.py
+28363360      0x1B0CA60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/ptyprocess/__init__.py
+28387840      0x1B12A00       Unix path: /usr/lib/python3.10/pdb.py
+28446976      0x1B21100       Unix path: /usr/share/locale
+28512490      0x1B310EA       Unix path: /home/jupyter/configurations/') as c:
+28527161      0x1B34A39       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28527172      0x1B34A44       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28546416      0x1B39570       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/nested_update.py
+28557648      0x1B3C150       Unix path: /usr/lib/python3/dist-packages/pygments/formatters/__pycache__/terminal256.cpython-310.pyc
+28573745      0x1B40031       Copyright string: "Copyright 2006-2021 by the Pygments team."
+28573848      0x1B40098       HTML document header
+28627200      0x1B4D100       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/_sysinfo.cpython-310.pyc
+28628800      0x1B4D740       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/stack_data/__pycache__/__init__.cpython-310.pyc
+28633285      0x1B4E8C5       Unix path: /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/python3.10 /usr/lib/python3.10/lib-dynload
+28636160      0x1B4F400       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/asttokens/__pycache__/asttokens.cpython-310.pyc
+28637920      0x1B4FAE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pure_eval/__pycache__/my_getattr_static.cpython-310.pyc
+28638720      0x1B4FE00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/stack_data/__pycache__/serializing.cpython-310.pyc
+28641760      0x1B509E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/__init__.cpython-310.pyc
+28645264      0x1B51790       Unix path: /usr/lib/python3.10/pydoc.py
+28735200      0x1B676E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/stack_data/__init__.py
+28738272      0x1B682E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/executing/executing.py
+28739296      0x1B686E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/asttokens/line_numbers.py
+28740960      0x1B68D60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/asttokens/asttokens.py
+28741216      0x1B68E60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/asttokens/line_numbers.py
+28767184      0x1B6F3D0       Unix path: /usr/lib/python3.10/__pycache__/platform.cpython-310.pyc
+28769872      0x1B6FE50       Unix path: /usr/lib/python3.10/__pycache__/sysconfig.cpython-310.pyc
+28773232      0x1B70B70       Unix path: /usr/lib/python3.10/config-3.10-x86_64-linux-gnu
+28801600      0x1B77A40       Unix path: /usr/lib/python3.10/pkgutil.py
+28802800      0x1B77EF0       Unix path: /usr/lib/python3.10/platform.py
+28806960      0x1B78F30       Unix path: /usr/lib/python3.10/platform.py
+28811040      0x1B79F20       Ubiquiti firmware additional data, name: UTION, size: 33554432 bytes, size2: 0 bytes, CRC32: 0
+28859488      0x1B85C60       Unix path: /usr/lib/python3.10/sysconfig.py
+28860838      0x1B861A6       Unix path: /lib/python3/dist-packages
+28863712      0x1B86CE0       Unix path: /usr/lib/x86_64-linux-gnu/python3.10
+28871200      0x1B88A20       Unix path: /usr/lib/python3.10/html/entities.py
+28904408      0x1B90BD8       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28904419      0x1B90BE3       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+28910528      0x1B923C0       Unix path: /usr/lib/os-release
+28918208      0x1B941C0       Unix path: /home/gsemaj/.local
+28933922      0x1B97F22       Copyright string: "copyright__"
+28991520      0x1BA6020       Unix path: /usr/bin/dtrace
+29011936      0x1BAAFE0       Unix path: /usr/lib/python3.10/__pycache__/_sysconfigdata__x86_64-linux-gnu.cpython-310.pyc
+29045303      0x1BB3237       eCos RTOS string reference: "ECOS"
+29048720      0x1BB3F90       Unix path: /usr/bin/install -c
+29050320      0x1BB45D0       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "SSL_INCLUDES"
+29061472      0x1BB7160       Unix path: /usr/share/man
+29062048      0x1BB73A0       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "SSL_LDFLAGS"
+29080928      0x1BBBD60       Unix path: /usr/lib/python3.10/html
+29089968      0x1BBE0B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/stack_data/__pycache__/core.cpython-310.pyc
+29092416      0x1BBEA40       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/executing/__pycache__/__init__.cpython-310.pyc
+29136695      0x1BC9737       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+29152336      0x1BCD450       Unix path: /usr/lib/python3.10/html/__pycache__/__init__.cpython-310.pyc
+29152896      0x1BCD680       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/executing
+29154128      0x1BCDB50       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/asttokens
+29157488      0x1BCE870       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/pure_eval
+29162528      0x1BCFC20       Unix path: /usr/lib/python3.10/__pycache__/datetime.cpython-310.pyc
+29165104      0x1BD0630       Unix path: /usr/lib/python3.10/__pycache__/numbers.cpython-310.pyc
+29167456      0x1BD0F60       Unix path: /usr/lib/python3.10/__pycache__/fractions.cpython-310.pyc
+29171393      0x1BD1EC1       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29171404      0x1BD1ECC       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29172099      0x1BD2183       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29172110      0x1BD218E       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29172832      0x1BD2460       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29172843      0x1BD246B       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29173070      0x1BD254E       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29173081      0x1BD2559       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29173302      0x1BD2636       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29173313      0x1BD2641       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+29474816      0x1C1C000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+29476160      0x1C1C540       ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x10, hash: none
+29487104      0x1C1F000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+29491225      0x1C20019       Unix path: /var/lib/libuuid/clock.txt
+29499392      0x1C22000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+29529152      0x1C29440       Unix path: /usr/lib/python3.10/json
+29548752      0x1C2E0D0       Unix path: /usr/lib/python3.10/__pycache__/pprint.cpython-310.pyc
+29550544      0x1C2E7D0       Unix path: /usr/lib/python3.10/__pycache__/dataclasses.cpython-310.pyc
+29560176      0x1C30D70       Unix path: /usr/lib/python3.10/__pycache__/textwrap.cpython-310.pyc
+29560624      0x1C30F30       Unix path: /usr/lib/python3.10/__pycache__/socketserver.cpython-310.pyc
+29564208      0x1C31D30       Unix path: /usr/lib/python3.10/__pycache__/socket.cpython-310.pyc
+29569824      0x1C33320       Unix path: /usr/lib/python3.10/pprint.py
+29638720      0x1C44040       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/config/__pycache__/configurable.cpython-310.pyc
+29639200      0x1C44220       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/config/__pycache__/loader.cpython-310.pyc
+29645280      0x1C459E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/__pycache__/nested_update.cpython-310.pyc
+29646400      0x1C45E40       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/__pycache__/sysinfo.cpython-310.pyc
+29654304      0x1C47D20       Unix path: /usr/lib/python3.10/textwrap.py
+29681824      0x1C4E8A0       Unix path: /usr/lib/python3.10/logging/config.py
+29686432      0x1C4FAA0       Unix path: /usr/lib/python3.10/logging/handlers.py
+29691520      0x1C50E80       Unix path: /usr/lib/python3.10/socketserver.py
+29714745      0x1C56939       Copyright string: "Copyright (C) 2001-2021 Vinay Sajip. All Rights Reserved."
+29803200      0x1C6C2C0       Unix path: /usr/lib/python3.10/socket.py
+29844560      0x1C76450       Unix path: /usr/lib/python3.10/__pycache__/queue.cpython-310.pyc
+29850832      0x1C77CD0       Unix path: /usr/lib/python3.10/__pycache__/heapq.cpython-310.pyc
+29859680      0x1C79F60       Unix path: /usr/lib/python3.10/__pycache__/argparse.cpython-310.pyc
+29873655      0x1C7D5F7       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+29883712      0x1C7FD40       Unix path: /usr/lib/python3.10/_compat_pickle.py
+30059104      0x1CAAA60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/crashhandler.py
+30059744      0x1CAACE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/config/loader.py
+30060128      0x1CAAE60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/text.py
+30062944      0x1CAB960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/paths.py
+30068832      0x1CAD060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/sysinfo.py
+30069600      0x1CAD360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/utils/_sysinfo.py
+30079968      0x1CAFBE0       Unix path: /usr/lib/python3.10/queue.py
+30082688      0x1CB0680       Unix path: /usr/lib/python3.10/heapq.py
+30158161      0x1CC2D51       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+30158172      0x1CC2D5C       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+30212480      0x1CD0180       Unix path: /usr/lib/python3.10/textwrap.py
+30259200      0x1CDB800       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/config/configurable.py
+30317664      0x1CE9C60       Unix path: /usr/lib/python3.10/argparse.py
+30384224      0x1CFA060       Unix path: /usr/lib/python3.10/__pycache__/gettext.cpython-310.pyc
+30396096      0x1CFCEC0       Unix path: /usr/lib/python3.10/__pycache__/pydoc.cpython-310.pyc
+30492048      0x1D14590       Unix path: /usr/lib/python3.10/gettext.py
+30497488      0x1D15AD0       Unix path: /usr/share/locale-langpack
+30501695      0x1D16B3F       HTML document header
+30501843      0x1D16BD3       HTML document footer
+30564352      0x1D26000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+30572544      0x1D28000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+30584832      0x1D2B000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+30602176      0x1D2F3C0       Unix path: /usr/local/etc/ipython
+30608256      0x1D30B80       Unix path: /usr/etc/ipython
+30608816      0x1D30DB0       Unix path: /usr/lib/python3.10/copy.py
+30614240      0x1D322E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__pycache__/application.cpython-310.pyc
+30614880      0x1D32560       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/__pycache__/traitlets.cpython-310.pyc
+30620160      0x1D33A00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/__pycache__/decorators.cpython-310.pyc
+30626560      0x1D35300       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/__pycache__/__init__.cpython-310.pyc
+30628000      0x1D358A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/config/__pycache__/application.cpython-310.pyc
+30675615      0x1D4129F       HTML document header
+30675813      0x1D41365       HTML document footer
+30728432      0x1D4E0F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/config/application.py
+30730736      0x1D4E9F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/__pycache__/_version.cpython-310.pyc
+30738944      0x1D50A00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/descriptions.py
+30804240      0x1D60910       Unix path: /usr/lib/python3.10/__pycache__/inspect.cpython-310.pyc
+30949680      0x1D84130       Unix path: /usr/lib/python3.10/inspect.py
+30957792      0x1D860E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/ultratb.py
+30962272      0x1D87260       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils
+30972512      0x1D89A60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/__init__.py
+30972896      0x1D89BE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/__init__.py
+30973280      0x1D89D60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/bunch.py
+30973792      0x1D89F60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/getargspec.py
+31033103      0x1D9870F       Copyright string: "copyright: Copyright 2006-2014, 2016 by the Pygments team, see AUTHORS."
+31033114      0x1D9871A       Copyright string: "Copyright 2006-2014, 2016 by the Pygments team, see AUTHORS."
+31067088      0x1DA0BD0       Unix path: /usr/lib/python3.10/ast.py
+31070928      0x1DA1AD0       Unix path: /usr/lib/python3.10/dis.py
+31122848      0x1DAE5A0       Unix path: /usr/lib/python3.10/__pycache__/dis.cpython-310.pyc
+31129008      0x1DAFDB0       Unix path: /usr/lib/python3.10/__pycache__/opcode.cpython-310.pyc
+31137072      0x1DB1D30       Unix path: /usr/lib/python3.10/json/__pycache__/__init__.cpython-310.pyc
+31207111      0x1DC2EC7       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+31307808      0x1DDB820       Unix path: /usr/lib/python3.10/dis.py
+31311648      0x1DDC720       Unix path: /usr/lib/python3.10/opcode.py
+31485264      0x1E06D50       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/descriptions.py
+31486848      0x1E07380       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/importstring.py
+31505440      0x1E0BC20       Unix path: /usr/lib/python3.10/json/__init__.py
+31506016      0x1E0BE60       Unix path: /usr/lib/python3.10/json/decoder.py
+31511200      0x1E0D2A0       Unix path: /usr/lib/python3.10/dataclasses.py
+31514720      0x1E0E060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/getargspec.py
+31515104      0x1E0E1E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/warnings.py
+31515616      0x1E0E3E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/warnings.py
+31522656      0x1E0FF60       Unix path: /usr/lib/python3.10/logging/__pycache__/handlers.cpython-310.pyc
+31523424      0x1E10260       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/text.py
+31524704      0x1E10760       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/crashhandler.py
+31529056      0x1E11860       Unix path: /usr/lib/python3.10/lib-dynload/_queue.cpython-310-x86_64-linux-gnu.so
+31645696      0x1E2E000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+31657984      0x1E31000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+31674368      0x1E35000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+31686656      0x1E38000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+31698944      0x1E3B000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+31711232      0x1E3E000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+31736456      0x1E44288       Unix path: /usr/local/lib
+31739904      0x1E45000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+31764480      0x1E4B000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+31864464      0x1E63690       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/cffi/__pycache__/lock.cpython-310.pyc
+31919937      0x1E70F41       Copyright string: "copyright: Copyright 2007-2015 by the Sphinx team, see AUTHORS."
+31919948      0x1E70F4C       Copyright string: "Copyright 2007-2015 by the Sphinx team, see AUTHORS."
+31946704      0x1E777D0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/cffi/error.py
+31947376      0x1E77A70       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/cffi/model.py
+31955216      0x1E79910       Unix path: /usr/lib/python3.10/__pycache__/subprocess.cpython-310.pyc
+31960032      0x1E7ABE0       Unix path: /usr/lib/python3.10/__pycache__/selectors.cpython-310.pyc
+31985328      0x1E80EB0       GIF image data, version "89a",
+31985712      0x1E81030       GIF image data, version "87a",
+32099312      0x1E9CBF0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/ImageFile.cpython-310.pyc
+32100464      0x1E9D070       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/_deprecate.cpython-310.pyc
+32119008      0x1EA18E0       Unix path: /usr/lib/python3.10/subprocess.py
+32321632      0x1ED3060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/ImageColor.cpython-310.pyc
+32328400      0x1ED4AD0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/ImageChops.cpython-310.pyc
+32385824      0x1EE2B20       Unix path: /usr/lib/python3.10/signal.py
+32386224      0x1EE2CB0       Unix path: /usr/lib/python3.10/signal.py
+32470496      0x1EF75E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/ImageMath.py
+32471520      0x1EF79E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/ImageChops.py
+32472416      0x1EF7D60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/PngImagePlugin.py
+32473568      0x1EF81E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/PngImagePlugin.py
+32474464      0x1EF8560       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/__init__.py
+32475488      0x1EF8960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/__init__.py
+32476128      0x1EF8BE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/core/getipython.py
+32478048      0x1EF9360       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/traitlets.py
+32478560      0x1EF9560       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/traitlets.py
+32480224      0x1EF9BE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/config
+32482528      0x1EFA4E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/decorators.py
+32482912      0x1EFA660       Unix path: /usr/lib/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so
+32484320      0x1EFABE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/config/__init__.py
+32484704      0x1EFAD60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets/utils/decorators.py
+32534624      0x1F07060       Unix path: /usr/lib/python3.10/selectors.py
+32575232      0x1F10F00       Unix path: /usr/lib/python3.10/__pycache__/shlex.cpython-310.pyc
+32577920      0x1F11980       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython
+32579712      0x1F12080       Unix path: /usr/lib/python3.10/__pycache__/copy.cpython-310.pyc
+32580272      0x1F122B0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/traitlets
+32609232      0x1F193D0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/ImageMath.cpython-310.pyc
+32615424      0x1F1AC00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/ImageOps.cpython-310.pyc
+32639158      0x1F208B6       Copyright string: "Copyright (C) 2001-2019 Vinay Sajip. All Rights Reserved."
+32642858      0x1F2172A       Unix path: /home/jupyter/configurations/') as c:
+32651616      0x1F23960       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/ImageSequence.cpython-310.pyc
+32657664      0x1F25100       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/JpegPresets.cpython-310.pyc
+32662560      0x1F26420       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/PngImagePlugin.cpython-310.pyc
+32791664      0x1F45C70       Unix path: /usr/lib/python3.10/shlex.py
+32810448      0x1F4A5D0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/IPython/__pycache__/__init__.cpython-310.pyc
+32878592      0x1F5B000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+32882608      0x1F5BFB0       ESP Image (ESP32): segment count: 2, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0xf0012, hash: none
+32890880      0x1F5E000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+32903168      0x1F61000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+32915456      0x1F64000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+32925824      0x1F66880       ESP Image (ESP32): segment count: 10, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+32927744      0x1F67000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+32927896      0x1F67098       ESP Image (ESP32): segment count: 14, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+32927904      0x1F670A0       ESP Image (ESP32): segment count: 14, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+32944128      0x1F6B000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+32964608      0x1F70000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+33077536      0x1F8B920       Unix path: /usr/lib/python3.10/struct.py
+33080496      0x1F8C4B0       Unix path: /usr/lib/python3.10/tempfile.py
+33089536      0x1F8E800       Unix path: /usr/lib/python3.10/shutil.py
+33146784      0x1F9C7A0       Unix path: /usr/lib/python3.10/_compression.py
+33163696      0x1FA09B0       Unix path: /usr/lib/python3.10/fnmatch.py
+33164256      0x1FA0BE0       Unix path: /usr/lib/python3.10/fnmatch.py
+33167056      0x1FA16D0       Unix path: /usr/lib/python3.10/bz2.py
+33239216      0x1FB30B0       Unix path: /usr/lib/python3.10/lzma.py
+33243856      0x1FB42D0       Unix path: /usr/lib/python3.10/random.py
+33248976      0x1FB56D0       Unix path: /usr/lib/python3.10/bisect.py
+33326096      0x1FC8410       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/ExifTags.cpython-310.pyc
+33367824      0x1FD2710       Unix path: /usr/lib/python3.10/ntpath.py
+33369264      0x1FD2CB0       Unix path: /usr/lib/python3.10/urllib
+33375479      0x1FD44F7       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+33391584      0x1FD83E0       Unix path: /usr/lib/python3.10/urllib/__init__.py
+33392544      0x1FD87A0       Unix path: /usr/lib/python3.10/urllib/parse.py
+33404208      0x1FDB530       Unix path: /usr/lib/python3.10/urllib/__pycache__/parse.cpython-310.pyc
+33405888      0x1FDBBC0       Unix path: /usr/lib/python3.10/urllib/__pycache__/__init__.cpython-310.pyc
+33410256      0x1FDCCD0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/_binary.py
+33417088      0x1FDE780       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/cffi/api.py
+33454871      0x1FE7B17       Copyright string: "Copyright (c) 1988-1996 Sam Leffler"
+33454907      0x1FE7B3B       Copyright string: "Copyright (c) 1991-1996 Silicon Graphics, Inc."
+33459808      0x1FE8E60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/GimpGradientFile.cpython-310.pyc
+33465728      0x1FEA580       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/_imagingmath.cpython-310-x86_64-linux-gnu.so
+33593280      0x20097C0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/TiffTags.cpython-310.pyc
+33597168      0x200A6F0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/_imaging.cpython-310-x86_64-linux-gnu.so
+33597600      0x200A8A0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/_typing.cpython-310.pyc
+33598896      0x200ADB0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/cffi/__pycache__/__init__.cpython-310.pyc
+33632048      0x2012F30       Unix path: /usr/lib/python3.10/typing.py
+33780288      0x2037240       Unix path: /usr/lib/python3.10/typing.py
+33797984      0x203B760       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/BmpImagePlugin.py
+33799392      0x203BCE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/BmpImagePlugin.py
+33802720      0x203C9E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/GifImagePlugin.py
+33803616      0x203CD60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/ImageFile.py
+33805280      0x203D3E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/_deprecate.py
+33809376      0x203E3E0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/JpegImagePlugin.py
+33811936      0x203EDE0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/ImageChops.py
+33812320      0x203EF60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/ImageMath.py
+33992112      0x206ADB0       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/cffi/__pycache__/api.cpython-310.pyc
+34043872      0x20777E0       Unix path: /etc/default/apport
+34059008      0x207B300       Unix path: /home/gsemaj/buckeye24/wreck/wreck.py
+34067264      0x207D340       Unix path: /usr/lib/python3.10/logging/__init__.py
+34091104      0x2083060       Unix path: /usr/local/lib/python3.10/dist-packages/fsb5-1.0-py3.10.egg/fsb5/__pycache__/utils.cpython-310.pyc
+34107488      0x2087060       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/Image.cpython-310.pyc
+34171680      0x2096B20       Unix path: /usr/lib/python3.10/logging
+34339664      0x20BFB50       Unix path: /usr/lib/python3.10/__pycache__/re.cpython-310.pyc
+34340784      0x20BFFB0       Unix path: /usr/lib/python3.10/__pycache__/sre_compile.cpython-310.pyc
+34343595      0x20C0AAB       Copyright string: "Copyright (c) 1997-2002 by Secret Labs AB "
+34344256      0x20C0D40       Unix path: /usr/lib/python3.10/__pycache__/copyreg.cpython-310.pyc
+34346720      0x20C16E0       Unix path: /usr/lib/python3.10/__pycache__/linecache.cpython-310.pyc
+34349520      0x20C21D0       Unix path: /usr/lib/python3.10/__pycache__/_weakrefset.cpython-310.pyc
+34351312      0x20C28D0       Unix path: /usr/lib/python3.10/__pycache__/string.cpython-310.pyc
+34387936      0x20CB7E0       Unix path: /usr/lib/python3.10/re.py
+34388336      0x20CB970       Unix path: /usr/lib/python3.10/re.py
+34390016      0x20CC000       Unix path: /usr/lib/python3.10/enum.py
+34434299      0x20D6CFB       Unix path: /home/gsemaj/.local/lib/python3.10/si
+34440160      0x20D83E0       Unix path: /usr/lib/python3.10/sre_compile.py
+34440448      0x20D8500       Unix path: /usr/lib/python3.10/sre_compile.py
+34441792      0x20D8A40       Unix path: /usr/lib/python3.10/sre_parse.py
+34444576      0x20D9520       Unix path: /usr/lib/python3.10/sre_constants.py
+34446112      0x20D9B20       Unix path: /usr/lib/python3.10/traceback.py
+34448992      0x20DA660       Unix path: /usr/lib/python3.10/linecache.py
+34579280      0x20FA350       Unix path: /usr/lib/python3.10/copyreg.py
+34581440      0x20FABC0       Unix path: /usr/lib/python3.10/copyreg.py
+34655840      0x210CE60       Unix path: /usr/lib/python3.10/tokenize.py
+34660800      0x210E1C0       Unix path: /usr/lib/python3.10/token.py
+34773409      0x21299A1       PARity archive data - Index file
+34773473      0x21299E1       PARity archive data - Index file
+34782016      0x212BB40       Unix path: /usr/lib/python3.10/collections/abc.py
+34784416      0x212C4A0       Unix path: /usr/lib/python3.10/_weakrefset.py
+34787680      0x212D160       Unix path: /usr/lib/python3.10/threading.py
+34821751      0x2135677       Copyright string: "copyright: Copyright 2006-2021 by the Pygments team, see AUTHORS."
+34821762      0x2135682       Copyright string: "Copyright 2006-2021 by the Pygments team, see AUTHORS."
+34822329      0x21358B9       HTML document header
+34888816      0x2145C70       Unix path: /usr/lib/python3.10/string.py
+34976400      0x215B290       Unix path: /usr/lib/python3.10/__pycache__/pathlib.cpython-310.pyc
+34978528      0x215BAE0       Unix path: /usr/lib/python3.10/__pycache__/ntpath.cpython-310.pyc
+34981216      0x215C560       Unix path: /usr/lib/python3.10/__pycache__/shutil.cpython-310.pyc
+34982784      0x215CB80       Unix path: /usr/lib/python3.10/__pycache__/random.cpython-310.pyc
+34984464      0x215D210       Unix path: /usr/lib/python3.10/__pycache__/bz2.cpython-310.pyc
+34985696      0x215D6E0       Unix path: /usr/lib/python3.10/__pycache__/lzma.cpython-310.pyc
+35045984      0x216C260       Unix path: /usr/lib/python3.10/lib-dynload/_lzma.cpython-310-x86_64-linux-gnu.so
+35048800      0x216CD60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/ImageMode.py
+35055712      0x216E860       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/ExifTags.py
+35074048      0x2173000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+35075992      0x2173798       ESP Image (ESP32): segment count: 2, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0xe0012, hash: none
+35086336      0x2176000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+35098624      0x2179000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+35106448      0x217AE90       ESP Image (ESP32): segment count: 3, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+35108760      0x217B798       ESP Image (ESP32): segment count: 3, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+35124392      0x217F4A8       ESP Image (ESP32): segment count: 3, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x0, hash: none
+35149860      0x2185824       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "_XPG3"
+35160708      0x2188284       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "_ENH_I18N"
+35160788      0x21882D4       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "_REALTIME"
+35160868      0x2188324       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "_REALTIME_THREADS"
+35160948      0x2188374       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "_VERSION"
+35161028      0x21883C4       Ubiquiti firmware header, third party, ~CRC32: 0x0, version: "_XCU_VERSION"
+35225040      0x2197DD0       Unix path: /usr/lib/python3.10/encodings
+35227120      0x21985F0       Unix path: /usr/lib/python3.10/codecs.py
+35258407      0x21A0027       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+35310880      0x21ACD20       Unix path: /usr/lib/python3.10/io.py
+35318480      0x21AEAD0       Unix path: /usr/lib/python3.10/site.py
+35319440      0x21AEE90       Unix path: /lib/python/site-packages
+35402496      0x21C3300       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL
+35408096      0x21C48E0       Unix path: /usr/lib/python3.10/__pycache__/_sitebuiltins.cpython-310.pyc
+35408253      0x21C497D       Copyright string: "copyright notice."
+35408992      0x21C4C60       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages
+35409664      0x21C4F00       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages
+35410000      0x21C5050       Unix path: /usr/local/lib/python3.10/dist-packages/Wand-0.6.13-py3.10.egg
+35412352      0x21C5980       Unix path: /usr/lib/python3.10/importlib/__pycache__/_abc.cpython-310.pyc
+35417952      0x21C6F60       Unix path: /usr/lib/python3/dist-packages/mpl_toolkits/__init__.py
+35420688      0x21C7A10       Unix path: /home/gsemaj/.local
+35420928      0x21C7B00       Unix path: /usr/lib/python3.10/os.py
+35428928      0x21C9A40       Unix path: /usr/lib/python3.10/stat.py
+35492359      0x21D9207       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+35568256      0x21EBA80       Unix path: /usr/lib/python3.10/genericpath.py
+35571328      0x21EC680       Unix path: /usr/lib/python3.10/importlib/_bootstrap.py
+35572864      0x21ECC80       Unix path: /usr/lib/python3.10/importlib/util.py
+35575264      0x21ED5E0       Unix path: /usr/lib/python3.10/importlib/machinery.py
+35581600      0x21EEEA0       Unix path: /usr/lib/python3.10/collections/__init__.py
+35637440      0x21FC8C0       Unix path: /usr/lib/python3.10/lib-dynload
+35638720      0x21FCDC0       Unix path: /usr/lib/python3/dist-packages
+35641600      0x21FD900       Unix path: /usr/lib/python3.10/../LICENSE
+35644160      0x21FE300       Unix path: /usr/lib/python3.10/importlib
+35688416      0x2208FE0       Unix path: /usr/lib/python3/dist-packages/mpl_toolkits/__pycache__/__init__.cpython-310.pyc
+35732704      0x2213CE0       Unix path: /usr/local/lib/python3.10/dist-packages/fsb5-1.0-py3.10.egg/fsb5/__init__.py
+35737312      0x2214EE0       Unix path: /usr/local/lib/python3.10/dist-packages/fsb5-1.0-py3.10.egg/fsb5/pcm.py
+35738080      0x22151E0       Unix path: /usr/local/lib/python3.10/dist-packages/fsb5-1.0-py3.10.egg/fsb5/utils.py
+35739488      0x2215760       Unix path: /usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-310.pyc
+35740000      0x2215960       Unix path: /usr/lib/python3.10/logging/__pycache__/__init__.cpython-310.pyc
+35744992      0x2216CE0       Unix path: /usr/lib/python3.10/lib-dynload/_bz2.cpython-310-x86_64-linux-gnu.so
+35758128      0x221A030       Unix path: /usr/lib/python3.10/collections
+35829344      0x222B660       Unix path: /usr/lib/python3.10/functools.py
+35835200      0x222CD40       Unix path: /usr/lib/python3/dist-packages/mpl_toolkits
+35845872      0x222F6F0       Unix path: /usr/lib/python3.10/__pycache__/functools.cpython-310.pyc
+35846544      0x222F990       Unix path: /usr/lib/python3.10/__pycache__/keyword.cpython-310.pyc
+35852928      0x2231280       Unix path: /usr/lib/python3/dist-packages/apport_python_hook.py
+35853600      0x2231520       Unix path: /usr/lib/python3.10/__pycache__/__future__.cpython-310.pyc
+35858528      0x2232860       Unix path: /usr/lib/python3.10/__pycache__/struct.cpython-310.pyc
+35971600      0x224E210       Unix path: /usr/lib/python3.10/keyword.py
+35972480      0x224E580       Unix path: /usr/lib/python3.10/reprlib.py
+36042735      0x225F7EF       Copyright string: "Copyright (c) 1999 by Secret Labs AB."
+36050594      0x22616A2       Copyright string: "Copyright (c) 1997-2001 by Secret Labs AB.  All rights reserved."
+36072016      0x2266A50       Unix path: /home/gsemaj/.local/lib/python3.10/site-packages/PIL/__pycache__/__init__.cpython-310.pyc
+36116816      0x2271950       Unix path: /usr/lib/python3.10/LICENSE
+36653408      0x22F4960       Unix path: /usr/lib/python3.10/encodings/__pycache__/__init__.cpython-310.pyc
+36654816      0x22F4EE0       Unix path: /usr/lib/python3.10/encodings/__pycache__/aliases.cpython-310.pyc
+36657632      0x22F59E0       Unix path: /usr/lib/python3.10/__pycache__/_collections_abc.cpython-310.pyc
+36661856      0x22F6A60       Unix path: /usr/local/lib/python3.10/dist-packages/tinytag-1.10.1-py3.10.egg
+36772025      0x23118B9       Copyright string: "Copyright (C) 2001-2019 Vinay Sajip. All Rights Reserved."
+36807456      0x231A320       Unix path: /usr/lib/python3.10/encodings/__pycache__/utf_8.cpython-310.pyc
+36808352      0x231A6A0       Unix path: /usr/lib/python3.10/__pycache__/io.cpython-310.pyc
+36809584      0x231AB70       Unix path: /usr/lib/python3.10/__pycache__/abc.cpython-310.pyc
+36814574      0x231BEEE       Copyright string: "Copyright CNRI, All Rights Reserved. NO WARRANTY."
+36860368      0x23271D0       Copyright string: "Copyright (c) 2001-2023 Python Software Foundation."
+36860442      0x232721A       Copyright string: "Copyright (c) 2000 BeOpen.com."
+36860495      0x232724F       Copyright string: "Copyright (c) 1995-2001 Corporation for National Research Initiatives."
+36860588      0x23272AC       Copyright string: "Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam."
+36904221      0x2331D1D       Copyright string: "copyright notice."
+36905888      0x23323A0       Unix path: /usr/local/lib/python3.10/dist-packages/fsb5-1.0-py3.10.egg/fsb5/__pycache__/__init__.cpython-310.pyc
+36908928      0x2332F80       Unix path: /usr/local/lib/python3.10/dist-packages/fsb5-1.0-py3.10.egg/fsb5/__pycache__/pcm.cpython-310.pyc
+37026859      0x234FC2B       Copyright string: "Copyright CNRI, All Rights Reserved. NO WARRANTY."
+37298464      0x2392120       Unix path: /usr/lib/python310.zip
+37402528      0x23AB7A0       End of Zip archive, footer length: 22
+37409008      0x23AD0F0       Unix path: /usr/bin/zsh
+37409488      0x23AD2D0       Unix path: /dev/pts/0
+37410016      0x23AD4E0       Unix path: /dev/pts/0
+37531824      0x23CB0B0       Unix path: /home/gsemaj/buckeye24/wreck/_core.python3.38421.extracted
+37533472      0x23CB720       Unix path: /usr/lib/python3.10/encodings/__init__.py
+37537408      0x23CC680       Unix path: /usr/lib/python3.10/encodings/utf_8.py
+37539909      0x23CD045       Copyright string: "copyright' and 'credits' in builtins"
+37542016      0x23CD880       Unix path: /usr/lib/python3.10/_sitebuiltins.py
+37542496      0x23CDA60       Unix path: /usr/lib/python3.10/_sitebuiltins.py
+37544896      0x23CE3C0       Unix path: /usr/lib/python3.10/posixpath.py
+37595360      0x23DA8E0       Unix path: /home/gsemaj/Pictures/Screenshots
+37617664      0x23E0000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (GNU/Linux)
+37621547      0x23E0F2B       mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+37699584      0x23F4000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (GNU/Linux)
+37711872      0x23F7000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+37728256      0x23FB000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (GNU/Linux)
+37732732      0x23FC17C       ESP Image (ESP32): segment count: 1, flash mode: QUIO, flash speed: 40MHz, flash size: 1MB, entry address: 0x46e, hash: none
+37740864      0x23FE140       Unix path: /lib/x86_64-linux-gnu/libm.so.6
+37744736      0x23FF060       Unix path: /lib/x86_64-linux-gnu/libc.so.6
+37748736      0x2400000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (GNU/Linux)
+37900579      0x2425123       Unix path: /home/gsemaj/.local/bin:/home/gsemaj/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/loc
+37920768      0x242A000       ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
+
