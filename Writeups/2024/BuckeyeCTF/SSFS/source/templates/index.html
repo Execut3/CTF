@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <title>Stupid Simple File Service</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Stupid Simple File Service</h1>
+    </div>
+    <div class="wrapper">
+        <p>Upload a file to store it for the long term.</p>
+        <form action="" id="fileupload">
+            <div>
+                <input type="file" name="file">
+            </div>
+            <div>
+                <input type="submit" value="Upload">
+            </div>
+        </form>
+    </div class="wrapper">
+    <div id="upload-wrapper" class="wrapper">
+        <div id="upload-message"></div>
+        <button class="close" onclick="closeUploadResults()">Close</button>
+    </div>
+    <div class="wrapper">
+        <p> Search for a file </p>
+        <form action="" id="filesearch">
+            <input type="text" name="id" placeholder="File ID">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    <div id="search-wrapper" class="wrapper">
+        <div id="search-message"></div>
+        <button class="close" onclick="closeSearchResults()">Close</button>
+    </div>
+    <script>
+        const uploadForm = document.getElementById('fileupload');
+        const searchForm = document.getElementById('filesearch');
+
+        const uploadMessage = document.getElementById('upload-message');
+        const searchMessage = document.getElementById('search-message');
+
+        const uploadWrapper = document.getElementById('upload-wrapper');
+        const searchWrapper = document.getElementById('search-wrapper');
+
+        uploadWrapper.hidden = true;
+        searchWrapper.hidden = true;
+
+        const sendData = async () => {
+            let formData = new FormData(uploadForm);
+            let response = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+
+            uploadWrapper.hidden = false;
+
+            if (response.status !== 200) {
+                uploadMessage.innerHTML = 'An error occurred uploading the file.';
+                return;
+            }
+
+            let data = await response.json();            
+            if (data.status === 'success') {
+                uploadMessage.innerHTML = 'File uploaded successfully. File ID is ' + data.id + '.';
+            } else {
+                uploadMessage.getElementById('upload-message').innerHTML = 'An error occurred.';
+            }
+        }
+
+        uploadForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            sendData();
+        });
+
+        const searchFile = async () => {
+            let formData = new FormData(searchForm);
+            console.log([...formData][0]);
+            let response = await fetch('/search/' + [...formData][0][1], {
+                method: 'GET',
+            });
+
+            searchWrapper.hidden = false;
+
+            if (response.status === 200) {
+                searchMessage.innerHTML = 'File found. Download link: <a href="/download/' + [...formData][0][1] + '">Download</a>';
+            } else {
+                searchMessage.innerHTML = 'File not found.';
+            }
+        }
+
+        const closeSearchResults = () => {
+            searchWrapper.hidden = true;
+        }
+
+        const closeUploadResults = () => {
+            uploadWrapper.hidden = true;
+        }
+
+        searchForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            searchFile();
+        });
+    </script>
+</body>
