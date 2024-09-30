@@ -1,4 +1,4 @@
-## donut [100 pts]
+## Git Goo [100 pts]
 
 **Category:** Misc
 **Solves:** 160
