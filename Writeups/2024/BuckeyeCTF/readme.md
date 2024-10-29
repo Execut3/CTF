@@ -5,6 +5,7 @@
 Web:
 - SSFS 			(50pts)
 - quotes 		(100pts)
+- homecooked	(147pts)
 
 Pwn:
 - runway0 		(50pts)
