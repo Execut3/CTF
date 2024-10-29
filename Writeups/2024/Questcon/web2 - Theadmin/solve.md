@@ -1,4 +1,4 @@
-## TheAdmin [100pt]
+## TheAdmin Questcon 2024 [100pt]
 
 **Category:** Web
 **Solves:** 120

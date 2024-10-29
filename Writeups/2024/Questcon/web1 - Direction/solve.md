@@ -1,4 +1,4 @@
-## Direction [100 pts]
+## Direction Questcon 2024 [100 pts]
 
 **Category:** Web
 **Solves:** 188
